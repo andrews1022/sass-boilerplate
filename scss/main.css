@@ -1,0 +1,253 @@
+/*
+By default, the site you build with this optimized for min-width of 360px.
+From here, just scale upwards/re-align elements as need be.
+This site structure assumes a mobile-first approach, hence the use of min-width
+
+$breakpoint argument choices:
+- tab-port (tablet-portrait)
+- tab-land (tablet-landscape)
+- laptop (standard laptop screen resolution)
+- desktop (standard desktop screen resolution)
+- desktop-lg (1440p resolution desktop)
+- desktop-4k (4k resolution desktop)
+
+** MIN-WIDTH SETTINGS **
+- tab-port == min-width 768px
+- tab-land == min-width 1024px
+- laptop == min-width 1366px
+- desktop == min-width 1920px
+- desktop-lg == min-width 2560px
+- desktop-4k == min-width 3840px
+
+1em = 16px (16px is the default browser font-size)
+Each em amount is the min-width listed above divided 16
+For example, for tab-port, 768px / 16px = 48em
+*/
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* Equivalent to 10px */
+}
+
+@media only screen and (min-width: 36em) {
+  html {
+    font-size: 65.65%;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  html {
+    font-size: 68.75%;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (min-width: 85.375em) {
+  html {
+    font-size: 81.25%;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 45ch;
+  /* These character lengths are based on recommended line length for maximum clarity, readability and proportion in print
+
+    These recommendations are based on a number of factors, such as:
+    - How people tend to read.
+    - The ease or difficulty in following a line to the end and bringing your eye back to the start of the next line.
+    - Quickly understanding the relative importance of various levels of headings between blocks of copy.
+
+    Read more about it here:
+    https://typecast.com/blog/a-more-modern-scale-for-web-typography
+    */
+}
+
+@media only screen and (min-width: 85.375em) {
+  p {
+    max-width: 60ch;
+  }
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.test {
+  color: #dfdfdf;
+}
+
+.test-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.test-li {
+  background-color: red;
+  padding: 2rem;
+}
+
+.test-li-big {
+  font-size: 2.25rem;
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-center {
+  margin: 0 auto;
+}
+
+.u-heading-primary {
+  font-size: 3.25rem;
+}
+
+@media only screen and (min-width: 64em) {
+  .u-heading-primary {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 85.375em) {
+  .u-heading-primary {
+    font-size: 4.75rem;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .u-heading-primary {
+    font-size: 5.5rem;
+  }
+}
+
+.u-heading-secondary {
+  font-size: 2.5rem;
+}
+
+@media only screen and (min-width: 64em) {
+  .u-heading-secondary {
+    font-size: 3.25rem;
+  }
+}
+
+@media only screen and (min-width: 85.375em) {
+  .u-heading-secondary {
+    font-size: 3.75rem;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .u-heading-secondary {
+    font-size: 4.25rem;
+  }
+}
+
+.u-heading-tertiary {
+  font-size: 2.25rem;
+}
+
+@media only screen and (min-width: 64em) {
+  .u-heading-tertiary {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 85.375em) {
+  .u-heading-tertiary {
+    font-size: 2.75rem;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .u-heading-tertiary {
+    font-size: 3rem;
+  }
+}
+
+.u-heading-quaternary {
+  font-size: 1.75rem;
+}
+
+@media only screen and (min-width: 85.375em) {
+  .u-heading-quaternary {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .u-heading-quaternary {
+    font-size: 2.5rem;
+  }
+}
+
+.u-paragraph {
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 240em) {
+  .u-paragraph {
+    font-size: 1.8rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

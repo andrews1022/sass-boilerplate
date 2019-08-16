@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+html {
+    @include htmlSelectorBBR;
+
+    font-size: $default-font-size;
+    /* Equivalent to 10px */
+
+
+    // Quick/easy font resizing for various screen-widths based off the Media Query Manager (see _mixins.scss)
+
+    // min-width 576px
+    // 1rem = 11px --> 11/16 = 68.75%
+    @include respond(mobile-lg) {
+        font-size: $default-mobile-lg-font-size;
+    }
+
+    // min-width 768px
+    // 1rem = 11px --> 11/16 = 68.75%
+    @include respond(tab-port) {
+        font-size: $default-tab-port-font-size;
+    }
+
+    // min-width 1024px
+    // 1rem = 12px --> 12/16 = 75%
+    @include respond(tab-land) {
+        font-size: $default-tab-land-font-size;
+    }
+
+    // min-width 1366px
+    // 1rem = 13px --> 13/16 = 81.25%
+    @include respond(laptop) {
+        font-size: $default-laptop-font-size;
+    }
+
+    // min-width 1920px
+    // 1rem = 14px --> 14/16 = 87.5%
+    @include respond(desktop) {
+        font-size: $default-desktop-font-size;
+    }
+
+    // min-width 2560px
+    // 1rem = 16px --> 16/16 = 100%
+    @include respond(desktop-lg) {
+        font-size: $default-desktop-lg-font-size;
+    }
+
+    // min-width 3840px
+    // 1rem = 18px --> 18/16 = 112.5%
+    @include respond(desktop-4k) {
+        font-size: $default-desktop-4k-font-size;
+    }
+}
+
+*,
+*::before,
+*::after {
+    @include universalSelectorBBR;
+}
+
+body {
+    @include bodyDefaultFontStyle;
+}
+
+img {
+    @include responsiveImages;
+}
+
+p {
+    @include paragraphCharacterLimit;
+}
+
+// Remove the underline to links by default
+a:link,
+a:visited {
+    text-decoration: $text-no-decoration;
+}
+
+// Remove bullet points to lists by default
+ul,
+ol {
+    list-style: $list-style-no-decoration;
+}

@@ -1,0 +1,374 @@
+// BLACK & WHITE
+// Basic black and white colors
+$color-white: #fff;
+$color-black: #000;
+
+
+// GREYS
+// Various shades of greys; update/add more if you like!
+$color-x-light-grey-1: #f4f4f4;
+$color-x-light-grey-2: #eee;
+$color-x-light-grey-3: #ddd;
+
+$color-light-grey-1: #ccc;
+$color-light-grey-2: #bbb;
+$color-light-grey-3: #aaa;
+
+$color-medium-grey-1: #999;
+$color-medium-grey-2: #888;
+$color-medium-grey-3: #777;
+
+$color-dark-grey-1: #666;
+$color-dark-grey-2: #555;
+
+$color-x-dark-grey-1: #444;
+$color-x-dark-grey-2: #333;
+$color-x-dark-grey-3: #222;
+$color-x-dark-grey-4: #111;
+
+
+// IMPORTANT COLORS
+// Update as per your project (both the color values and percentages. add/remove as desired)
+$color-primary: #fff;
+$color-primary-light: lighten($color-primary, 7.5%);
+$color-primary-x-light: lighten($color-primary, 12.5%);
+$color-primary-dark: darken($color-primary, 7.5%);
+$color-primary-x-dark: darken($color-primary, 12.5%);
+
+$color-secondary: #fff;
+$color-secondary-light: lighten($color-primary, 7.5%);
+$color-secondary-x-light: lighten($color-primary, 12.5%);
+$color-secondary-dark: darken($color-primary, 7.5%);
+$color-secondary-x-dark: darken($color-primary, 12.5%);
+
+$color-tertiary: #fff;
+$color-tertiary-light: lighten($color-primary, 7.5%);
+$color-tertiary-x-light: lighten($color-primary, 12.5%);
+$color-tertiary-dark: darken($color-primary, 7.5%);
+$color-tertiary-x-dark: darken($color-primary, 12.5%);
+
+$color-quaternary: #fff;
+$color-quaternary-light: lighten($color-primary, 7.5%);
+$color-quaternary-x-light: lighten($color-primary, 12.5%);
+$color-quaternary-dark: darken($color-primary, 7.5%);
+$color-quaternary-x-dark: darken($color-primary, 12.5%);
+
+
+
+// FLAT COLORS
+// Some nice flat colors to get you started if you are stuck deciding on which color(s) to use
+// Included are light and dark versions of each color
+// These were calculated using the lighten() and darken() functions with an amount of 12.5
+// Colors & color names from default palette by Flat UI Colors: https://flatuicolors.com/palette/defo
+// To see their other palettes, go to https://flatuicolors.com/
+// Again, if you don't want to use any of these colours, then feel free to remove them. They are just a general starting to help you out if you are stuck on deciding which colors to use for your project :)
+
+$color-alizarin-light: #ee8075;
+$color-alizarin: #e74c3c;
+$color-alizarin-dark: #ca2a19;
+
+$color-pomegranate-light: #d85f52;
+$color-pomegranate: #c0392b;
+$color-pomegranate-dark: #8c2a1f;
+
+$color-carrot-light: #ec9f5b;
+$color-carrot: #e67e22;
+$color-carrot-dark: #b45f14;
+
+$color-pumpkin-light: #ff7114;
+$color-pumpkin: #d35400;
+$color-pumpkin-dark: #933b00;
+
+$color-sun-flower-light: #f5d34b;
+$color-sun-flower: #f1c40f;
+$color-sun-flower-dark: #b6940b;
+
+$color-orange-light: #f6b54f;
+$color-orange: #f39c12;
+$color-orange-dark: #bc770a;
+
+$color-turquoise-light: #33e3c0;
+$color-turquoise: #1abc9c;
+$color-turquoise-dark: #12846e;
+
+$color-green-sea-light: #1ed8b4;
+$color-green-sea: #16a085;
+$color-green-sea-dark: #0e6856;
+
+$color-emerald-light: #5fdb93;
+$color-emerald: #2ecc71;
+$color-emerald-dark: #229854;
+
+$color-nephritis-light: #40d47f;
+$color-nephritis: #27ae60;
+$color-nephritis-dark: #1b7a43;
+
+$color-peter-river-light: #6ab3e5;
+$color-peter-river: #3498db;
+$color-peter-river-dark: #1f76b0;
+
+$color-belize-hole-light: #4b9fd7;
+$color-belize-hole: #2980b9;
+$color-belize-hole-dark: #1d5c85;
+
+$color-amethyst-light: #b685c9;
+$color-amethyst: #9b59b6;
+$color-amethyst-dark: #793f90;
+
+$color-wisteria-light: #ab6cc5;
+$color-wisteria: #8e44ad;
+$color-wisteria-dark: #68327f;
+
+$color-wet-asphalt-light: #4b6987;
+$color-wet-asphalt: #34495e;
+$color-wet-asphalt-dark: #1d2935;
+
+$color-midnight-blue-light: #435e79;
+$color-midnight-blue: #2c3e50;
+$color-midnight-blue-dark: #151e27;
+
+$color-clouds-light: #f6f6f6;
+$color-clouds: #ecf0f1;
+$color-clouds-dark: #c7d3d6;
+
+$color-silver-light: #dfe2e4;
+$color-silver: #bdc3c7;
+$color-silver-dark: #9ba4aa;
+
+$color-concrete-light: #b8c2c3;
+$color-concrete: #95a5a6;
+$color-concrete-dark: #738789;
+
+$color-asbestos-light: #a1aaab;
+$color-asbestos: #7f8c8d;
+$color-asbestos-dark: #606b6c;
+
+
+// BORDER-RADIUS
+// Intended to be applied to an element on all corners, giving it nice rounded edges
+$border-radius-small: 3px;
+$border-radius-medium: 5px;
+$border-radius-large: 7px;
+$border-radius-x-large: 10px;
+
+
+// TEXT DECORATION
+// Basic text-decoration values
+$text-center: center;
+$text-uppercase: uppercase;
+$text-lowercase: lowercase;
+$text-no-decoration: none;
+
+
+// LINE HEIGHT
+// Set to 145% by default
+// Best to use anywhere from 125% - 150%
+$line-height-default: 1.45;
+
+$line-height-tiny: 1.2;
+$line-height-small: 1.25;
+$line-height-medium: 1.3;
+$line-height-large: 1.35;
+$line-height-huge: 1.4;
+$line-height-massive: 1.5;
+
+
+// FONT FAMILY
+// Change as per your project
+$text-brand: sans-serif; // use this for your company/brand logo (if applicable)
+$text-main: sans-serif; // use this for the overall site
+
+
+// LIST DECORATION
+// Removes those annoying bullets from lists
+$list-style-no-decoration: none;
+
+
+// WRAPPER
+// Various wrapper sizes (used for width)
+$wrapper-tiny-1: 50%;
+$wrapper-tiny-2: 55%;
+
+$wrapper-small-1: 60%;
+$wrapper-small-2: 65%;
+
+$wrapper-medium-1: 70%;
+$wrapper-medium-2: 75%;
+
+$wrapper-large-1: 80%;
+$wrapper-large-2: 85%;
+
+$wrapper-huge-1: 90%;
+$wrapper-huge-1: 95%;
+
+$wrapper-fullbleed: 100%;
+
+
+// MARGIN CENTER
+// Center a block element inside parent block element
+$margin-center: 0 auto;
+
+
+// SECTION PADDING
+// Add padding to a wrapper/container based on screen size
+// Update or add/remove as per your project
+$section-padding-sm-mbl: 3rem 2rem;
+$section-padding-tablet: 3.5rem 6rem;
+$section-padding-desktop: 4rem 10rem;
+
+
+// FONT WEIGHT
+// Variable names based off of Google Fonts naming style
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-light: 800;
+$font-weight-black: 900;
+
+
+// FONT SIZE
+// Quick and easy font-size increase based on screen size
+// Furthermore, precise styling will be needed, but this covers a lot of ground
+$default-font-size: 62.5%;
+
+$default-mobile-lg-font-size: 65.65%;
+$default-tab-port-font-size: 68.75%;
+$default-tab-land-font-size: 75%;
+$default-laptop-font-size: 81.25%;
+$default-desktop-font-size: 87.5%;
+$default-desktop-lg-font-size: 100%;
+$default-desktop-4k-font-size: 112.5%;
+
+
+// REM SIZES
+// Use these for font-size, margin (overall), padding (overall), etc.)
+// The values are based on the default font-size declared in the _base.scss file
+// Default font size of browsers is 16px, but, we changed that to 10px (62.5%)
+// Now all rems are much easier to calculate
+// For body text, best to not go above 2rem
+// And for line length, try not to go over 90 characters
+$size-x-tiny-1: 0.25rem;
+$size-x-tiny-2: 0.5rem;
+$size-x-tiny-3: 0.75rem;
+
+$size-tiny-1: 1rem;
+$size-tiny-2: 1.25rem;
+$size-tiny-3: 1.5rem;
+$size-tiny-4: 1.75rem;
+
+$size-x-small-1: 2rem;
+$size-x-small-2: 2.25rem;
+$size-x-small-3: 2.5rem;
+$size-x-small-4: 2.75rem;
+
+$size-small-1: 3rem;
+$size-small-2: 3.25rem;
+$size-small-3: 3.5rem;
+$size-small-4: 3.75rem;
+
+$size-medium-1: 4rem;
+$size-medium-2: 4.25rem;
+$size-medium-3: 4.5rem;
+$size-medium-4: 4.75rem;
+
+$size-large-1: 5rem;
+$size-large-2: 5.25rem;
+$size-large-3: 5.5rem;
+$size-large-4: 5.75rem;
+
+$size-x-large-1: 6rem;
+$size-x-large-2: 6.25rem;
+$size-x-large-3: 6.5rem;
+$size-x-large-4: 6.75rem;
+
+$size-xx-large-1: 7rem;
+$size-xx-large-2: 7.25rem;
+$size-xx-large-3: 7.5rem;
+$size-xx-large-4: 7.75rem;
+
+$size-huge-1: 8rem;
+$size-huge-2: 8.25rem;
+$size-huge-3: 8.5rem;
+$size-huge-4: 8.75rem;
+
+$size-x-huge-1: 9rem;
+$size-x-huge-2: 9.25rem;
+$size-x-huge-3: 9.5rem;
+$size-x-huge-4: 9.75rem;
+
+$size-massive-1: 10rem;
+$size-massive-2: 11rem;
+$size-massive-3: 12rem;
+$size-massive-4: 13rem;
+$size-massive-5: 14rem;
+$size-massive-6: 15rem;
+
+// TRANSITIONS
+// Add/remove for your project if desired - this is just a nice fade-in/out effect
+$standard-transition: all 250ms; // default timing, nice ease-in-out effect
+
+$quick-transition-1: all 200ms;
+$quick-transition-2: all 300ms;
+
+$medium-transition-1: all 350ms;
+$medium-transition-2: all 400ms;
+
+$slow-transition-1: all 450ms;
+$slow-transition-2: all 500ms;
+
+
+// CUBIC BEZIER TIMING FUNCTIONS
+// Timing functions courtesy of https://easings.net/en
+$-cbtf-easeInSide: (0.47, 0, 0.745, 0.715);
+$-cbtf-easeOutSine: (0.39, 0.575, 0.565, 1);
+$-cbtf-easeInOutSine: (0.445, 0.05, 0.55, 0.95);
+
+$-cbtf-easeInQuad: (0.55, 0.085, 0.68, 0.53);
+$-cbtf-easeOutQuad: (0.25, 0.46, 0.45, 0.94);
+$-cbtf-easeInOutQuad: (0.455, 0.03, 0.515, 0.955);
+
+$-cbtf-easeInCubic: (0.55, 0.055, 0.675, 0.19);
+$-cbtf-easeOutCubic: (0.215, 0.61, 0.355, 1);
+$-cbtf-easeInOutCubic: (0.47, 0, 0.745, 0.715);
+
+$-cbtf-easeInQuart: (0.895, 0.03, 0.685, 0.22);
+$-cbtf-easeOutQuart: (0.165, 0.84, 0.44, 1);
+$-cbtf-easeInOutQuart: (0.77, 0, 0.175, 1);
+
+$-cbtf-easeInQuint: (0.755, 0.05, 0.855, 0.06);
+$-cbtf-easeOutQuint: (0.23, 1, 0.32, 1);
+$-cbtf-easeInOutQuint: (0.86, 0, 0.07, 1);
+
+$-cbtf-easeInExpo: (0.95, 0.05, 0.795, 0.035);
+$-cbtf-easeOutExpo: (0.19, 1, 0.22, 1);
+$-cbtf-easeInOutExpo: (1, 0, 0, 1);
+
+$-cbtf-easeInCirc: (0.6, 0.04, 0.98, 0.335);
+$-cbtf-easeOutCirc: (0.075, 0.82, 0.165, 1);
+$-cbtf-easeInOutCirc: (0.785, 0.135, 0.15, 0.86);
+
+$-cbtf-easeInBack: (0.6, -0.28, 0.735, 0.045);
+$-cbtf-easeOutBack: (0.175, 0.885, 0.32, 1.275);
+$-cbtf-easeInOutBack: (0.68, -0.55, 0.265, 1.55);
+
+
+// BOX SHADOW
+// Feel free to change the rem values
+// For a nice subtle box-shadow, I would not recommend going higher than .25 opacity
+$box-shadow-x-light-1: 0 1rem 3rem rgba($color-black, .05);
+$box-shadow-x-light-2: 0 1rem 3rem rgba($color-black, .10);
+$box-shadow-x-light-3: 0 1rem 3rem rgba($color-black, .15);
+
+$box-shadow-light-1: 0 1rem 3rem rgba($color-black, .20);
+$box-shadow-light-2: 0 1rem 3rem rgba($color-black, .25);
+
+$box-shadow-medium-1: 0 1rem 3rem rgba($color-black, .30);
+$box-shadow-medium-2: 0 1rem 3rem rgba($color-black, .35);
+$box-shadow-medium-3: 0 1rem 3rem rgba($color-black, .40);
+
+$box-shadow-heavy-1: 0 1rem 3rem rgba($color-black, .45);
+$box-shadow-heavy-2: 0 1rem 3rem rgba($color-black, .50);

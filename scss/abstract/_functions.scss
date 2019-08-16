@@ -1,0 +1,46 @@
+// Any functions you wish to write can go here
+// Here are two basic examples, one for colors and one for rem-sizes using maps
+
+
+// ----- COLORS MAP -----
+// Set to white by default- make sure to update values as needed
+$colors: (
+    primary: #fff,
+    secondary: #fff,
+    tertiary: #fff,
+    quaternary: #fff
+);
+// When we need a color from the map, we need to call this function
+// Then we use return and the map-get function, naming the map, and using the paramter as the key so it is dynamic
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+// Call the function like this: 
+// color: color(primary); --> or whichever color you need: secondary, tertiary, or quaternary
+// You can also use the lighten() and darken() functions with the map like so: 
+// color: lighten(color(primary), 7.5%);
+
+
+// ----- SIZES MAP -----
+// Similar to color map, and without use of lots of variables
+$sizes: (
+    x-tiny: 0.5rem,
+    tiny: 1rem,
+    x-small: 2rem,
+    small: 3rem,
+    medium: 4rem,
+    large: 5rem,
+    x-large: 6rem,
+    xx-large: 7rem,
+    huge: 8rem,
+    x-huge: 9rem,
+    massive: 10rem
+);
+// Call the function
+@function size($size) {
+    @return map-get($sizes, $size);
+}
+// Use as a value like so:
+// font-size: size(small);
+// font-size: size(medium) * 2.5
+// font-size: size(x-large) + 2rem;

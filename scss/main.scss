@@ -1,0 +1,27 @@
+// Abstract Folder Imports
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
+
+// Base Folder Imports
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// Components Folder Imports
+@import "components/buttons";
+@import "components/navigation";
+
+// Layout Folder Imports
+@import "layout/footer";
+@import "layout/header";
+
+// Pages Folder Imports
+@import "pages/home";
+
+// Themes Folder Imports
+@import "themes/default";
+
+// Vendors Folder Imports
+// These can be imported at your own discretion (or copy/paste into a standard CSS file too if you want)
