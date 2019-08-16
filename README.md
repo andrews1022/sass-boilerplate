@@ -65,5 +65,5 @@ Included variables are:
 
 This will be updated over time, once I learn more web development skills and techniques! I hope this helps you with your projects!
 
-## UPDATE: August 11, 2019: ESLint and Prettier Added!
+## UPDATE: ESLint and Prettier Added!
 ESLint and Prettier added! Simply run `npm install` to get the necessary packages. Included in the 'js' folder is a quick line of code. After running `npm install`, you should get some warnings from ESLint/Prettier.

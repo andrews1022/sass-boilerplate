@@ -65,6 +65,18 @@
     width: 1px
 }
 
+// Simple hide element, quick and dirty
+@mixin simpleHide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+// Simple show element, quick and dirty
+@mixin simpleShow {
+    opacity: 1;
+    visibility: visible;
+}
+
 // Set character limit for paragraphs
 @mixin paragraphCharacterLimit {
     white-space: wrap;
@@ -157,7 +169,7 @@ For example, for tab-port, 768px / 16px = 48em
 */
 
 @mixin respond($breakpoint) {
-    
+
     @if $breakpoint==mobile-lg {
         @media only screen and (min-width: 36em) {
             @content;
