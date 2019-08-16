@@ -39,7 +39,6 @@ Added are some mixins for:
 - Character limit on paragraphs designed for maximum clarity & readability
 - Horizontally and vertically center your flexbox container
 
-
 ### Variables
 Included variables are:
 - Basic black & white colors
@@ -64,9 +63,7 @@ Included variables are:
 - Folders for CSS, Images, JavaScript, HTML Pages, & Video
 - Included are two cute pictures of a puppy and kitty. Can't leave that folder empty!
 
-
 This will be updated over time, once I learn more web development skills and techniques! I hope this helps you with your projects!
 
-
-## UPDATE: August 11, 2019
+## UPDATE: August 11, 2019: ESLint and Prettier Added!
 ESLint and Prettier added! Simply run `npm install` to get the necessary packages. Included in the 'js' folder is a quick line of code. After running `npm install`, you should get some warnings from ESLint/Prettier.

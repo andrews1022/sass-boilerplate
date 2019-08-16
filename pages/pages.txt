@@ -1,2 +1,0 @@
-Place other HTML pages for your site in this folder!
-Remember to link them!
