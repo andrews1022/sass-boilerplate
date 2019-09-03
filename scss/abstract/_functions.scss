@@ -43,12 +43,32 @@ $sizes: (
 @function size($size) {
 	@return map-get($sizes, $size);
 }
-
 // Use as a value like so:
-// font-size: size(small);
-// font-size: size(medium) * 2.5
-// font-size: size(x-large) + 2rem;
+// font-size: size(sml);
+// font-size: size(med) * 2.5
+// font-size: size(x-lg) + 2rem;
 
 
 // ----- WRAPPER MAP -----
-$wrapper: ()
+$wrappers: (
+	x-tny: 50%,		// extra-tiny
+	tny: 55%,			// tiny
+	x-sml: 60%,		// extra-small
+	sml: 65%,			// small
+	med: 70%,			// medium
+	lg: 75%,			// large
+	x-lg: 80%,		// extra-large
+	xx-lg: 85%,		// extra-extra-large
+	hg: 90%,			// huge
+	x-hg: 95%,		// extra-huge
+	full: 100%		// massive
+);
+
+// Call the function
+@function wrapper($wrapper) {
+	@return map-get($wrappers, $wrapper);
+}
+// Use as a value like so:
+// width: wrapper(x-tny);
+// width: size(sml) * 2.5
+// width: size(lg) + 2rem;

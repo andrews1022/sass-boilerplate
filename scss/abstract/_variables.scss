@@ -1,327 +1,309 @@
-// BLACK & WHITE
+// ------------------------- BLACK & WHITE -------------------------
 // Basic black and white colors
-$color-white: #fff;
-$color-black: #000;
+$col-white: #fff;
+$col-black: #000;
 
-
-// GREYS
+// ------------------------- GREYS -------------------------
 // Various shades of greys; update/add more if you like!
-$color-x-light-grey-1: #f4f4f4;
-$color-x-light-grey-2: #eee;
-$color-x-light-grey-3: #ddd;
+$col-xlt-grey-1: #f4f4f4;
+$col-xlt-grey-2: #eee;
+$col-xlt-grey-3: #ddd;
 
-$color-light-grey-1: #ccc;
-$color-light-grey-2: #bbb;
-$color-light-grey-3: #aaa;
+$col-lt-grey-1: #ccc;
+$col-lt-grey-2: #bbb;
+$col-lt-grey-3: #aaa;
 
-$color-medium-grey-1: #999;
-$color-medium-grey-2: #888;
-$color-medium-grey-3: #777;
+$col-med-grey-1: #999;
+$col-med-grey-2: #888;
+$col-med-grey-3: #777;
 
-$color-dark-grey-1: #666;
-$color-dark-grey-2: #555;
+$col-drk-grey-1: #666;
+$col-drk-grey-2: #555;
 
-$color-x-dark-grey-1: #444;
-$color-x-dark-grey-2: #333;
-$color-x-dark-grey-3: #222;
-$color-x-dark-grey-4: #111;
+$col-xdrk-grey-1: #444;
+$col-xdrk-grey-2: #333;
+$col-xdrk-grey-3: #222;
+$col-xdrk-grey-4: #111;
 
-
-// IMPORTANT COLORS
+// ------------------------- IMPORTANT COLORS -------------------------
 // Update as per your project (both the color values and percentages. add/remove as desired)
-$color-primary: #fff;
-$color-primary-light: lighten($color-primary, 7.5%);
-$color-primary-x-light: lighten($color-primary, 12.5%);
-$color-primary-dark: darken($color-primary, 7.5%);
-$color-primary-x-dark: darken($color-primary, 12.5%);
+$col-pri: #fff;
+$col-pri-lt: lighten($col-pri, 7.5%);
+$col-pri-xlt: lighten($col-pri, 12.5%);
+$col-pri-drk: darken($col-pri, 7.5%);
+$col-pri-xdrk: darken($col-pri, 12.5%);
 
-$color-secondary: #fff;
-$color-secondary-light: lighten($color-primary, 7.5%);
-$color-secondary-x-light: lighten($color-primary, 12.5%);
-$color-secondary-dark: darken($color-primary, 7.5%);
-$color-secondary-x-dark: darken($color-primary, 12.5%);
+$col-sec: #fff;
+$col-sec-lt: lighten($col-sec, 7.5%);
+$col-sec-xlt: lighten($col-sec, 12.5%);
+$col-sec-drk: darken($col-sec, 7.5%);
+$col-sec-xdrk: darken($col-sec, 12.5%);
 
-$color-tertiary: #fff;
-$color-tertiary-light: lighten($color-primary, 7.5%);
-$color-tertiary-x-light: lighten($color-primary, 12.5%);
-$color-tertiary-dark: darken($color-primary, 7.5%);
-$color-tertiary-x-dark: darken($color-primary, 12.5%);
+$col-tert: #fff;
+$col-tert-lt: lighten($col-tert, 7.5%);
+$col-tert-xlt: lighten($col-tert, 12.5%);
+$col-tert-drk: darken($col-tert, 7.5%);
+$col-tert-xdrk: darken($col-tert, 12.5%);
 
-$color-quaternary: #fff;
-$color-quaternary-light: lighten($color-primary, 7.5%);
-$color-quaternary-x-light: lighten($color-primary, 12.5%);
-$color-quaternary-dark: darken($color-primary, 7.5%);
-$color-quaternary-x-dark: darken($color-primary, 12.5%);
+$col-quat: #fff;
+$col-quat-lt: lighten($col-quat, 7.5%);
+$col-quat-xlt: lighten($col-quat, 12.5%);
+$col-quat-drk: darken($col-quat, 7.5%);
+$col-quat-xdrk: darken($col-quat, 12.5%);
 
-
-
-// FLAT COLORS
+// ------------------------- FLAT COLORS -------------------------
 // Some nice flat colors to get you started if you are stuck deciding on which color(s) to use
 // Included are light and dark versions of each color
 // These were calculated using the lighten() and darken() functions with an amount of 12.5
 // Colors & color names from default palette by Flat UI Colors: https://flatuicolors.com/palette/defo
 // To see their other palettes, go to https://flatuicolors.com/
 // Again, if you don't want to use any of these colours, then feel free to remove them. They are just a general starting to help you out if you are stuck on deciding which colors to use for your project :)
+$col-alizarin-lt: #ee8075;
+$col-alizarin: #e74c3c;
+$col-alizarin-drk: #ca2a19;
 
-$color-alizarin-light: #ee8075;
-$color-alizarin: #e74c3c;
-$color-alizarin-dark: #ca2a19;
+$col-pomegranate-lt: #d85f52;
+$col-pomegranate: #c0392b;
+$col-pomegranate-drk: #8c2a1f;
 
-$color-pomegranate-light: #d85f52;
-$color-pomegranate: #c0392b;
-$color-pomegranate-dark: #8c2a1f;
+$col-carrot-lt: #ec9f5b;
+$col-carrot: #e67e22;
+$col-carrot-drk: #b45f14;
 
-$color-carrot-light: #ec9f5b;
-$color-carrot: #e67e22;
-$color-carrot-dark: #b45f14;
+$col-pumpkin-lt: #ff7114;
+$col-pumpkin: #d35400;
+$col-pumpkin-drk: #933b00;
 
-$color-pumpkin-light: #ff7114;
-$color-pumpkin: #d35400;
-$color-pumpkin-dark: #933b00;
+$col-sun-flower-lt: #f5d34b;
+$col-sun-flower: #f1c40f;
+$col-sun-flower-drk: #b6940b;
 
-$color-sun-flower-light: #f5d34b;
-$color-sun-flower: #f1c40f;
-$color-sun-flower-dark: #b6940b;
+$col-orange-lt: #f6b54f;
+$col-orange: #f39c12;
+$col-orange-drk: #bc770a;
 
-$color-orange-light: #f6b54f;
-$color-orange: #f39c12;
-$color-orange-dark: #bc770a;
+$col-turquoise-lt: #33e3c0;
+$col-turquoise: #1abc9c;
+$col-turquoise-drk: #12846e;
 
-$color-turquoise-light: #33e3c0;
-$color-turquoise: #1abc9c;
-$color-turquoise-dark: #12846e;
+$col-green-sea-lt: #1ed8b4;
+$col-green-sea: #16a085;
+$col-green-sea-drk: #0e6856;
 
-$color-green-sea-light: #1ed8b4;
-$color-green-sea: #16a085;
-$color-green-sea-dark: #0e6856;
+$col-emerald-lt: #5fdb93;
+$col-emerald: #2ecc71;
+$col-emerald-drk: #229854;
 
-$color-emerald-light: #5fdb93;
-$color-emerald: #2ecc71;
-$color-emerald-dark: #229854;
+$col-nephritis-lt: #40d47f;
+$col-nephritis: #27ae60;
+$col-nephritis-drk: #1b7a43;
 
-$color-nephritis-light: #40d47f;
-$color-nephritis: #27ae60;
-$color-nephritis-dark: #1b7a43;
+$col-peter-river-lt: #6ab3e5;
+$col-peter-river: #3498db;
+$col-peter-river-drk: #1f76b0;
 
-$color-peter-river-light: #6ab3e5;
-$color-peter-river: #3498db;
-$color-peter-river-dark: #1f76b0;
+$col-belize-hole-lt: #4b9fd7;
+$col-belize-hole: #2980b9;
+$col-belize-hole-drk: #1d5c85;
 
-$color-belize-hole-light: #4b9fd7;
-$color-belize-hole: #2980b9;
-$color-belize-hole-dark: #1d5c85;
+$col-amethyst-lt: #b685c9;
+$col-amethyst: #9b59b6;
+$col-amethyst-drk: #793f90;
 
-$color-amethyst-light: #b685c9;
-$color-amethyst: #9b59b6;
-$color-amethyst-dark: #793f90;
+$col-wisteria-lt: #ab6cc5;
+$col-wisteria: #8e44ad;
+$col-wisteria-drk: #68327f;
 
-$color-wisteria-light: #ab6cc5;
-$color-wisteria: #8e44ad;
-$color-wisteria-dark: #68327f;
+$col-wet-asphalt-lt: #4b6987;
+$col-wet-asphalt: #34495e;
+$col-wet-asphalt-drk: #1d2935;
 
-$color-wet-asphalt-light: #4b6987;
-$color-wet-asphalt: #34495e;
-$color-wet-asphalt-dark: #1d2935;
+$col-midnight-blue-lt: #435e79;
+$col-midnight-blue: #2c3e50;
+$col-midnight-blue-drk: #151e27;
 
-$color-midnight-blue-light: #435e79;
-$color-midnight-blue: #2c3e50;
-$color-midnight-blue-dark: #151e27;
+$col-clouds-lt: #f6f6f6;
+$col-clouds: #ecf0f1;
+$col-clouds-drk: #c7d3d6;
 
-$color-clouds-light: #f6f6f6;
-$color-clouds: #ecf0f1;
-$color-clouds-dark: #c7d3d6;
+$col-silver-lt: #dfe2e4;
+$col-silver: #bdc3c7;
+$col-silver-drk: #9ba4aa;
 
-$color-silver-light: #dfe2e4;
-$color-silver: #bdc3c7;
-$color-silver-dark: #9ba4aa;
+$col-concrete-lt: #b8c2c3;
+$col-concrete: #95a5a6;
+$col-concrete-drk: #738789;
 
-$color-concrete-light: #b8c2c3;
-$color-concrete: #95a5a6;
-$color-concrete-dark: #738789;
+$col-asbestos-lt: #a1aaab;
+$col-asbestos: #7f8c8d;
+$col-asbestos-drk: #606b6c;
 
-$color-asbestos-light: #a1aaab;
-$color-asbestos: #7f8c8d;
-$color-asbestos-dark: #606b6c;
-
-
-// BORDER-RADIUS
+// ------------------------- BORDER-RADIUS -------------------------
 // Intended to be applied to an element on all corners, giving it nice rounded edges
-$border-radius-small: 3px;
-$border-radius-medium: 5px;
-$border-radius-large: 7px;
-$border-radius-x-large: 10px;
+$br-sml: 3px;
+$br-med: 5px;
+$br-lg: 7px;
+$br-xlg: 10px;
 
-
-// TEXT DECORATION
+// ------------------------- TEXT DECORATION -------------------------
 // Basic text-decoration values
-$text-center: center;
-$text-uppercase: uppercase;
-$text-lowercase: lowercase;
-$text-no-decoration: none;
+$txt-cntr: center;
+$txt-uppr: uppercase;
+$txt-lwr: lowercase;
+$txt-no-dec: none;
 
-
-// LINE HEIGHT
+// ------------------------- LINE HEIGHT -------------------------
 // Set to 145% by default
 // Best to use anywhere from 125% - 150%
-$line-height-default: 1.45;
+$lh-def: 1.45;
+$lh-tny: 1.2;
+$lh-sml: 1.25;
+$lh-med: 1.3;
+$lh-lg: 1.35;
+$lh-hg: 1.4;
+$lh-msv: 1.5;
 
-$line-height-tiny: 1.2;
-$line-height-small: 1.25;
-$line-height-medium: 1.3;
-$line-height-large: 1.35;
-$line-height-huge: 1.4;
-$line-height-massive: 1.5;
-
-
-// FONT FAMILY
+// ------------------------- FONT-FAMILY -------------------------
 // Change as per your project
-$text-brand: sans-serif; // use this for your company/brand logo (if applicable)
-$text-main: sans-serif; // use this for the overall site
+$txt-brand: sans-serif; // use this for your company/brand logo (if applicable)
+$txt-main: sans-serif; // use this for the overall site
 
-
-// LIST DECORATION
+// ------------------------- LIST DECORATION -------------------------
 // Removes those annoying bullets from lists
-$list-style-no-decoration: none;
+$list-no-dec: none;
 
-
-// WRAPPER
+// ------------------------- WRAPPER -------------------------
 // Various wrapper sizes (used for width)
-$wrapper-tiny-1: 50%;
-$wrapper-tiny-2: 55%;
+$wrap-tny-1: 50%;
+$wrap-tny-2: 55%;
 
-$wrapper-small-1: 60%;
-$wrapper-small-2: 65%;
+$wrap-sml-1: 60%;
+$wrap-sml-2: 65%;
 
-$wrapper-medium-1: 70%;
-$wrapper-medium-2: 75%;
+$wrap-med-1: 70%;
+$wrap-med-2: 75%;
 
-$wrapper-large-1: 80%;
-$wrapper-large-2: 85%;
+$wrap-lg-1: 80%;
+$wrap-lg-2: 85%;
 
-$wrapper-huge-1: 90%;
-$wrapper-huge-1: 95%;
+$wrap-xlg-1: 90%;
+$wrap-xlg-2: 95%;
 
-$wrapper-fullbleed: 100%;
+$wrap-full: 100%;
 
-
-// MARGIN CENTER
+// ------------------------- MARGIN CENTER -------------------------
 // Center a block element inside parent block element
-$margin-center: 0 auto;
+$mar-cntr: 0 auto;
 
-
-// SECTION PADDING
+// ------------------------- SECTION PADDING -------------------------
 // Add padding to a wrapper/container based on screen size
 // Update or add/remove as per your project
-$section-padding-sm-mbl: 3rem 2rem;
-$section-padding-tablet: 3.5rem 6rem;
-$section-padding-desktop: 4rem 10rem;
+$sctn-pad-sm-mbl: 3rem 2rem;
+$sctn-pad-tblt: 3.5rem 6rem;
+$sctn-pad-dsktp: 4rem 10rem;
 
-
-// FONT WEIGHT
+// ------------------------- FONT-WEIGHT -------------------------
 // Variable names based off of Google Fonts naming style
-$font-weight-thin: 100;
-$font-weight-extra-light: 200;
-$font-weight-light: 300;
-$font-weight-regular: 400;
-$font-weight-medium: 500;
-$font-weight-semi-bold: 600;
-$font-weight-bold: 700;
-$font-weight-extra-light: 800;
-$font-weight-black: 900;
+$fw-thin: 100;
+$fw-x-lt: 200;
+$fw-lt: 300;
+$fw-reg: 400;
+$fw-med: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+$fw-x-lt: 800;
+$fw-black: 900;
 
-
-// FONT SIZE
-// Quick and easy font-size increase based on screen size
+// ------------------------- FONT SIZES -------------------------
+// Quick and easy font-size increase based on screen size (increment of 3.5
 // Furthermore, precise styling will be needed, but this covers a lot of ground
-$default-font-size: 62.5%;
+$fnt-sz-def: 62.5%;
 
-$default-mobile-lg-font-size: 65.65%;
-$default-tab-port-font-size: 68.75%;
-$default-tab-land-font-size: 75%;
-$default-laptop-font-size: 81.25%;
-$default-desktop-font-size: 87.5%;
-$default-desktop-lg-font-size: 100%;
-$default-desktop-4k-font-size: 112.5%;
+$fnt-sz-mbl-lg: 66%;
+$fnt-sz-tab-port: 69.5%;
+$fnt-sz-tab-land: 73%;
+$fnt-sz-laptop: 76.5%;
+$fnt-sz-desktop: 80%;
+$fnt-sz-desktop-lg: 83.5%;
+$fnt-sz-desktop-4k: 87%;
 
-
-// REM SIZES
+// ------------------------- REM SIZES -------------------------
 // Use these for font-size, margin (overall), padding (overall), etc.)
 // The values are based on the default font-size declared in the _base.scss file
 // Default font size of browsers is 16px, but, we changed that to 10px (62.5%)
 // Now all rems are much easier to calculate
 // For body text, best to not go above 2rem
 // And for line length, try not to go over 90 characters
-$size-x-tiny-1: 0.25rem;
-$size-x-tiny-2: 0.5rem;
-$size-x-tiny-3: 0.75rem;
+$sz-xtny-1: 0.25rem;
+$sz-xtny-2: 0.5rem;
+$sz-xtny-3: 0.75rem;
 
-$size-tiny-1: 1rem;
-$size-tiny-2: 1.25rem;
-$size-tiny-3: 1.5rem;
-$size-tiny-4: 1.75rem;
+$sz-tny-1: 1rem;
+$sz-tny-2: 1.25rem;
+$sz-tny-3: 1.5rem;
+$sz-tny-4: 1.75rem;
 
-$size-x-small-1: 2rem;
-$size-x-small-2: 2.25rem;
-$size-x-small-3: 2.5rem;
-$size-x-small-4: 2.75rem;
+$sz-xsml-1: 2rem;
+$sz-xsml-2: 2.25rem;
+$sz-xsml-3: 2.5rem;
+$sz-xsml-4: 2.75rem;
 
-$size-small-1: 3rem;
-$size-small-2: 3.25rem;
-$size-small-3: 3.5rem;
-$size-small-4: 3.75rem;
+$sz-sml-1: 3rem;
+$sz-sml-2: 3.25rem;
+$sz-sml-3: 3.5rem;
+$sz-sml-4: 3.75rem;
 
-$size-medium-1: 4rem;
-$size-medium-2: 4.25rem;
-$size-medium-3: 4.5rem;
-$size-medium-4: 4.75rem;
+$sz-med-1: 4rem;
+$sz-med-2: 4.25rem;
+$sz-med-3: 4.5rem;
+$sz-med-4: 4.75rem;
 
-$size-large-1: 5rem;
-$size-large-2: 5.25rem;
-$size-large-3: 5.5rem;
-$size-large-4: 5.75rem;
+$sz-lg-1: 5rem;
+$sz-lg-2: 5.25rem;
+$sz-lg-3: 5.5rem;
+$sz-lg-4: 5.75rem;
 
-$size-x-large-1: 6rem;
-$size-x-large-2: 6.25rem;
-$size-x-large-3: 6.5rem;
-$size-x-large-4: 6.75rem;
+$sz-xlg-1: 6rem;
+$sz-xlg-2: 6.25rem;
+$sz-xlg-3: 6.5rem;
+$sz-xlg-4: 6.75rem;
 
-$size-xx-large-1: 7rem;
-$size-xx-large-2: 7.25rem;
-$size-xx-large-3: 7.5rem;
-$size-xx-large-4: 7.75rem;
+$sz-xxlg-1: 7rem;
+$sz-xxlg-2: 7.25rem;
+$sz-xxlg-3: 7.5rem;
+$sz-xxlg-4: 7.75rem;
 
-$size-huge-1: 8rem;
-$size-huge-2: 8.25rem;
-$size-huge-3: 8.5rem;
-$size-huge-4: 8.75rem;
+$sz-hg-1: 8rem;
+$sz-hg-2: 8.25rem;
+$sz-hg-3: 8.5rem;
+$sz-hg-4: 8.75rem;
 
-$size-x-huge-1: 9rem;
-$size-x-huge-2: 9.25rem;
-$size-x-huge-3: 9.5rem;
-$size-x-huge-4: 9.75rem;
+$sz-xhg-1: 9rem;
+$sz-xhg-2: 9.25rem;
+$sz-xhg-3: 9.5rem;
+$sz-xhg-4: 9.75rem;
 
-$size-massive-1: 10rem;
-$size-massive-2: 11rem;
-$size-massive-3: 12rem;
-$size-massive-4: 13rem;
-$size-massive-5: 14rem;
-$size-massive-6: 15rem;
+$sz-msv-1: 10rem;
+$sz-msv-2: 11rem;
+$sz-msv-3: 12rem;
+$sz-msv-4: 13rem;
+$sz-msv-5: 14rem;
+$sz-msv-6: 15rem;
 
-// TRANSITIONS
+// ------------------------- TRANSITIONS -------------------------
 // Add/remove for your project if desired - this is just a nice fade-in/out effect
-$standard-transition: all 250ms; // default timing, nice ease-in-out effect
+$transit-standard: all 250ms; // default timing, nice ease-in-out effect
 
-$quick-transition-1: all 200ms;
-$quick-transition-2: all 300ms;
+$transit-quick-1: all 200ms;
+$transit-quick-2: all 300ms;
 
-$medium-transition-1: all 350ms;
-$medium-transition-2: all 400ms;
+$transit-med-1: all 350ms;
+$transit-med-2: all 400ms;
 
-$slow-transition-1: all 450ms;
-$slow-transition-2: all 500ms;
+$transit-slow-1: all 450ms;
+$transit-slow-2: all 500ms;
 
-
-// CUBIC BEZIER TIMING FUNCTIONS
+// ------------------------- CUBIC BEZIER TIMING FUNCTIONS -------------------------
 // Timing functions courtesy of https://easings.net/en
 $-cbtf-easeInSide: (0.47, 0, 0.745, 0.715);
 $-cbtf-easeOutSine: (0.39, 0.575, 0.565, 1);
@@ -355,20 +337,19 @@ $-cbtf-easeInBack: (0.6, -0.28, 0.735, 0.045);
 $-cbtf-easeOutBack: (0.175, 0.885, 0.32, 1.275);
 $-cbtf-easeInOutBack: (0.68, -0.55, 0.265, 1.55);
 
-
-// BOX SHADOW
+// ------------------------- BOX SHADOW -------------------------
 // Feel free to change the rem values
 // For a nice subtle box-shadow, I would not recommend going higher than .25 opacity
-$box-shadow-x-light-1: 0 1rem 3rem rgba($color-black, .05);
-$box-shadow-x-light-2: 0 1rem 3rem rgba($color-black, .10);
-$box-shadow-x-light-3: 0 1rem 3rem rgba($color-black, .15);
+$bxshad-xlt-1: 0 1rem 3rem rgba($col-black, .05);
+$bxshad-xlt-2: 0 1rem 3rem rgba($col-black, .10);
+$bxshad-xlt-3: 0 1rem 3rem rgba($col-black, .15);
 
-$box-shadow-light-1: 0 1rem 3rem rgba($color-black, .20);
-$box-shadow-light-2: 0 1rem 3rem rgba($color-black, .25);
+$bxshad-lt-1: 0 1rem 3rem rgba($col-black, .20);
+$bxshad-lt-2: 0 1rem 3rem rgba($col-black, .25);
 
-$box-shadow-medium-1: 0 1rem 3rem rgba($color-black, .30);
-$box-shadow-medium-2: 0 1rem 3rem rgba($color-black, .35);
-$box-shadow-medium-3: 0 1rem 3rem rgba($color-black, .40);
+$bxshad-med-1: 0 1rem 3rem rgba($col-black, .30);
+$bxshad-med-2: 0 1rem 3rem rgba($col-black, .35);
+$bxshad-med-3: 0 1rem 3rem rgba($col-black, .40);
 
-$box-shadow-heavy-1: 0 1rem 3rem rgba($color-black, .45);
-$box-shadow-heavy-2: 0 1rem 3rem rgba($color-black, .50);
+$bxshad-hvy-1: 0 1rem 3rem rgba($col-black, .45);
+$bxshad-hvy-2: 0 1rem 3rem rgba($col-black, .50);

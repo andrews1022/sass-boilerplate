@@ -24,21 +24,21 @@
 }
 
 // HTML selector border box reset
-@mixin htmlSelectorBBR {
+@mixin htmlBoxReset {
 	box-sizing: border-box;
 }
 
 // Universal selector border box reset
-@mixin universalSelectorBBR {
+@mixin universalBoxReset {
 	box-sizing: inherit;
 	margin: 0;
 	padding: 0;
 }
 
 // Body selector default font stylings
-@mixin bodyDefaultFontStyle {
-	font-weight: $font-weight-regular;
-	line-height: $line-height-default;
+@mixin defaultFontStyles {
+	font-weight: $fw-reg;
+	line-height: $lh-def;
 }
 
 // Hide text while making it readable for screen readers 
@@ -78,7 +78,7 @@
 }
 
 // Set character limit for paragraphs
-@mixin paragraphCharacterLimit {
+@mixin characterLimit {
 	white-space: wrap;
 	overflow: hidden;
 	text-overflow: ellipsis;

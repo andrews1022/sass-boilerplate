@@ -5,6 +5,10 @@
         "no-unused-vars":"warn",
         "prefer-const":"warn",
         "prettier/prettier": "warn" 
+    },
+    "env": {
+        "browser": true,
+        "node": true
     }
 }
 
