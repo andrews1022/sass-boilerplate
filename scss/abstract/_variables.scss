@@ -1,142 +1,142 @@
 // ------------------------- BLACK & WHITE -------------------------
 // Basic black and white colors
-$col-white: #fff;
-$col-black: #000;
+$clr-wht: #fff;
+$clr-blk: #000;
 
 // ------------------------- GREYS -------------------------
 // Various shades of greys; update/add more if you like!
-$col-xlt-grey-1: #f4f4f4;
-$col-xlt-grey-2: #eee;
-$col-xlt-grey-3: #ddd;
+$clr-gry-xlt-1: #f4f4f4;
+$clr-gry-xlt-2: #eee;
+$clr-gry-xlt-3: #ddd;
 
-$col-lt-grey-1: #ccc;
-$col-lt-grey-2: #bbb;
-$col-lt-grey-3: #aaa;
+$clr-gry-lt-1: #ccc;
+$clr-gry-lt-2: #bbb;
+$clr-gry-lt-3: #aaa;
 
-$col-med-grey-1: #999;
-$col-med-grey-2: #888;
-$col-med-grey-3: #777;
+$clr-gry-med-1: #999;
+$clr-gry-med-2: #888;
+$clr-gry-med-3: #777;
 
-$col-drk-grey-1: #666;
-$col-drk-grey-2: #555;
+$clr-gry-drk-1: #666;
+$clr-gry-drk-2: #555;
 
-$col-xdrk-grey-1: #444;
-$col-xdrk-grey-2: #333;
-$col-xdrk-grey-3: #222;
-$col-xdrk-grey-4: #111;
+$clr-gry-xdrk-1: #444;
+$clr-gry-xdrk-2: #333;
+$clr-gry-xdrk-3: #222;
+$clr-gry-xdrk-4: #111;
 
 // ------------------------- IMPORTANT COLORS -------------------------
 // Update as per your project (both the color values and percentages. add/remove as desired)
-$col-pri: #fff;
-$col-pri-lt: lighten($col-pri, 7.5%);
-$col-pri-xlt: lighten($col-pri, 12.5%);
-$col-pri-drk: darken($col-pri, 7.5%);
-$col-pri-xdrk: darken($col-pri, 12.5%);
+$clr-pri: #fff;
+$clr-pri-lt: lighten($clr-pri, 7.5%);
+$clr-pri-xlt: lighten($clr-pri, 12.5%);
+$clr-pri-drk: darken($clr-pri, 7.5%);
+$clr-pri-xdrk: darken($clr-pri, 12.5%);
 
-$col-sec: #fff;
-$col-sec-lt: lighten($col-sec, 7.5%);
-$col-sec-xlt: lighten($col-sec, 12.5%);
-$col-sec-drk: darken($col-sec, 7.5%);
-$col-sec-xdrk: darken($col-sec, 12.5%);
+$clr-sec: #fff;
+$clr-sec-lt: lighten($clr-sec, 7.5%);
+$clr-sec-xlt: lighten($clr-sec, 12.5%);
+$clr-sec-drk: darken($clr-sec, 7.5%);
+$clr-sec-xdrk: darken($clr-sec, 12.5%);
 
-$col-tert: #fff;
-$col-tert-lt: lighten($col-tert, 7.5%);
-$col-tert-xlt: lighten($col-tert, 12.5%);
-$col-tert-drk: darken($col-tert, 7.5%);
-$col-tert-xdrk: darken($col-tert, 12.5%);
+$clr-tert: #fff;
+$clr-tert-lt: lighten($clr-tert, 7.5%);
+$clr-tert-xlt: lighten($clr-tert, 12.5%);
+$clr-tert-drk: darken($clr-tert, 7.5%);
+$clr-tert-xdrk: darken($clr-tert, 12.5%);
 
-$col-quat: #fff;
-$col-quat-lt: lighten($col-quat, 7.5%);
-$col-quat-xlt: lighten($col-quat, 12.5%);
-$col-quat-drk: darken($col-quat, 7.5%);
-$col-quat-xdrk: darken($col-quat, 12.5%);
+$clr-quat: #fff;
+$clr-quat-lt: lighten($clr-quat, 7.5%);
+$clr-quat-xlt: lighten($clr-quat, 12.5%);
+$clr-quat-drk: darken($clr-quat, 7.5%);
+$clr-quat-xdrk: darken($clr-quat, 12.5%);
 
 // ------------------------- FLAT COLORS -------------------------
 // Some nice flat colors to get you started if you are stuck deciding on which color(s) to use
 // Included are light and dark versions of each color
-// These were calculated using the lighten() and darken() functions with an amount of 12.5
+// These were calculated using the lighten() and darken() functions with an amount of 12.5%
 // Colors & color names from default palette by Flat UI Colors: https://flatuicolors.com/palette/defo
 // To see their other palettes, go to https://flatuicolors.com/
 // Again, if you don't want to use any of these colours, then feel free to remove them. They are just a general starting to help you out if you are stuck on deciding which colors to use for your project :)
-$col-alizarin-lt: #ee8075;
-$col-alizarin: #e74c3c;
-$col-alizarin-drk: #ca2a19;
+$clr-alizarin-lt: #ee8075;
+$clr-alizarin: #e74c3c;
+$clr-alizarin-drk: #ca2a19;
 
-$col-pomegranate-lt: #d85f52;
-$col-pomegranate: #c0392b;
-$col-pomegranate-drk: #8c2a1f;
+$clr-pomegranate-lt: #d85f52;
+$clr-pomegranate: #c0392b;
+$clr-pomegranate-drk: #8c2a1f;
 
-$col-carrot-lt: #ec9f5b;
-$col-carrot: #e67e22;
-$col-carrot-drk: #b45f14;
+$clr-carrot-lt: #ec9f5b;
+$clr-carrot: #e67e22;
+$clr-carrot-drk: #b45f14;
 
-$col-pumpkin-lt: #ff7114;
-$col-pumpkin: #d35400;
-$col-pumpkin-drk: #933b00;
+$clr-pumpkin-lt: #ff7114;
+$clr-pumpkin: #d35400;
+$clr-pumpkin-drk: #933b00;
 
-$col-sun-flower-lt: #f5d34b;
-$col-sun-flower: #f1c40f;
-$col-sun-flower-drk: #b6940b;
+$clr-sun-flower-lt: #f5d34b;
+$clr-sun-flower: #f1c40f;
+$clr-sun-flower-drk: #b6940b;
 
-$col-orange-lt: #f6b54f;
-$col-orange: #f39c12;
-$col-orange-drk: #bc770a;
+$clr-orange-lt: #f6b54f;
+$clr-orange: #f39c12;
+$clr-orange-drk: #bc770a;
 
-$col-turquoise-lt: #33e3c0;
-$col-turquoise: #1abc9c;
-$col-turquoise-drk: #12846e;
+$clr-turquoise-lt: #33e3c0;
+$clr-turquoise: #1abc9c;
+$clr-turquoise-drk: #12846e;
 
-$col-green-sea-lt: #1ed8b4;
-$col-green-sea: #16a085;
-$col-green-sea-drk: #0e6856;
+$clr-green-sea-lt: #1ed8b4;
+$clr-green-sea: #16a085;
+$clr-green-sea-drk: #0e6856;
 
-$col-emerald-lt: #5fdb93;
-$col-emerald: #2ecc71;
-$col-emerald-drk: #229854;
+$clr-emerald-lt: #5fdb93;
+$clr-emerald: #2ecc71;
+$clr-emerald-drk: #229854;
 
-$col-nephritis-lt: #40d47f;
-$col-nephritis: #27ae60;
-$col-nephritis-drk: #1b7a43;
+$clr-nephritis-lt: #40d47f;
+$clr-nephritis: #27ae60;
+$clr-nephritis-drk: #1b7a43;
 
-$col-peter-river-lt: #6ab3e5;
-$col-peter-river: #3498db;
-$col-peter-river-drk: #1f76b0;
+$clr-peter-river-lt: #6ab3e5;
+$clr-peter-river: #3498db;
+$clr-peter-river-drk: #1f76b0;
 
-$col-belize-hole-lt: #4b9fd7;
-$col-belize-hole: #2980b9;
-$col-belize-hole-drk: #1d5c85;
+$clr-belize-hole-lt: #4b9fd7;
+$clr-belize-hole: #2980b9;
+$clr-belize-hole-drk: #1d5c85;
 
-$col-amethyst-lt: #b685c9;
-$col-amethyst: #9b59b6;
-$col-amethyst-drk: #793f90;
+$clr-amethyst-lt: #b685c9;
+$clr-amethyst: #9b59b6;
+$clr-amethyst-drk: #793f90;
 
-$col-wisteria-lt: #ab6cc5;
-$col-wisteria: #8e44ad;
-$col-wisteria-drk: #68327f;
+$clr-wisteria-lt: #ab6cc5;
+$clr-wisteria: #8e44ad;
+$clr-wisteria-drk: #68327f;
 
-$col-wet-asphalt-lt: #4b6987;
-$col-wet-asphalt: #34495e;
-$col-wet-asphalt-drk: #1d2935;
+$clr-wet-asphalt-lt: #4b6987;
+$clr-wet-asphalt: #34495e;
+$clr-wet-asphalt-drk: #1d2935;
 
-$col-midnight-blue-lt: #435e79;
-$col-midnight-blue: #2c3e50;
-$col-midnight-blue-drk: #151e27;
+$clr-midnight-blue-lt: #435e79;
+$clr-midnight-blue: #2c3e50;
+$clr-midnight-blue-drk: #151e27;
 
-$col-clouds-lt: #f6f6f6;
-$col-clouds: #ecf0f1;
-$col-clouds-drk: #c7d3d6;
+$clr-clouds-lt: #f6f6f6;
+$clr-clouds: #ecf0f1;
+$clr-clouds-drk: #c7d3d6;
 
-$col-silver-lt: #dfe2e4;
-$col-silver: #bdc3c7;
-$col-silver-drk: #9ba4aa;
+$clr-silver-lt: #dfe2e4;
+$clr-silver: #bdc3c7;
+$clr-silver-drk: #9ba4aa;
 
-$col-concrete-lt: #b8c2c3;
-$col-concrete: #95a5a6;
-$col-concrete-drk: #738789;
+$clr-concrete-lt: #b8c2c3;
+$clr-concrete: #95a5a6;
+$clr-concrete-drk: #738789;
 
-$col-asbestos-lt: #a1aaab;
-$col-asbestos: #7f8c8d;
-$col-asbestos-drk: #606b6c;
+$clr-asbestos-lt: #a1aaab;
+$clr-asbestos: #7f8c8d;
+$clr-asbestos-drk: #606b6c;
 
 // ------------------------- BORDER-RADIUS -------------------------
 // Intended to be applied to an element on all corners, giving it nice rounded edges
@@ -340,16 +340,16 @@ $-cbtf-easeInOutBack: (0.68, -0.55, 0.265, 1.55);
 // ------------------------- BOX SHADOW -------------------------
 // Feel free to change the rem values
 // For a nice subtle box-shadow, I would not recommend going higher than .25 opacity
-$bxshad-xlt-1: 0 1rem 3rem rgba($col-black, .05);
-$bxshad-xlt-2: 0 1rem 3rem rgba($col-black, .10);
-$bxshad-xlt-3: 0 1rem 3rem rgba($col-black, .15);
+$bxshad-xlt-1: 0 1rem 3rem rgba($clr-blk, .05);
+$bxshad-xlt-2: 0 1rem 3rem rgba($clr-blk, .10);
+$bxshad-xlt-3: 0 1rem 3rem rgba($clr-blk, .15);
 
-$bxshad-lt-1: 0 1rem 3rem rgba($col-black, .20);
-$bxshad-lt-2: 0 1rem 3rem rgba($col-black, .25);
+$bxshad-lt-1: 0 1rem 3rem rgba($clr-blk, .20);
+$bxshad-lt-2: 0 1rem 3rem rgba($clr-blk, .25);
 
-$bxshad-med-1: 0 1rem 3rem rgba($col-black, .30);
-$bxshad-med-2: 0 1rem 3rem rgba($col-black, .35);
-$bxshad-med-3: 0 1rem 3rem rgba($col-black, .40);
+$bxshad-med-1: 0 1rem 3rem rgba($clr-blk, .30);
+$bxshad-med-2: 0 1rem 3rem rgba($clr-blk, .35);
+$bxshad-med-3: 0 1rem 3rem rgba($clr-blk, .40);
 
-$bxshad-hvy-1: 0 1rem 3rem rgba($col-black, .45);
-$bxshad-hvy-2: 0 1rem 3rem rgba($col-black, .50);
+$bxshad-hvy-1: 0 1rem 3rem rgba($clr-blk, .45);
+$bxshad-hvy-2: 0 1rem 3rem rgba($clr-blk, .50);

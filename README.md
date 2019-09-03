@@ -2,8 +2,9 @@
 Maple is a basic Sass site/file/folder structure designed to get you up and running as quickly as possible. It is organized using the 7-1 folder structure popularized by [Hugo Giraudel](https://github.com/HugoGiraudel/sass-boilerplate). This site structure is meant as a general starting point for building your Sass based site. Feel free to remove any content you don't want need and update the things you do!
 
 It includes:
-- 11 mixins covering the basics
-- 200+ variables to help you get started customizing your site
+- 16 mixins covering the basics
+- 230+ variables to help you get started customizing your site
+- 3 easy functions to use for colors, sizing, and wrappers
 - A massive media query manager
 - Border box reset
 - Responsive images reset
@@ -69,4 +70,6 @@ This will be updated over time, once I learn more web development skills and tec
 ESLint and Prettier added! Simply run `npm install` to get the necessary packages. Included in the 'js' folder is a quick line of code. After running `npm install`, you should get some warnings from ESLint/Prettier.
 
 ## UPDATE: Jest Added!
-Jest has been added to Maple! Simply run `npm install` to get the necessary packages. Included in "scripts" is "testwatch": "jest --watchAll", this way your text editor will automatically run all tests on save. 
+Jest has been added to Maple! Simply run `npm install` to get the necessary packages along with ESLint and Prettier. Included in "scripts" is...
+`"testwatch": "jest --watchAll"`
+... so this way your text editor will automatically run all tests on save.
