@@ -36,22 +36,22 @@ $color-primary-dark: darken($color-primary, 7.5%);
 $color-primary-x-dark: darken($color-primary, 12.5%);
 
 $color-secondary: #fff;
-$color-secondary-light: lighten($color-secondary, 7.5%);
-$color-secondary-x-light: lighten($color-secondary, 12.5%);
-$color-secondary-dark: darken($color-secondary, 7.5%);
-$color-secondary-x-dark: darken($color-secondary, 12.5%);
+$color-secondary-light: lighten($color-primary, 7.5%);
+$color-secondary-x-light: lighten($color-primary, 12.5%);
+$color-secondary-dark: darken($color-primary, 7.5%);
+$color-secondary-x-dark: darken($color-primary, 12.5%);
 
 $color-tertiary: #fff;
-$color-tertiary-light: lighten($color-tertiary, 7.5%);
-$color-tertiary-x-light: lighten($color-tertiary, 12.5%);
-$color-tertiary-dark: darken($color-tertiary, 7.5%);
-$color-tertiary-x-dark: darken($color-tertiary, 12.5%);
+$color-tertiary-light: lighten($color-primary, 7.5%);
+$color-tertiary-x-light: lighten($color-primary, 12.5%);
+$color-tertiary-dark: darken($color-primary, 7.5%);
+$color-tertiary-x-dark: darken($color-primary, 12.5%);
 
 $color-quaternary: #fff;
-$color-quaternary-light: lighten($color-quaternary, 7.5%);
-$color-quaternary-x-light: lighten($color-quaternary, 12.5%);
-$color-quaternary-dark: darken($color-quaternary, 7.5%);
-$color-quaternary-x-dark: darken($color-quaternary, 12.5%);
+$color-quaternary-light: lighten($color-primary, 7.5%);
+$color-quaternary-x-light: lighten($color-primary, 12.5%);
+$color-quaternary-dark: darken($color-primary, 7.5%);
+$color-quaternary-x-dark: darken($color-primary, 12.5%);
 
 
 

@@ -25,7 +25,7 @@ For example, for tab-port, 768px / 16px = 48em
 */
 html {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 62.5%;
   /* Equivalent to 10px */
 }
@@ -76,7 +76,7 @@ html {
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -92,29 +92,6 @@ img {
   max-width: 100%;
 }
 
-p {
-  white-space: wrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 45ch;
-  /* These character lengths are based on recommended line length for maximum clarity, readability and proportion in print
-
-    These recommendations are based on a number of factors, such as:
-    - How people tend to read.
-    - The ease or difficulty in following a line to the end and bringing your eye back to the start of the next line.
-    - Quickly understanding the relative importance of various levels of headings between blocks of copy.
-
-    Read more about it here:
-    https://typecast.com/blog/a-more-modern-scale-for-web-typography
-    */
-}
-
-@media only screen and (min-width: 85.375em) {
-  p {
-    max-width: 60ch;
-  }
-}
-
 a:link,
 a:visited {
   text-decoration: none;
@@ -123,31 +100,6 @@ a:visited {
 ul,
 ol {
   list-style: none;
-}
-
-.test {
-  color: #dfdfdf;
-}
-
-.test-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.test-li {
-  background-color: red;
-  padding: 2rem;
-}
-
-.test-li-big {
-  font-size: 2.25rem;
 }
 
 .u-center-text {
@@ -249,5 +201,4 @@ ol {
     font-size: 1.8rem;
   }
 }
-
 /*# sourceMappingURL=main.css.map */

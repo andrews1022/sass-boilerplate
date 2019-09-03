@@ -3,18 +3,18 @@
 
 
 // ----- COLORS MAP -----
-// Set to white by default- make sure to update values as needed
+// Set to white by default - make sure to update values as needed
 $colors: (
-    primary: #fff,
-    secondary: #fff,
-    tertiary: #fff,
-    quaternary: #fff
+	pri: #fff,		// primary color
+	sec: #fff,		// secondary color
+	tert: #fff,		// tertiary color
+	quat: #fff		// quatenary color
 );
 
 // When we need a color from the map, we need to call this function
 // Then we use return and the map-get function, naming the map, and using the paramter as the key so it is dynamic
 @function color($color-name) {
-    @return map-get($colors, $color-name);
+	@return map-get($colors, $color-name);
 }
 
 // Call the function like this: 
@@ -26,25 +26,29 @@ $colors: (
 // ----- SIZES MAP -----
 // Similar to color map, and without use of lots of variables
 $sizes: (
-    x-tiny: 0.5rem,
-    tiny: 1rem,
-    x-small: 2rem,
-    small: 3rem,
-    medium: 4rem,
-    large: 5rem,
-    x-large: 6rem,
-    xx-large: 7rem,
-    huge: 8rem,
-    x-huge: 9rem,
-    massive: 10rem
+	x-tny: 0.5rem,	// extra-tiny
+	tny: 1rem,			// tiny
+	x-sml: 2rem,		// extra-small
+	sml: 3rem,			// small
+	med: 4rem,			// medium
+	lg: 5rem,				// large
+	x-lg: 6rem,			// extra-large
+	xx-lg: 7rem,		// extra-extra-large
+	hg: 8rem,				// huge
+	x-hg: 9rem,			// extra-huge
+	msv: 10rem			// massive
 );
 
 // Call the function
 @function size($size) {
-    @return map-get($sizes, $size);
+	@return map-get($sizes, $size);
 }
 
 // Use as a value like so:
 // font-size: size(small);
 // font-size: size(medium) * 2.5
 // font-size: size(x-large) + 2rem;
+
+
+// ----- WRAPPER MAP -----
+$wrapper: ()

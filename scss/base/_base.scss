@@ -66,10 +66,6 @@ img {
     @include responsiveImages;
 }
 
-p {
-    @include paragraphCharacterLimit;
-}
-
 // Remove the underline to links by default
 a:link,
 a:visited {

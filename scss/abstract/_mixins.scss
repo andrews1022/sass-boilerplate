@@ -1,94 +1,94 @@
 // Clearfix - added to floated elements with no height
 @mixin clearfix {
-    &::after {
-        clear: both;
-        content: "";
-        display: table;
-    }
+	&::after {
+		clear: both;
+		content: "";
+		display: table;
+	}
 }
 
 // Absolute position/centering an element
 // Remember to set your parent element to position: relative; !
 @mixin absoluteCenter {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 // Responsive images reset
 @mixin responsiveImages {
-    display: block;
-    height: auto;
-    max-width: 100%;
+	display: block;
+	height: auto;
+	max-width: 100%;
 }
 
 // HTML selector border box reset
 @mixin htmlSelectorBBR {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 // Universal selector border box reset
 @mixin universalSelectorBBR {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
 }
 
 // Body selector default font stylings
 @mixin bodyDefaultFontStyle {
-    font-weight: $font-weight-regular;
-    line-height: $line-height-default;
+	font-weight: $font-weight-regular;
+	line-height: $line-height-default;
 }
 
 // Hide text while making it readable for screen readers 
 // Credit for this mixin goes to HugoGiraudel:
 // https://github.com/HugoGiraudel/sass-boilerplate/blob/master/stylesheets/base/_helpers.scss
 @mixin hideText {
-    overflow: hidden;
-    padding: 0;
-    text-indent: 101%;
-    white-space: nowrap;
+	overflow: hidden;
+	padding: 0;
+	text-indent: 101%;
+	white-space: nowrap;
 }
 
 // Hide an element while making it readable for screen readers
 // Credit for this mixin goes to HugoGiraudel:
 // https://github.com/HugoGiraudel/sass-boilerplate/blob/master/stylesheets/base/_helpers.scss
 @mixin hideElement {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px
 }
 
 // Simple hide element, quick and dirty
 @mixin simpleHide {
-    opacity: 0;
-    visibility: hidden;
+	opacity: 0;
+	visibility: hidden;
 }
 
 // Simple show element, quick and dirty
 @mixin simpleShow {
-    opacity: 1;
-    visibility: visible;
+	opacity: 1;
+	visibility: visible;
 }
 
 // Set character limit for paragraphs
 @mixin paragraphCharacterLimit {
-    white-space: wrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 45ch; // By default the character limit will be 45 characters per line
+	white-space: wrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 45ch; // By default the character limit will be 45 characters per line
 
-    @include respond(laptop) {
-        max-width: 60ch; // On larger screens the limit is increased to 60 characters
-    }
+	@include respond(laptop) {
+		max-width: 60ch; // On larger screens the limit is increased to 60 characters
+	}
 
-    /* These character lengths are based on recommended line length for maximum clarity, readability and proportion in print
+	/* These character lengths are based on recommended line length for maximum clarity, readability and proportion in print
 
     These recommendations are based on a number of factors, such as:
     - How people tend to read.
@@ -102,9 +102,9 @@
 
 // Horizontally and vertically center your flexbox container
 @mixin flexCenter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 // More powerful/dynamic flexbox centering mixin
@@ -115,16 +115,23 @@
 // @include flexPosition(space-between) --> use new value for justify-content only
 // @include flexPosition(space-between, base-line) --> use new value for both
 @mixin flexPosition($justifyContent: center, $alignItems: center) {
-    display: flex;
-    justify-content: $justifyContent;
-    align-items: $alignItems;
+	display: flex;
+	justify-content: $justifyContent;
+	align-items: $alignItems;
 }
 
 // Responsive Image Grid
 @mixin imageGrid {
-    display: grid;
-    grid-gap: .75rem;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	display: grid;
+	grid-gap: .75rem;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+// Customizeable Responsive Image/Content Block Grid
+@mixin responsiveGrid($gap: 0.75rem, $minxmax: (30rem, 1fr)) {
+	display: grid;
+	grid-gap: $gap;
+	grid-template-columns: repeat(auto-fit, minmax($minxmax));
 }
 
 // For other mixins, check out these links (Ctrl + Click to open in your default browser):
@@ -170,45 +177,45 @@ For example, for tab-port, 768px / 16px = 48em
 
 @mixin respond($breakpoint) {
 
-    @if $breakpoint==mobile-lg {
-        @media only screen and (min-width: 36em) {
-            @content;
-        }
-    }
+	@if $breakpoint==mobile-lg {
+		@media only screen and (min-width: 36em) {
+			@content;
+		}
+	}
 
-    @if $breakpoint==tab-port {
-        @media only screen and (min-width: 48em) {
-            @content;
-        }
-    }
+	@if $breakpoint==tab-port {
+		@media only screen and (min-width: 48em) {
+			@content;
+		}
+	}
 
-    @if $breakpoint==tab-land {
-        @media only screen and (min-width: 64em) {
-            @content;
-        }
-    }
+	@if $breakpoint==tab-land {
+		@media only screen and (min-width: 64em) {
+			@content;
+		}
+	}
 
-    @if $breakpoint==laptop {
-        @media only screen and (min-width: 85.375em) {
-            @content;
-        }
-    }
+	@if $breakpoint==laptop {
+		@media only screen and (min-width: 85.375em) {
+			@content;
+		}
+	}
 
-    @if $breakpoint==desktop {
-        @media only screen and (min-width: 120em) {
-            @content;
-        }
-    }
+	@if $breakpoint==desktop {
+		@media only screen and (min-width: 120em) {
+			@content;
+		}
+	}
 
-    @if $breakpoint==desktop-lg {
-        @media only screen and (min-width: 160em) {
-            @content;
-        }
-    }
+	@if $breakpoint==desktop-lg {
+		@media only screen and (min-width: 160em) {
+			@content;
+		}
+	}
 
-    @if $breakpoint==desktop-4k {
-        @media only screen and (min-width: 240em) {
-            @content;
-        }
-    }
+	@if $breakpoint==desktop-4k {
+		@media only screen and (min-width: 240em) {
+			@content;
+		}
+	}
 }

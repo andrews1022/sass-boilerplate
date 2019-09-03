@@ -67,3 +67,6 @@ This will be updated over time, once I learn more web development skills and tec
 
 ## UPDATE: ESLint and Prettier Added!
 ESLint and Prettier added! Simply run `npm install` to get the necessary packages. Included in the 'js' folder is a quick line of code. After running `npm install`, you should get some warnings from ESLint/Prettier.
+
+## UPDATE: Jest Added!
+Jest has been added to Maple! Simply run `npm install` to get the necessary packages. Included in "scripts" is "testwatch": "jest --watchAll", this way your text editor will automatically run all tests on save. 
