@@ -134,6 +134,16 @@
 	grid-template-columns: repeat(auto-fit, minmax($minxmax));
 }
 
+// Center-align background image and make it responsive
+// Just remember to add background: url();
+@mixin responsiveBackgroundImage {
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
 // For other mixins, check out these links (Ctrl + Click to open in your default browser):
 // https://medium.com/@justinbrazeau/10-useful-sass-mixins-for-automation-833cdee9d69b
 // https://engageinteractive.co.uk/blog/top-10-scss-mixins
@@ -144,17 +154,10 @@
 
 
 
-// MEDIA QUERY MANAGER
-
-// Credit goes to Jonas Schmedtmann for the idea of the Media Query Manager. I learned this concept from him.
-// Jonas: https://twitter.com/jonasschmedtman, https://www.udemy.com/user/jonasschmedtmann/
-
-/*
-By default, the site you build with this optimized for min-width of 360px.
-From here, just scale upwards/re-align elements as need be.
-This site structure assumes a mobile-first approach, hence the use of min-width
+/* MEDIA QUERY MANAGER
 
 $breakpoint argument choices:
+- mobile-lg (large mobile)
 - tab-port (tablet-portrait)
 - tab-land (tablet-landscape)
 - laptop (standard laptop screen resolution)
@@ -163,12 +166,14 @@ $breakpoint argument choices:
 - desktop-4k (4k resolution desktop)
 
 ** MIN-WIDTH SETTINGS **
-- tab-port == min-width 768px
-- tab-land == min-width 1024px
-- laptop == min-width 1366px
-- desktop == min-width 1920px
-- desktop-lg == min-width 2560px
-- desktop-4k == min-width 3840px
+- mobile-lg == min-width 550px
+- tab-port == min-width 750px
+- tab-land == min-width 1000px
+- laptop == min-width 1300px
+- laptop-lg == min-width 1600px
+- desktop == min-width 1900px 118.75
+- desktop-lg == min-width 2500px 156.25
+- desktop-4k == min-width 3800px 237.5
 
 1em = 16px (16px is the default browser font-size)
 Each em amount is the min-width listed above divided 16
@@ -178,43 +183,49 @@ For example, for tab-port, 768px / 16px = 48em
 @mixin respond($breakpoint) {
 
 	@if $breakpoint==mobile-lg {
-		@media only screen and (min-width: 36em) {
+		@media only screen and (min-width: 34.375em) {
 			@content;
 		}
 	}
 
 	@if $breakpoint==tab-port {
-		@media only screen and (min-width: 48em) {
+		@media only screen and (min-width: 46.875em) {
 			@content;
 		}
 	}
 
 	@if $breakpoint==tab-land {
-		@media only screen and (min-width: 64em) {
+		@media only screen and (min-width: 62.5em) {
 			@content;
 		}
 	}
 
 	@if $breakpoint==laptop {
-		@media only screen and (min-width: 85.375em) {
+		@media only screen and (min-width: 81.25em) {
+			@content;
+		}
+	}
+
+	@if $breakpoint==laptop-lg {
+		@media only screen and (min-width: 100em) {
 			@content;
 		}
 	}
 
 	@if $breakpoint==desktop {
-		@media only screen and (min-width: 120em) {
+		@media only screen and (min-width: 118.75em) {
 			@content;
 		}
 	}
 
 	@if $breakpoint==desktop-lg {
-		@media only screen and (min-width: 160em) {
+		@media only screen and (min-width: 156.25em) {
 			@content;
 		}
 	}
 
 	@if $breakpoint==desktop-4k {
-		@media only screen and (min-width: 240em) {
+		@media only screen and (min-width: 237.5em) {
 			@content;
 		}
 	}

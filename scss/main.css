@@ -1,9 +1,7 @@
-/*
-By default, the site you build with this optimized for min-width of 360px.
-From here, just scale upwards/re-align elements as need be.
-This site structure assumes a mobile-first approach, hence the use of min-width
+/* MEDIA QUERY MANAGER
 
 $breakpoint argument choices:
+- mobile-lg (large mobile)
 - tab-port (tablet-portrait)
 - tab-land (tablet-landscape)
 - laptop (standard laptop screen resolution)
@@ -12,12 +10,14 @@ $breakpoint argument choices:
 - desktop-4k (4k resolution desktop)
 
 ** MIN-WIDTH SETTINGS **
-- tab-port == min-width 768px
-- tab-land == min-width 1024px
-- laptop == min-width 1366px
-- desktop == min-width 1920px
-- desktop-lg == min-width 2560px
-- desktop-4k == min-width 3840px
+- mobile-lg == min-width 550px
+- tab-port == min-width 750px
+- tab-land == min-width 1000px
+- laptop == min-width 1300px
+- laptop-lg == min-width 1600px
+- desktop == min-width 1900px 118.75
+- desktop-lg == min-width 2500px 156.25
+- desktop-4k == min-width 3800px 237.5
 
 1em = 16px (16px is the default browser font-size)
 Each em amount is the min-width listed above divided 16
@@ -29,43 +29,43 @@ html {
   font-size: 62.5%;
 }
 
-@media only screen and (min-width: 36em) {
+@media only screen and (min-width: 34.375em) {
   html {
     font-size: 66%;
   }
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 46.875em) {
   html {
     font-size: 69.5%;
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 62.5em) {
   html {
     font-size: 73%;
   }
 }
 
-@media only screen and (min-width: 85.375em) {
+@media only screen and (min-width: 81.25em) {
   html {
     font-size: 76.5%;
   }
 }
 
-@media only screen and (min-width: 120em) {
+@media only screen and (min-width: 118.75em) {
   html {
     font-size: 80%;
   }
 }
 
-@media only screen and (min-width: 160em) {
+@media only screen and (min-width: 156.25em) {
   html {
     font-size: 83.5%;
   }
 }
 
-@media only screen and (min-width: 240em) {
+@media only screen and (min-width: 237.5em) {
   html {
     font-size: 87%;
   }
@@ -82,7 +82,7 @@ html {
 
 body {
   font-weight: 400;
-  line-height: 1.45;
+  line-height: 145%;
 }
 
 img {
@@ -113,19 +113,19 @@ ol {
   font-size: 3.25rem;
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 62.5em) {
   .u-heading-primary {
     font-size: 4rem;
   }
 }
 
-@media only screen and (min-width: 85.375em) {
+@media only screen and (min-width: 81.25em) {
   .u-heading-primary {
     font-size: 4.75rem;
   }
 }
 
-@media only screen and (min-width: 240em) {
+@media only screen and (min-width: 237.5em) {
   .u-heading-primary {
     font-size: 5.5rem;
   }
@@ -135,19 +135,19 @@ ol {
   font-size: 2.5rem;
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 62.5em) {
   .u-heading-secondary {
     font-size: 3.25rem;
   }
 }
 
-@media only screen and (min-width: 85.375em) {
+@media only screen and (min-width: 81.25em) {
   .u-heading-secondary {
     font-size: 3.75rem;
   }
 }
 
-@media only screen and (min-width: 240em) {
+@media only screen and (min-width: 237.5em) {
   .u-heading-secondary {
     font-size: 4.25rem;
   }
@@ -157,19 +157,19 @@ ol {
   font-size: 2.25rem;
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 62.5em) {
   .u-heading-tertiary {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 85.375em) {
+@media only screen and (min-width: 81.25em) {
   .u-heading-tertiary {
     font-size: 2.75rem;
   }
 }
 
-@media only screen and (min-width: 240em) {
+@media only screen and (min-width: 237.5em) {
   .u-heading-tertiary {
     font-size: 3rem;
   }
@@ -179,13 +179,13 @@ ol {
   font-size: 1.75rem;
 }
 
-@media only screen and (min-width: 85.375em) {
+@media only screen and (min-width: 81.25em) {
   .u-heading-quaternary {
     font-size: 2rem;
   }
 }
 
-@media only screen and (min-width: 240em) {
+@media only screen and (min-width: 237.5em) {
   .u-heading-quaternary {
     font-size: 2.5rem;
   }
@@ -195,7 +195,7 @@ ol {
   font-size: 1.6rem;
 }
 
-@media only screen and (min-width: 240em) {
+@media only screen and (min-width: 237.5em) {
   .u-paragraph {
     font-size: 1.8rem;
   }

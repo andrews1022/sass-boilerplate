@@ -155,40 +155,39 @@ $txt-no-dec: none;
 // ------------------------- LINE HEIGHT -------------------------
 // Set to 145% by default
 // Best to use anywhere from 125% - 150%
-$lh-def: 1.45;
-$lh-tny: 1.2;
-$lh-sml: 1.25;
-$lh-med: 1.3;
-$lh-lg: 1.35;
-$lh-hg: 1.4;
-$lh-msv: 1.5;
+$lh-def: 145%; // Default value
+$lh-tny-1: 100%;
+$lh-tny-2: 105%;
+$lh-sml-1: 110%;
+$lh-sml-2: 115%;
+$lh-med-1: 120%;
+$lh-med-2: 125%;
+$lh-lg-1: 130%;
+$lh-lg-2: 135%;
+$lh-hg-1: 140%;
+$lh-hg-2: 150%;
 
 // ------------------------- FONT-FAMILY -------------------------
 // Change as per your project
-$txt-brand: sans-serif; // use this for your company/brand logo (if applicable)
-$txt-main: sans-serif; // use this for the overall site
+$txt-brand: sans-serif; // Use this for your company/brand logo (if applicable)
+$txt-main: sans-serif; // Use this for the overall site (if applicable)
 
 // ------------------------- LIST DECORATION -------------------------
-// Removes those annoying bullets from lists
+// Removes bullets from lists
 $list-no-dec: none;
 
 // ------------------------- WRAPPER -------------------------
 // Various wrapper sizes (used for width)
 $wrap-tny-1: 50%;
 $wrap-tny-2: 55%;
-
 $wrap-sml-1: 60%;
 $wrap-sml-2: 65%;
-
 $wrap-med-1: 70%;
 $wrap-med-2: 75%;
-
 $wrap-lg-1: 80%;
 $wrap-lg-2: 85%;
-
 $wrap-xlg-1: 90%;
 $wrap-xlg-2: 95%;
-
 $wrap-full: 100%;
 
 // ------------------------- MARGIN CENTER -------------------------
@@ -217,8 +216,7 @@ $fw-black: 900;
 // ------------------------- FONT SIZES -------------------------
 // Quick and easy font-size increase based on screen size (increment of 3.5
 // Furthermore, precise styling will be needed, but this covers a lot of ground
-$fnt-sz-def: 62.5%;
-
+$fnt-sz-def: 62.5%; // Default value
 $fnt-sz-mbl-lg: 66%;
 $fnt-sz-tab-port: 69.5%;
 $fnt-sz-tab-land: 73%;
