@@ -1,28 +1,3 @@
-/* MEDIA QUERY MANAGER
-
-$breakpoint argument choices:
-- mobile-lg (large mobile)
-- tab-port (tablet-portrait)
-- tab-land (tablet-landscape)
-- laptop (standard laptop screen resolution)
-- desktop (standard desktop screen resolution)
-- desktop-lg (1440p resolution desktop)
-- desktop-4k (4k resolution desktop)
-
-** MIN-WIDTH SETTINGS **
-- mobile-lg == min-width 550px
-- tab-port == min-width 750px
-- tab-land == min-width 1000px
-- laptop == min-width 1300px
-- laptop-lg == min-width 1600px
-- desktop == min-width 1900px 118.75
-- desktop-lg == min-width 2500px 156.25
-- desktop-4k == min-width 3800px 237.5
-
-1em = 16px (16px is the default browser font-size)
-Each em amount is the min-width listed above divided 16
-For example, for tab-port, 768px / 16px = 48em
-*/
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -50,6 +25,12 @@ html {
 @media only screen and (min-width: 81.25em) {
   html {
     font-size: 76.5%;
+  }
+}
+
+@media only screen and (min-width: 100em) {
+  html {
+    font-size: 78.25%;
   }
 }
 
@@ -96,108 +77,44 @@ a:visited {
   text-decoration: none;
 }
 
-ul,
-ol {
+ol,
+ul {
   list-style: none;
 }
 
-.u-center-text {
-  text-align: center !important;
+.text-center {
+  text-align: center;
 }
 
-.u-margin-center {
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.margin-center {
   margin: 0 auto;
 }
 
-.u-heading-primary {
-  font-size: 3.25rem;
+.white {
+  color: #fff;
 }
 
-@media only screen and (min-width: 62.5em) {
-  .u-heading-primary {
-    font-size: 4rem;
-  }
+.black {
+  color: #000;
 }
 
-@media only screen and (min-width: 81.25em) {
-  .u-heading-primary {
-    font-size: 4.75rem;
-  }
+.bg-white {
+  background-color: #fff;
 }
 
-@media only screen and (min-width: 237.5em) {
-  .u-heading-primary {
-    font-size: 5.5rem;
-  }
-}
-
-.u-heading-secondary {
-  font-size: 2.5rem;
-}
-
-@media only screen and (min-width: 62.5em) {
-  .u-heading-secondary {
-    font-size: 3.25rem;
-  }
-}
-
-@media only screen and (min-width: 81.25em) {
-  .u-heading-secondary {
-    font-size: 3.75rem;
-  }
-}
-
-@media only screen and (min-width: 237.5em) {
-  .u-heading-secondary {
-    font-size: 4.25rem;
-  }
-}
-
-.u-heading-tertiary {
-  font-size: 2.25rem;
-}
-
-@media only screen and (min-width: 62.5em) {
-  .u-heading-tertiary {
-    font-size: 2.5rem;
-  }
-}
-
-@media only screen and (min-width: 81.25em) {
-  .u-heading-tertiary {
-    font-size: 2.75rem;
-  }
-}
-
-@media only screen and (min-width: 237.5em) {
-  .u-heading-tertiary {
-    font-size: 3rem;
-  }
-}
-
-.u-heading-quaternary {
-  font-size: 1.75rem;
-}
-
-@media only screen and (min-width: 81.25em) {
-  .u-heading-quaternary {
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (min-width: 237.5em) {
-  .u-heading-quaternary {
-    font-size: 2.5rem;
-  }
-}
-
-.u-paragraph {
-  font-size: 1.6rem;
-}
-
-@media only screen and (min-width: 237.5em) {
-  .u-paragraph {
-    font-size: 1.8rem;
-  }
+.bg-black {
+  background-color: #000;
 }
 /*# sourceMappingURL=main.css.map */

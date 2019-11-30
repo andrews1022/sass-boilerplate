@@ -1,2 +1,2 @@
 ## Pages Folder
-Place any other HTML files for other pages of your site here!
+Any additional pages you're going to have for your site can go in this folder.
