@@ -37,7 +37,7 @@
 // Body selector default font stylings
 @mixin default-font-styles {
 	font-weight: $font-weight-regular;
-	line-height: $line-height-default;
+	line-height: $line-height-145;
 }
 
 // Hide text while making it readable for screen readers
@@ -112,19 +112,27 @@
 	grid-template-columns: repeat(auto-fit, minmax($minxmax));
 }
 
-// Center-align background image and make it responsive
-@mixin responsive-background-image {
+// Center-aligned background image full height
+@mixin responsive-background-image-full-height {
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
 
-// Customizable background image sizing
-@mixin custom-responsive-background-image($height: 100vh) {
+// Center-aligned background image customizable height
+@mixin responsive-background-image-customizable-height($height: 100vh) {
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: $height;
+}
+
+// Center-aligned background image customizable height & positions
+@mixin responsive-background-image-customizable-both($position: top center, $repeat: no-repeat, $size: cover, $height: 100vh) {
+	background-position: $position;
+	background-repeat: $repeat;
+	background-size: $size;
 	height: $height;
 }
 

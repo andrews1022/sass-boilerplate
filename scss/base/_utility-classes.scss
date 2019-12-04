@@ -1,38 +1,46 @@
-// ---------- TEXT ALIGNMENT ----------
-.text-center {
+// ------------------------------ TEXT ALIGNMENT ------------------------------
+.txt-ac {
 	text-align: $text-center;
 }
 
-.text-left {
+.txt-al {
 	text-align: $text-left;
 }
 
-.text-right {
+.txt-ar {
 	text-align: $text-right;
 }
 
-.text-justify {
+.txt-aj {
 	text-align: $text-justify;
 }
 
-// ---------- MARGIN CENTER ----------
-.margin-center {
+
+// ------------------------------ MARGIN CENTER ------------------------------
+.mc {
 	margin: $margin-center;
 }
 
-// ---------- WHITE/BLACK ----------
-.white {
+
+// ------------------------------ WHITE/BLACK ------------------------------
+.wht {
 	color: $white;
 }
 
-.black {
+.blk {
 	color: $black;
 }
 
-.bg-white {
+.bg-wht {
 	background-color: $white;
 }
 
-.bg-black {
+.bg-blk {
 	background-color: $black;
+}
+
+
+// ------------------------------ FLEX CENTER ------------------------------
+.flx-c {
+	@include flex-center;
 }

@@ -4,381 +4,172 @@ $black: #000;
 
 
 // ------------------------- GREYS -------------------------
-$grey-extra-light-1: #f4f4f4;
-$grey-extra-light-2: #eee;
-$grey-extra-light-3: #ddd;
-
-$grey-light-1: #ccc;
-$grey-light-2: #bbb;
-$grey-light-3: #aaa;
-
-$grey-medium-1: #999;
-$grey-medium-2: #888;
-$grey-medium-3: #777;
-
-$grey-dark-1: #666;
-$grey-dark-2: #555;
-
-$grey-extra-dark-1: #444;
-$grey-extra-dark-2: #333;
-$grey-extra-dark-3: #222;
-$grey-extra-dark-4: #111;
+$grey-1: #f0f0f0;
+$grey-2: #e0e0e0;
+$grey-3: #d0d0d0;
+$grey-4: #c0c0c0;
+$grey-5: #b0b0b0;
+$grey-6: #a0a0a0;
+$grey-7: #8f8f8f;
+$grey-8: #808080;
+$grey-9: #707070;
+$grey-10: #606060;
+$grey-11: #505050;
+$grey-12: #404040;
+$grey-13: #303030;
+$grey-14: #202020;
+$grey-15: #101010;
 
 
 // ------------------------- IMPORTANT COLORS -------------------------
+// Update as your project
 $color-primary: #fff;
-$color-primary-light-1: lighten($color-primary, 5%);
-$color-primary-light-2: lighten($color-primary, 10%);
-$color-primary-light-3: lighten($color-primary, 15%);
-$color-primary-light-4: lighten($color-primary, 20%);
-$color-primary-light-5: lighten($color-primary, 25%);
-$color-primary-light-6: lighten($color-primary, 30%);
-$color-primary-light-7: lighten($color-primary, 35%);
-$color-primary-light-8: lighten($color-primary, 40%);
-$color-primary-light-9: lighten($color-primary, 45%);
-$color-primary-light-10: lighten($color-primary, 50%);
-$color-primary-dark-1: darken($color-primary, 5%);
-$color-primary-dark-2: darken($color-primary, 10%);
-$color-primary-dark-3: darken($color-primary, 15%);
-$color-primary-dark-4: darken($color-primary, 20%);
-$color-primary-dark-5: darken($color-primary, 25%);
-$color-primary-dark-6: darken($color-primary, 30%);
-$color-primary-dark-7: darken($color-primary, 35%);
-$color-primary-dark-8: darken($color-primary, 40%);
-$color-primary-dark-9: darken($color-primary, 45%);
-$color-primary-dark-10: darken($color-primary, 50%);
-
 $color-secondary: #fff;
-$color-secondary-light-1: lighten($color-secondary, 5%);
-$color-secondary-light-2: lighten($color-secondary, 10%);
-$color-secondary-light-3: lighten($color-secondary, 15%);
-$color-secondary-light-4: lighten($color-secondary, 20%);
-$color-secondary-light-5: lighten($color-secondary, 25%);
-$color-secondary-light-6: lighten($color-secondary, 30%);
-$color-secondary-light-7: lighten($color-secondary, 35%);
-$color-secondary-light-8: lighten($color-secondary, 40%);
-$color-secondary-light-9: lighten($color-secondary, 45%);
-$color-secondary-light-10: lighten($color-secondary, 50%);
-$color-secondary-dark-1: darken($color-secondary, 5%);
-$color-secondary-dark-2: darken($color-secondary, 10%);
-$color-secondary-dark-3: darken($color-secondary, 15%);
-$color-secondary-dark-4: darken($color-secondary, 20%);
-$color-secondary-dark-5: darken($color-secondary, 25%);
-$color-secondary-dark-6: darken($color-secondary, 30%);
-$color-secondary-dark-7: darken($color-secondary, 35%);
-$color-secondary-dark-8: darken($color-secondary, 40%);
-$color-secondary-dark-9: darken($color-secondary, 45%);
-$color-secondary-dark-10: darken($color-secondary, 50%);
-
 $color-tertiary: #fff;
-$color-tertiary-light-1: lighten($color-tertiary, 5%);
-$color-tertiary-light-2: lighten($color-tertiary, 10%);
-$color-tertiary-light-3: lighten($color-tertiary, 15%);
-$color-tertiary-light-4: lighten($color-tertiary, 20%);
-$color-tertiary-light-5: lighten($color-tertiary, 25%);
-$color-tertiary-light-6: lighten($color-tertiary, 30%);
-$color-tertiary-light-7: lighten($color-tertiary, 35%);
-$color-tertiary-light-8: lighten($color-tertiary, 40%);
-$color-tertiary-light-9: lighten($color-tertiary, 45%);
-$color-tertiary-light-10: lighten($color-tertiary, 50%);
-$color-tertiary-dark-1: darken($color-tertiary, 5%);
-$color-tertiary-dark-2: darken($color-tertiary, 10%);
-$color-tertiary-dark-3: darken($color-tertiary, 15%);
-$color-tertiary-dark-4: darken($color-tertiary, 20%);
-$color-tertiary-dark-5: darken($color-tertiary, 25%);
-$color-tertiary-dark-6: darken($color-tertiary, 30%);
-$color-tertiary-dark-7: darken($color-tertiary, 35%);
-$color-tertiary-dark-8: darken($color-tertiary, 40%);
-$color-tertiary-dark-9: darken($color-tertiary, 45%);
-$color-tertiary-dark-10: darken($color-tertiary, 50%);
-
 $color-quaternary: #fff;
-$color-quaternary-light-1: lighten($color-quaternary, 5%);
-$color-quaternary-light-2: lighten($color-quaternary, 10%);
-$color-quaternary-light-3: lighten($color-quaternary, 15%);
-$color-quaternary-light-4: lighten($color-quaternary, 20%);
-$color-quaternary-light-5: lighten($color-quaternary, 25%);
-$color-quaternary-light-6: lighten($color-quaternary, 30%);
-$color-quaternary-light-7: lighten($color-quaternary, 35%);
-$color-quaternary-light-8: lighten($color-quaternary, 40%);
-$color-quaternary-light-9: lighten($color-quaternary, 45%);
-$color-quaternary-light-10: lighten($color-quaternary, 50%);
-$color-quaternary-dark-1: darken($color-quaternary, 5%);
-$color-quaternary-dark-2: darken($color-quaternary, 10%);
-$color-quaternary-dark-3: darken($color-quaternary, 15%);
-$color-quaternary-dark-4: darken($color-quaternary, 20%);
-$color-quaternary-dark-5: darken($color-quaternary, 25%);
-$color-quaternary-dark-6: darken($color-quaternary, 30%);
-$color-quaternary-dark-7: darken($color-quaternary, 35%);
-$color-quaternary-dark-8: darken($color-quaternary, 40%);
-$color-quaternary-dark-9: darken($color-quaternary, 45%);
-$color-quaternary-dark-10: darken($color-quaternary, 50%);
 
 
 // ------------------------- FLAT COLORS -------------------------
-$color-red: #e94735;
-$color-red-light-1: lighten($color-red, 5%);
-$color-red-light-2: lighten($color-red, 10%);
-$color-red-light-3: lighten($color-red, 15%);
-$color-red-light-4: lighten($color-red, 20%);
-$color-red-light-5: lighten($color-red, 25%);
-$color-red-light-6: lighten($color-red, 30%);
-$color-red-light-7: lighten($color-red, 35%);
-$color-red-light-8: lighten($color-red, 40%);
-$color-red-light-9: lighten($color-red, 45%);
-$color-red-light-10: lighten($color-red, 50%);
-$color-red-dark-1: darken($color-red, 5%);
-$color-red-dark-2: darken($color-red, 10%);
-$color-red-dark-3: darken($color-red, 15%);
-$color-red-dark-4: darken($color-red, 20%);
-$color-red-dark-5: darken($color-red, 25%);
-$color-red-dark-6: darken($color-red, 30%);
-$color-red-dark-7: darken($color-red, 35%);
-$color-red-dark-8: darken($color-red, 40%);
-$color-red-dark-9: darken($color-red, 45%);
-$color-red-dark-10: darken($color-red, 50%);
+// Colors from: http://www.flatcolorsui.com/
+$color-red-1: #ffccbc;
+$color-red-2: #ffac9c;
+$color-red-3: #ff8c7c;
+$color-red-4: #ff7c6c;
+$color-red-5: #ff6c5c;
+$color-red-6: #f75c4c;
+$color-red-7: #e74c3c;
+$color-red-8: #d73c2c;
+$color-red-9: #c72c1c;
+$color-red-10: #b61d0c;
+$color-red-11: #a70c00;
+$color-red-12: #870000;
 
-$color-orange: #e67e22;
-$color-orange-light-1: lighten($color-orange, 5%);
-$color-orange-light-2: lighten($color-orange, 10%);
-$color-orange-light-3: lighten($color-orange, 15%);
-$color-orange-light-4: lighten($color-orange, 20%);
-$color-orange-light-5: lighten($color-orange, 25%);
-$color-orange-light-6: lighten($color-orange, 30%);
-$color-orange-light-7: lighten($color-orange, 35%);
-$color-orange-light-8: lighten($color-orange, 40%);
-$color-orange-light-9: lighten($color-orange, 45%);
-$color-orange-light-10: lighten($color-orange, 50%);
-$color-orange-dark-1: darken($color-orange, 5%);
-$color-orange-dark-2: darken($color-orange, 10%);
-$color-orange-dark-3: darken($color-orange, 15%);
-$color-orange-dark-4: darken($color-orange, 20%);
-$color-orange-dark-5: darken($color-orange, 25%);
-$color-orange-dark-6: darken($color-orange, 30%);
-$color-orange-dark-7: darken($color-orange, 35%);
-$color-orange-dark-8: darken($color-orange, 40%);
-$color-orange-dark-9: darken($color-orange, 45%);
-$color-orange-dark-10: darken($color-orange, 50%);
+$color-yellow-1: #fde3a5;
+$color-yellow-2: #ffcf4b;
+$color-yellow-3: #f9bf3b;
+$color-yellow-4: #f9b32f;
+$color-yellow-5: #f5ab35;
+$color-yellow-6: #f39c12;
 
-$color-yellow: #f1c40f;
-$color-yellow-light-1: lighten($color-yellow, 5%);
-$color-yellow-light-2: lighten($color-yellow, 10%);
-$color-yellow-light-3: lighten($color-yellow, 15%);
-$color-yellow-light-4: lighten($color-yellow, 20%);
-$color-yellow-light-5: lighten($color-yellow, 25%);
-$color-yellow-light-6: lighten($color-yellow, 30%);
-$color-yellow-light-7: lighten($color-yellow, 35%);
-$color-yellow-light-8: lighten($color-yellow, 40%);
-$color-yellow-light-9: lighten($color-yellow, 45%);
-$color-yellow-light-10: lighten($color-yellow, 50%);
-$color-yellow-dark-1: darken($color-yellow, 5%);
-$color-yellow-dark-2: darken($color-yellow, 10%);
-$color-yellow-dark-3: darken($color-yellow, 15%);
-$color-yellow-dark-4: darken($color-yellow, 20%);
-$color-yellow-dark-5: darken($color-yellow, 25%);
-$color-yellow-dark-6: darken($color-yellow, 30%);
-$color-yellow-dark-7: darken($color-yellow, 35%);
-$color-yellow-dark-8: darken($color-yellow, 40%);
-$color-yellow-dark-9: darken($color-yellow, 45%);
-$color-yellow-dark-10: darken($color-yellow, 50%);
+$color-orange-1: #f1892d;
+$color-orange-2: #e67e22;
+$color-orange-3: #d87400;
+$color-orange-4: #c86400;
+$color-orange-5: #b85400;
+$color-orange-6: #a84410;
 
-$color-turquoise: #1abc9c;
-$color-turquoise-light-1: lighten($color-turquoise, 5%);
-$color-turquoise-light-2: lighten($color-turquoise, 10%);
-$color-turquoise-light-3: lighten($color-turquoise, 15%);
-$color-turquoise-light-4: lighten($color-turquoise, 20%);
-$color-turquoise-light-5: lighten($color-turquoise, 25%);
-$color-turquoise-light-6: lighten($color-turquoise, 30%);
-$color-turquoise-light-7: lighten($color-turquoise, 35%);
-$color-turquoise-light-8: lighten($color-turquoise, 40%);
-$color-turquoise-light-9: lighten($color-turquoise, 45%);
-$color-turquoise-light-10: lighten($color-turquoise, 50%);
-$color-turquoise-dark-1: darken($color-turquoise, 5%);
-$color-turquoise-dark-2: darken($color-turquoise, 10%);
-$color-turquoise-dark-3: darken($color-turquoise, 15%);
-$color-turquoise-dark-4: darken($color-turquoise, 20%);
-$color-turquoise-dark-5: darken($color-turquoise, 25%);
-$color-turquoise-dark-6: darken($color-turquoise, 30%);
-$color-turquoise-dark-7: darken($color-turquoise, 35%);
-$color-turquoise-dark-8: darken($color-turquoise, 40%);
-$color-turquoise-dark-9: darken($color-turquoise, 45%);
-$color-turquoise-dark-10: darken($color-turquoise, 50%);
+$color-peach-1: #ffdcb5;
+$color-peach-2: #ffc29b;
+$color-peach-3: #ffb28b;
+$color-peach-4: #ffa27b;
+$color-peach-5: #ff926b;
+$color-peach-6: #f3825b;
+$color-peach-7: #e3724b;
+$color-peach-8: #d3623b;
+$color-peach-9: #c3522b;
+$color-peach-10: #b3421b;
+$color-peach-11: #a3320b;
+$color-peach-12: #932210;
 
-$color-green: #2ecc71;
-$color-green-light-1: lighten($color-green, 5%);
-$color-green-light-2: lighten($color-green, 10%);
-$color-green-light-3: lighten($color-green, 15%);
-$color-green-light-4: lighten($color-green, 20%);
-$color-green-light-5: lighten($color-green, 25%);
-$color-green-light-6: lighten($color-green, 30%);
-$color-green-light-7: lighten($color-green, 35%);
-$color-green-light-8: lighten($color-green, 40%);
-$color-green-light-9: lighten($color-green, 45%);
-$color-green-light-10: lighten($color-green, 50%);
-$color-green-dark-1: darken($color-green, 5%);
-$color-green-dark-2: darken($color-green, 10%);
-$color-green-dark-3: darken($color-green, 15%);
-$color-green-dark-4: darken($color-green, 20%);
-$color-green-dark-5: darken($color-green, 25%);
-$color-green-dark-6: darken($color-green, 30%);
-$color-green-dark-7: darken($color-green, 35%);
-$color-green-dark-8: darken($color-green, 40%);
-$color-green-dark-9: darken($color-green, 45%);
-$color-green-dark-10: darken($color-green, 50%);
+$color-brown-1: #f6c4a3;
+$color-brown-2: #eab897;
+$color-brown-3: #dfad8c;
+$color-brown-4: #d4a281;
+$color-brown-5: #ce9c7b;
+$color-brown-6: #be8c6b;
+$color-brown-7: #ae7c5b;
+$color-brown-8: #9e6c4b;
+$color-brown-9: #8e5c3b;
+$color-brown-10: #7e4c2b;
+$color-brown-11: #6e3c1b;
+$color-brown-12: #5e2c0b;
 
-$color-sky-blue: #3498db;
-$color-sky-blue-light-1: lighten($color-sky-blue, 5%);
-$color-sky-blue-light-2: lighten($color-sky-blue, 10%);
-$color-sky-blue-light-3: lighten($color-sky-blue, 15%);
-$color-sky-blue-light-4: lighten($color-sky-blue, 20%);
-$color-sky-blue-light-5: lighten($color-sky-blue, 25%);
-$color-sky-blue-light-6: lighten($color-sky-blue, 30%);
-$color-sky-blue-light-7: lighten($color-sky-blue, 35%);
-$color-sky-blue-light-8: lighten($color-sky-blue, 40%);
-$color-sky-blue-light-9: lighten($color-sky-blue, 45%);
-$color-sky-blue-light-10: lighten($color-sky-blue, 50%);
-$color-sky-blue-dark-1: darken($color-sky-blue, 5%);
-$color-sky-blue-dark-2: darken($color-sky-blue, 10%);
-$color-sky-blue-dark-3: darken($color-sky-blue, 15%);
-$color-sky-blue-dark-4: darken($color-sky-blue, 20%);
-$color-sky-blue-dark-5: darken($color-sky-blue, 25%);
-$color-sky-blue-dark-6: darken($color-sky-blue, 30%);
-$color-sky-blue-dark-7: darken($color-sky-blue, 35%);
-$color-sky-blue-dark-8: darken($color-sky-blue, 40%);
-$color-sky-blue-dark-9: darken($color-sky-blue, 45%);
-$color-sky-blue-dark-10: darken($color-sky-blue, 50%);
+$color-pink-1: #ffbcd8;
+$color-pink-2: #ff8cc8;
+$color-pink-3: #ff7cb8;
+$color-pink-4: #ff6ca8;
+$color-pink-5: #fa5c98;
+$color-pink-6: #ea4c88;
+$color-pink-7: #da3c78;
+$color-pink-8: #ca2c68;
+$color-pink-9: #ba1c58;
+$color-pink-10: #aa0c48;
+$color-pink-11: #9a0038;
+$color-pink-12: #8a0028;
 
-$color-navy-blue: #003171;
-$color-navy-blue-light-1: lighten($color-navy-blue, 5%);
-$color-navy-blue-light-2: lighten($color-navy-blue, 10%);
-$color-navy-blue-light-3: lighten($color-navy-blue, 15%);
-$color-navy-blue-light-4: lighten($color-navy-blue, 20%);
-$color-navy-blue-light-5: lighten($color-navy-blue, 25%);
-$color-navy-blue-light-6: lighten($color-navy-blue, 30%);
-$color-navy-blue-light-7: lighten($color-navy-blue, 35%);
-$color-navy-blue-light-8: lighten($color-navy-blue, 40%);
-$color-navy-blue-light-9: lighten($color-navy-blue, 45%);
-$color-navy-blue-light-10: lighten($color-navy-blue, 50%);
-$color-navy-blue-dark-1: darken($color-navy-blue, 5%);
-$color-navy-blue-dark-2: darken($color-navy-blue, 10%);
-$color-navy-blue-dark-3: darken($color-navy-blue, 15%);
-$color-navy-blue-dark-4: darken($color-navy-blue, 20%);
-$color-navy-blue-dark-5: darken($color-navy-blue, 25%);
-$color-navy-blue-dark-6: darken($color-navy-blue, 30%);
-$color-navy-blue-dark-7: darken($color-navy-blue, 35%);
-$color-navy-blue-dark-8: darken($color-navy-blue, 40%);
-$color-navy-blue-dark-9: darken($color-navy-blue, 45%);
-$color-navy-blue-dark-10: darken($color-navy-blue, 50%);
+$color-purple-1: #dcc6e0;
+$color-purple-2: #cea0e4;
+$color-purple-3: #be90d4;
+$color-purple-4: #ab69c6;
+$color-purple-5: #9b59b6;
+$color-purple-6: #8e44ad;
+$color-purple-7: #7e349d;
+$color-purple-8: #6e248d;
+$color-purple-9: #5e147d;
+$color-purple-10: #4e046d;
+$color-purple-11: #3e005d;
+$color-purple-12: #1e003d;
 
-$color-purple: #9b59b6;
-$color-purple-light-1: lighten($color-purple, 5%);
-$color-purple-light-2: lighten($color-purple, 10%);
-$color-purple-light-3: lighten($color-purple, 15%);
-$color-purple-light-4: lighten($color-purple, 20%);
-$color-purple-light-5: lighten($color-purple, 25%);
-$color-purple-light-6: lighten($color-purple, 30%);
-$color-purple-light-7: lighten($color-purple, 35%);
-$color-purple-light-8: lighten($color-purple, 40%);
-$color-purple-light-9: lighten($color-purple, 45%);
-$color-purple-light-10: lighten($color-purple, 50%);
-$color-purple-dark-1: darken($color-purple, 5%);
-$color-purple-dark-2: darken($color-purple, 10%);
-$color-purple-dark-3: darken($color-purple, 15%);
-$color-purple-dark-4: darken($color-purple, 20%);
-$color-purple-dark-5: darken($color-purple, 25%);
-$color-purple-dark-6: darken($color-purple, 30%);
-$color-purple-dark-7: darken($color-purple, 35%);
-$color-purple-dark-8: darken($color-purple, 40%);
-$color-purple-dark-9: darken($color-purple, 45%);
-$color-purple-dark-10: darken($color-purple, 50%);
+$color-blue-1: #39d5ff;
+$color-blue-2: #29c5ff;
+$color-blue-3: #19b5fe;
+$color-blue-4: #22a7f0;
+$color-blue-5: #1297e0;
+$color-blue-6: #0287d0;
+$color-blue-7: #0077c0;
+$color-blue-8: #0067b0;
+$color-blue-9: #0057a0;
+$color-blue-10: #004790;
+$color-blue-11: #003780;
+$color-blue-12: #102770;
 
-$color-pink: #f4799e;
-$color-pink-light-1: lighten($color-pink, 5%);
-$color-pink-light-2: lighten($color-pink, 10%);
-$color-pink-light-3: lighten($color-pink, 15%);
-$color-pink-light-4: lighten($color-pink, 20%);
-$color-pink-light-5: lighten($color-pink, 25%);
-$color-pink-light-6: lighten($color-pink, 30%);
-$color-pink-light-7: lighten($color-pink, 35%);
-$color-pink-light-8: lighten($color-pink, 40%);
-$color-pink-light-9: lighten($color-pink, 45%);
-$color-pink-light-10: lighten($color-pink, 50%);
-$color-pink-dark-1: darken($color-pink, 5%);
-$color-pink-dark-2: darken($color-pink, 10%);
-$color-pink-dark-3: darken($color-pink, 15%);
-$color-pink-dark-4: darken($color-pink, 20%);
-$color-pink-dark-5: darken($color-pink, 25%);
-$color-pink-dark-6: darken($color-pink, 30%);
-$color-pink-dark-7: darken($color-pink, 35%);
-$color-pink-dark-8: darken($color-pink, 40%);
-$color-pink-dark-9: darken($color-pink, 45%);
-$color-pink-dark-10: darken($color-pink, 50%);
+$color-turquoise-1: #5efaf7;
+$color-turquoise-2: #51f5ea;
+$color-turquoise-3: #47ebe0;
+$color-turquoise-4: #37dbd0;
+$color-turquoise-5: #27cbc0;
+$color-turquoise-6: #17bbb0;
+$color-turquoise-7: #07aba0;
+$color-turquoise-8: #009b90;
+$color-turquoise-9: #008b80;
+$color-turquoise-10: #007b70;
+$color-turquoise-11: #106b60;
+$color-turquoise-12: #005b50;
 
-$color-wet-asphalt: #34495e;
-$color-wet-asphalt-light-1: lighten($color-wet-asphalt, 5%);
-$color-wet-asphalt-light-2: lighten($color-wet-asphalt, 10%);
-$color-wet-asphalt-light-3: lighten($color-wet-asphalt, 15%);
-$color-wet-asphalt-light-4: lighten($color-wet-asphalt, 20%);
-$color-wet-asphalt-light-5: lighten($color-wet-asphalt, 25%);
-$color-wet-asphalt-light-6: lighten($color-wet-asphalt, 30%);
-$color-wet-asphalt-light-7: lighten($color-wet-asphalt, 35%);
-$color-wet-asphalt-light-8: lighten($color-wet-asphalt, 40%);
-$color-wet-asphalt-light-9: lighten($color-wet-asphalt, 45%);
-$color-wet-asphalt-light-10: lighten($color-wet-asphalt, 50%);
-$color-wet-asphalt-dark-1: darken($color-wet-asphalt, 5%);
-$color-wet-asphalt-dark-2: darken($color-wet-asphalt, 10%);
-$color-wet-asphalt-dark-3: darken($color-wet-asphalt, 15%);
-$color-wet-asphalt-dark-4: darken($color-wet-asphalt, 20%);
-$color-wet-asphalt-dark-5: darken($color-wet-asphalt, 25%);
-$color-wet-asphalt-dark-6: darken($color-wet-asphalt, 30%);
-$color-wet-asphalt-dark-7: darken($color-wet-asphalt, 35%);
-$color-wet-asphalt-dark-8: darken($color-wet-asphalt, 40%);
-$color-wet-asphalt-dark-9: darken($color-wet-asphalt, 45%);
-$color-wet-asphalt-dark-10: darken($color-wet-asphalt, 50%);
-
-$color-midnight-blue: #2c3e50;
-$color-midnight-blue-light-1: lighten($color-midnight-blue, 5%);
-$color-midnight-blue-light-2: lighten($color-midnight-blue, 10%);
-$color-midnight-blue-light-3: lighten($color-midnight-blue, 15%);
-$color-midnight-blue-light-4: lighten($color-midnight-blue, 20%);
-$color-midnight-blue-light-5: lighten($color-midnight-blue, 25%);
-$color-midnight-blue-light-6: lighten($color-midnight-blue, 30%);
-$color-midnight-blue-light-7: lighten($color-midnight-blue, 35%);
-$color-midnight-blue-light-8: lighten($color-midnight-blue, 40%);
-$color-midnight-blue-light-9: lighten($color-midnight-blue, 45%);
-$color-midnight-blue-light-10: lighten($color-midnight-blue, 50%);
-$color-midnight-blue-dark-1: darken($color-midnight-blue, 5%);
-$color-midnight-blue-dark-2: darken($color-midnight-blue, 10%);
-$color-midnight-blue-dark-3: darken($color-midnight-blue, 15%);
-$color-midnight-blue-dark-4: darken($color-midnight-blue, 20%);
-$color-midnight-blue-dark-5: darken($color-midnight-blue, 25%);
-$color-midnight-blue-dark-6: darken($color-midnight-blue, 30%);
-$color-midnight-blue-dark-7: darken($color-midnight-blue, 35%);
-$color-midnight-blue-dark-8: darken($color-midnight-blue, 40%);
-$color-midnight-blue-dark-9: darken($color-midnight-blue, 45%);
-$color-midnight-blue-dark-10: darken($color-midnight-blue, 50%);
+$color-green-1: #8effc1;
+$color-green-2: #5efca1;
+$color-green-3: #4eec91;
+$color-green-4: #3edc81;
+$color-green-5: #2ecc71;
+$color-green-6: #1ebc61;
+$color-green-7: #0eac51;
+$color-green-8: #009c41;
+$color-green-9: #008c31;
+$color-green-10: #007c21;
+$color-green-11: #006c11;
+$color-green-12: #005c01;
 
 
 // ------------------------- BORDER-RADIUS -------------------------
-$border-radius-small-1: 1px;
-$border-radius-small-2: 3px;
-$border-radius-small-3: 5px;
-$border-radius-medium-1: 7px;
-$border-radius-medium-2: 9px;
-$border-radius-large-1: 11px;
-$border-radius-large-2: 13px;
-$border-radius-large-3: 15px;
+$border-radius-1: 1px;
+$border-radius-3: 3px;
+$border-radius-5: 5px;
+$border-radius-7: 7px;
+$border-radius-9: 9px;
+$border-radius-11: 11px;
+$border-radius-13: 13px;
+$border-radius-15: 15px;
 
 
 // ------------------------- LETTER SPACING -------------------------
-$letter-spacing-small-1: 1px;
-$letter-spacing-small-2: 3px;
-$letter-spacing-small-3: 5px;
-$letter-spacing-medium-1: 7px;
-$letter-spacing-medium-2: 9px;
-$letter-spacing-large-1: 11px;
-$letter-spacing-large-2: 13px;
-$letter-spacing-large-3: 15px;
+$letter-spacing-1: 1px;
+$letter-spacing-3: 3px;
+$letter-spacing-5: 5px;
+$letter-spacing-7: 7px;
+$letter-spacing-9: 9px;
+$letter-spacing-11: 11px;
+$letter-spacing-13: 13px;
+$letter-spacing-15: 15px;
 
 
 // ------------------------- TEXT DECORATION -------------------------
@@ -393,40 +184,67 @@ $list-no-decoration: none;
 
 
 // ------------------------- LINE HEIGHT -------------------------
-$line-height-default: 145%;
-$line-height-tiny-1: 100%;
-$line-height-tiny-2: 105%;
-$line-height-small-1: 110%;
-$line-height-small-2: 115%;
-$line-height-medium-1: 120%;
-$line-height-medium-2: 125%;
-$line-height-large-1: 130%;
-$line-height-large-2: 135%;
-$line-height-extra-large-1: 140%;
-$line-height-extra-large-2: 150%;
+$line-height-100: 100%;
+$line-height-105: 105%;
+$line-height-110: 110%;
+$line-height-115: 115%;
+$line-height-120: 120%;
+$line-height-125: 125%;
+$line-height-130: 130%;
+$line-height-135: 135%;
+$line-height-140: 140%;
+$line-height-145: 145%;
+$line-height-150: 150%;
 
 
-// ------------------------- DIMENSIONS (WIDTH/HEIGHT/WRAPPER/ETC.) -------------------------
-$dimension-extra-tiny-1: 5%;
-$dimension-extra-tiny-2: 10%;
-$dimension-extra-tiny-3: 15%;
-$dimension-tiny-1: 20%;
-$dimension-tiny-2: 25%;
-$dimension-tiny-3: 30%;
-$dimension-extra-small-1: 35%;
-$dimension-extra-small-2: 40%;
-$dimension-extra-small-3: 45%;
-$dimension-small-1: 50%;
-$dimension-small-2: 55%;
-$dimension-small-3: 60%;
-$dimension-medium-1: 65%;
-$dimension-medium-2: 70%;
-$dimension-medium-3: 75%;
-$dimension-large-1: 80%;
-$dimension-large-2: 85%;
-$dimension-extra-large-1: 90%;
-$dimension-extra-large-2: 95%;
-$dimension-full: 100%;
+// ------------------------- WIDTH + MIN/MAX WIDTH -------------------------
+$width-5: 5%;
+$width-10: 10%;
+$width-15: 15%;
+$width-20: 20%;
+$width-25: 25%;
+$width-30: 30%;
+$width-33: 33.333%;
+$width-35: 35%;
+$width-40: 40%;
+$width-45: 45%;
+$width-50: 50%;
+$width-55: 55%;
+$width-60: 60%;
+$width-65: 65%;
+$width-66: 66.666%;
+$width-70: 70%;
+$width-75: 75%;
+$width-80: 80%;
+$width-85: 85%;
+$width-90: 90%;
+$width-95: 95%;
+$width-100: 100%;
+
+
+// ------------------------- HEIGHT + MIN/MAX HEIGHT -------------------------
+$height-5: 5%;
+$height-10: 10%;
+$height-15: 15%;
+$height-20: 20%;
+$height-25: 25%;
+$height-30: 30%;
+$height-33: 33.333%;
+$height-35: 35%;
+$height-40: 40%;
+$height-45: 45%;
+$height-50: 50%;
+$height-55: 55%;
+$height-60: 60%;
+$height-65: 65%;
+$height-66: 66.666%;
+$height-70: 70%;
+$height-75: 75%;
+$height-80: 80%;
+$height-85: 85%;
+$height-90: 90%;
+$height-95: 95%;
+$height-100: 100%;
 
 
 // ------------------------- MARGIN CENTER -------------------------
@@ -452,7 +270,7 @@ $font-weight-black: 900;
 
 
 // ------------------------- FONT SIZES -------------------------
-$font-size-default: 62.5%;
+$font-size-default: 62.5%; // Changes root font size from 16px to 10px for easier calculations
 $font-size-mobile-large: 66%;
 $font-size-tablet-portrait: 69.5%;
 $font-size-tablet-landscape: 73%;
@@ -524,71 +342,56 @@ $size-gigantic-1: 16rem;
 $size-gigantic-2: 17rem;
 $size-gigantic-3: 18rem;
 $size-gigantic-4: 19rem;
-
-$size-enormous-1: 20rem;
-$size-enormous-2: 25rem;
-$size-enormous-3: 30rem;
-$size-enormous-4: 35rem;
-$size-enormous-5: 40rem;
-$size-enormous-6: 45rem;
-$size-enormous-6: 50rem;
+$size-gigantic-5: 20rem;
 
 
 // ------------------------- TRANSITIONS -------------------------
-$transition-default: all 250ms;
-$transition-quick-1: all 200ms;
-$transition-quick-2: all 300ms;
-$transition-med-1: all 350ms;
-$transition-med-2: all 400ms;
-$transition-slow-1: all 450ms;
-$transition-slow-2: all 500ms;
-
-
-// ------------------------- CUBIC BEZIER TIMING FUNCTIONS -------------------------
-$cubic-bezier-ease-in-sine: (0.47, 0, 0.745, 0.715);
-$cubic-bezier-ease-out-sine: (0.39, 0.575, 0.565, 1);
-$cubic-bezier-ease-in-out-sine: (0.445, 0.05, 0.55, 0.95);
-
-$cubic-bezier-ease-in-quad: (0.55, 0.085, 0.68, 0.53);
-$cubic-bezier-ease-out-quad: (0.25, 0.46, 0.45, 0.94);
-$cubic-bezier-ease-in-out-quad: (0.455, 0.03, 0.515, 0.955);
-
-$cubic-bezier-ease-in-cubic: (0.55, 0.055, 0.675, 0.19);
-$cubic-bezier-ease-out-cubic: (0.215, 0.61, 0.355, 1);
-$cubic-bezier-ease-in-out-cubic: (0.47, 0, 0.745, 0.715);
-
-$cubic-bezier-ease-in-quart: (0.895, 0.03, 0.685, 0.22);
-$cubic-bezier-ease-out-quart: (0.165, 0.84, 0.44, 1);
-$cubic-bezier-ease-in-out-quart: (0.77, 0, 0.175, 1);
-
-$cubic-bezier-ease-in-quint: (0.755, 0.05, 0.855, 0.06);
-$cubic-bezier-ease-out-quint: (0.23, 1, 0.32, 1);
-$cubic-bezier-ease-in-out-quint: (0.86, 0, 0.07, 1);
-
-$cubic-bezier-ease-in-expo: (0.95, 0.05, 0.795, 0.035);
-$cubic-bezier-ease-out-expo: (0.19, 1, 0.22, 1);
-$cubic-bezier-ease-in-out-expo: (1, 0, 0, 1);
-
-$cubic-bezier-ease-in-circ: (0.6, 0.04, 0.98, 0.335);
-$cubic-bezier-ease-out-circ: (0.075, 0.82, 0.165, 1);
-$cubic-bezier-ease-in-out-circ: (0.785, 0.135, 0.15, 0.86);
-
-$cubic-bezier-ease-in-back: (0.6, -0.28, 0.735, 0.045);
-$cubic-bezier-ease-out-back: (0.175, 0.885, 0.32, 1.275);
-$cubic-bezier-ease-in-out-back: (0.68, -0.55, 0.265, 1.55);
+// Simple fade in/out transitions
+$transition-100ms: ease-in-out 100ms;
+$transition-125ms: ease-in-out 125ms;
+$transition-150ms: ease-in-out 150ms;
+$transition-175ms: ease-in-out 175ms;
+$transition-200ms: ease-in-out 200ms;
+$transition-225ms: ease-in-out 225ms;
+$transition-250ms: ease-in-out 250ms;
+$transition-275ms: ease-in-out 275ms;
+$transition-300ms: ease-in-out 300ms;
+$transition-325ms: ease-in-out 325ms;
+$transition-350ms: ease-in-out 350ms;
+$transition-375ms: ease-in-out 375ms;
+$transition-400ms: ease-in-out 400ms;
+$transition-425ms: ease-in-out 425ms;
+$transition-450ms: ease-in-out 450ms;
+$transition-475ms: ease-in-out 475ms;
+$transition-500ms: ease-in-out 500ms;
 
 
 // ------------------------- BOX SHADOWS -------------------------
-$box-shadow-extra-light-1: 0 1rem 3rem rgba($black, .05);
-$box-shadow-extra-light-2: 0 1rem 3rem rgba($black, .10);
-$box-shadow-extra-light-3: 0 1rem 3rem rgba($black, .15);
+// Box shadow values ranging from very subtle to heavy
+$box-shadow-5: 0 1rem 3rem rgba($black, .05);
+$box-shadow-10: 0 1rem 3rem rgba($black, .10);
+$box-shadow-15: 0 1rem 3rem rgba($black, .15);
+$box-shadow-20: 0 1rem 3rem rgba($black, .20);
+$box-shadow-25: 0 1rem 3rem rgba($black, .25);
+$box-shadow-30: 0 1rem 3rem rgba($black, .30);
+$box-shadow-35: 0 1rem 3rem rgba($black, .35);
+$box-shadow-40: 0 1rem 3rem rgba($black, .40);
+$box-shadow-45: 0 1rem 3rem rgba($black, .45);
+$box-shadow-50: 0 1rem 3rem rgba($black, .50);
 
-$box-shadow-light-1: 0 1rem 3rem rgba($black, .20);
-$box-shadow-light-2: 0 1rem 3rem rgba($black, .25);
 
-$box-shadow-medium-1: 0 1rem 3rem rgba($black, .30);
-$box-shadow-medium-2: 0 1rem 3rem rgba($black, .35);
-$box-shadow-medium-3: 0 1rem 3rem rgba($black, .40);
+// ------------------------- DISPLAY -------------------------
+$display-block: block;
+$display-flex: flex;
+$display-grid: grid;
+$display-inline: inline;
+$display-inline-block: inline-block;
+$display-inline-flex: inline-flex;
+$display-none: none;
+$display-table: table;
 
-$box-shadow-heavy-1: 0 1rem 3rem rgba($black, .45);
-$box-shadow-heavy-2: 0 1rem 3rem rgba($black, .50);
+
+// ------------------------- FLOATS -------------------------
+$float-left: left;
+$float-right: right;
+$float-none: none;

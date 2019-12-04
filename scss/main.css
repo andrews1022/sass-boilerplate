@@ -1,62 +1,14 @@
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 62.5%;
-}
-
-@media only screen and (min-width: 34.375em) {
-  html {
-    font-size: 66%;
-  }
-}
-
-@media only screen and (min-width: 46.875em) {
-  html {
-    font-size: 69.5%;
-  }
-}
-
-@media only screen and (min-width: 62.5em) {
-  html {
-    font-size: 73%;
-  }
-}
-
-@media only screen and (min-width: 81.25em) {
-  html {
-    font-size: 76.5%;
-  }
-}
-
-@media only screen and (min-width: 100em) {
-  html {
-    font-size: 78.25%;
-  }
-}
-
-@media only screen and (min-width: 118.75em) {
-  html {
-    font-size: 80%;
-  }
-}
-
-@media only screen and (min-width: 156.25em) {
-  html {
-    font-size: 83.5%;
-  }
-}
-
-@media only screen and (min-width: 237.5em) {
-  html {
-    font-size: 87%;
-  }
 }
 
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -82,39 +34,52 @@ ul {
   list-style: none;
 }
 
-.text-center {
+.txt-ac {
   text-align: center;
 }
 
-.text-left {
+.txt-al {
   text-align: left;
 }
 
-.text-right {
+.txt-ar {
   text-align: right;
 }
 
-.text-justify {
+.txt-aj {
   text-align: justify;
 }
 
-.margin-center {
+.mc {
   margin: 0 auto;
 }
 
-.white {
+.wht {
   color: #fff;
 }
 
-.black {
+.blk {
   color: #000;
 }
 
-.bg-white {
+.bg-wht {
   background-color: #fff;
 }
 
-.bg-black {
+.bg-blk {
   background-color: #000;
 }
+
+.flx-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=main.css.map */

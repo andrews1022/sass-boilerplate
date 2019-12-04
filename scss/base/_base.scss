@@ -2,39 +2,9 @@
 
 html {
 	@include html-selector-box-sizing-reset;
+
+	 // Changes root font size from 16px to 10px for easier calculations
 	font-size: $font-size-default;
-
-	@include respond(mobile-lg) {
-		font-size: $font-size-mobile-large;
-	}
-
-	@include respond(tab-port) {
-		font-size: $font-size-tablet-portrait;
-	}
-
-	@include respond(tab-land) {
-		font-size: $font-size-tablet-landscape;
-	}
-
-	@include respond(laptop) {
-		font-size: $font-size-laptop;
-	}
-
-	@include respond(laptop-lg) {
-		font-size: $font-size-laptop-large;
-	}
-
-	@include respond(desktop) {
-		font-size: $font-size-desktop;
-	}
-
-	@include respond(desktop-lg) {
-		font-size: $font-size-desktop-large;
-	}
-
-	@include respond(desktop-4k) {
-		font-size: $font-size-desktop-4k;
-	}
 }
 
 *,
