@@ -1,46 +1,230 @@
 // ------------------------------ TEXT ALIGNMENT ------------------------------
-.txt-ac {
+.txt-center {
 	text-align: $text-center;
 }
 
-.txt-al {
+.txt-left {
 	text-align: $text-left;
 }
 
-.txt-ar {
+.txt-right {
 	text-align: $text-right;
 }
 
-.txt-aj {
+.txt-justify {
 	text-align: $text-justify;
 }
 
 
 // ------------------------------ MARGIN CENTER ------------------------------
-.mc {
+.margin-center {
 	margin: $margin-center;
 }
 
 
 // ------------------------------ WHITE/BLACK ------------------------------
-.wht {
+.white {
 	color: $white;
 }
 
-.blk {
+.black {
 	color: $black;
 }
 
-.bg-wht {
+.bg-white {
 	background-color: $white;
 }
 
-.bg-blk {
+.bg-black {
 	background-color: $black;
 }
 
+.bdr-white {
+	border-color: $white;
+}
 
-// ------------------------------ FLEX CENTER ------------------------------
-.flx-c {
-	@include flex-center;
+.bdr-black {
+	border-color: $black;
+}
+
+
+// ------------------------------ GREY ------------------------------
+.grey-1 {
+	color: $grey-1;
+}
+
+.grey-2 {
+	color: $grey-2;
+}
+
+.grey-3 {
+	color: $grey-3;
+}
+
+.grey-4 {
+	color: $grey-4;
+}
+
+.grey-5 {
+	color: $grey-5;
+}
+
+.grey-6 {
+	color: $grey-6;
+}
+
+.grey-7 {
+	color: $grey-7;
+}
+
+.grey-8 {
+	color: $grey-8;
+}
+
+.grey-9 {
+	color: $grey-9;
+}
+
+.grey-10 {
+	color: $grey-10;
+}
+
+.grey-11 {
+	color: $grey-11;
+}
+
+.grey-12 {
+	color: $grey-12;
+}
+
+.grey-13 {
+	color: $grey-13;
+}
+
+.grey-14 {
+	color: $grey-14;
+}
+
+.grey-15 {
+	color: $grey-15;
+}
+
+.bg-grey-1 {
+	background-color: $grey-1;
+}
+
+.bg-grey-2 {
+	background-color: $grey-2;
+}
+
+.bg-grey-3 {
+	background-color: $grey-3;
+}
+
+.bg-grey-4 {
+	background-color: $grey-4;
+}
+
+.bg-grey-5 {
+	background-color: $grey-5;
+}
+
+.bg-grey-6 {
+	background-color: $grey-6;
+}
+
+.bg-grey-7 {
+	background-color: $grey-7;
+}
+
+.bg-grey-8 {
+	background-color: $grey-8;
+}
+
+.bg-grey-9 {
+	background-color: $grey-9;
+}
+
+.bg-grey-10 {
+	background-color: $grey-10;
+}
+
+.bg-grey-11 {
+	background-color: $grey-11;
+}
+
+.bg-grey-12 {
+	background-color: $grey-12;
+}
+
+.bg-grey-13 {
+	background-color: $grey-13;
+}
+
+.bg-grey-14 {
+	background-color: $grey-14;
+}
+
+.bg-grey-15 {
+	background-color: $grey-15;
+}
+
+.bdr-grey-1 {
+	border-color: $grey-1;
+}
+
+.bdr-grey-2 {
+	border-color: $grey-2;
+}
+
+.bdr-grey-3 {
+	border-color: $grey-3;
+}
+
+.bdr-grey-4 {
+	border-color: $grey-4;
+}
+
+.bdr-grey-5 {
+	border-color: $grey-5;
+}
+
+.bdr-grey-6 {
+	border-color: $grey-6;
+}
+
+.bdr-grey-7 {
+	border-color: $grey-7;
+}
+
+.bdr-grey-8 {
+	border-color: $grey-8;
+}
+
+.bdr-grey-9 {
+	border-color: $grey-9;
+}
+
+.bdr-grey-10 {
+	border-color: $grey-10;
+}
+
+.bdr-grey-11 {
+	border-color: $grey-11;
+}
+
+.bdr-grey-12 {
+	border-color: $grey-12;
+}
+
+.bdr-grey-13 {
+	border-color: $grey-13;
+}
+
+.bdr-grey-14 {
+	border-color: $grey-14;
+}
+
+.bdr-grey-15 {
+	border-color: $grey-15;
 }
