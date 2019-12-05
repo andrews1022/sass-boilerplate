@@ -42,19 +42,19 @@ $color-red-10: #b61d0c;
 $color-red-11: #a70c00;
 $color-red-12: #870000;
 
-$color-yellow-1: #fde3a5;
-$color-yellow-2: #ffcf4b;
-$color-yellow-3: #f9bf3b;
-$color-yellow-4: #f9b32f;
-$color-yellow-5: #f5ab35;
-$color-yellow-6: #f39c12;
-
 $color-orange-1: #f1892d;
 $color-orange-2: #e67e22;
 $color-orange-3: #d87400;
 $color-orange-4: #c86400;
 $color-orange-5: #b85400;
 $color-orange-6: #a84410;
+
+$color-yellow-1: #fde3a5;
+$color-yellow-2: #ffcf4b;
+$color-yellow-3: #f9bf3b;
+$color-yellow-4: #f9b32f;
+$color-yellow-5: #f5ab35;
+$color-yellow-6: #f39c12;
 
 $color-peach-1: #ffdcb5;
 $color-peach-2: #ffc29b;
@@ -164,7 +164,16 @@ $border-radius-35: 35px;
 $border-radius-40: 40px;
 $border-radius-45: 45px;
 $border-radius-50: 50px;
+$border-radius-100: 100px;
 $border-radius-round: 999px;
+
+
+// ------------------------- BORDER STYLE -------------------------
+$border-style-dashed: dashed;
+$border-style-dotted: dotted;
+$border-style-double: double;
+$border-style-none: none;
+$border-style-solid: solid;
 
 
 // ------------------------- BORDER WIDTH -------------------------
@@ -176,14 +185,6 @@ $border-width-9: 9px;
 $border-width-11: 11px;
 $border-width-13: 13px;
 $border-width-15: 15px;
-
-
-// ------------------------- BORDER STYLE -------------------------
-$border-style-dashed: dashed;
-$border-style-dotted: dotted;
-$border-style-double: double;
-$border-style-none: none;
-$border-style-solid: solid;
 
 
 // ------------------------- LETTER SPACING -------------------------
@@ -333,6 +334,8 @@ $font-size-desktop-4k: 87%;
 
 
 // ------------------------- REM SIZES -------------------------
+$size-none: 0rem;
+
 $size-extra-tiny-1: 0.25rem;
 $size-extra-tiny-2: 0.5rem;
 $size-extra-tiny-3: 0.75rem;

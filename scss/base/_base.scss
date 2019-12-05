@@ -30,3 +30,12 @@ ol,
 ul {
 	list-style: $list-style-none;
 }
+
+.test {
+	color: $white;
+	background-color: $color-red-10;
+	display: $display-inline-block;
+	margin: 3rem;
+	padding: 5rem;
+	border-radius: $border-radius-100;
+}

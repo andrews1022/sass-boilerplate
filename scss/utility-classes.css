@@ -1,0 +1,1588 @@
+.wht {
+  color: #fff;
+}
+
+.bg-wht {
+  background-color: #fff;
+}
+
+.bdr-wht {
+  border-color: #fff;
+}
+
+.blk {
+  color: #000;
+}
+
+.bg-blk {
+  background-color: #000;
+}
+
+.bdr-blk {
+  border-color: #000;
+}
+
+.grey-1 {
+  color: #f0f0f0;
+}
+
+.bg-grey-1 {
+  background-color: #f0f0f0;
+}
+
+.bdr-grey-1 {
+  border-color: #f0f0f0;
+}
+
+.grey-2 {
+  color: #e0e0e0;
+}
+
+.bg-grey-2 {
+  background-color: #e0e0e0;
+}
+
+.bdr-grey-2 {
+  border-color: #e0e0e0;
+}
+
+.grey-3 {
+  color: #d0d0d0;
+}
+
+.bg-grey-3 {
+  background-color: #d0d0d0;
+}
+
+.bdr-grey-3 {
+  border-color: #d0d0d0;
+}
+
+.grey-4 {
+  color: #c0c0c0;
+}
+
+.bg-grey-4 {
+  background-color: #c0c0c0;
+}
+
+.bdr-grey-4 {
+  border-color: #c0c0c0;
+}
+
+.grey-5 {
+  color: #b0b0b0;
+}
+
+.bg-grey-5 {
+  background-color: #b0b0b0;
+}
+
+.bdr-grey-5 {
+  border-color: #b0b0b0;
+}
+
+.grey-6 {
+  color: #a0a0a0;
+}
+
+.bg-grey-6 {
+  background-color: #a0a0a0;
+}
+
+.bdr-grey-6 {
+  border-color: #a0a0a0;
+}
+
+.grey-7 {
+  color: #8f8f8f;
+}
+
+.bg-grey-7 {
+  background-color: #8f8f8f;
+}
+
+.bdr-grey-7 {
+  border-color: #8f8f8f;
+}
+
+.grey-8 {
+  color: #808080;
+}
+
+.bg-grey-8 {
+  background-color: #808080;
+}
+
+.bdr-grey-8 {
+  border-color: #808080;
+}
+
+.grey-9 {
+  color: #707070;
+}
+
+.bg-grey-9 {
+  background-color: #707070;
+}
+
+.bdr-grey-9 {
+  border-color: #707070;
+}
+
+.grey-10 {
+  color: #606060;
+}
+
+.bg-grey-10 {
+  background-color: #606060;
+}
+
+.bdr-grey-10 {
+  border-color: #606060;
+}
+
+.grey-11 {
+  color: #505050;
+}
+
+.bg-grey-11 {
+  background-color: #505050;
+}
+
+.bdr-grey-11 {
+  border-color: #505050;
+}
+
+.grey-12 {
+  color: #404040;
+}
+
+.bg-grey-12 {
+  background-color: #404040;
+}
+
+.bdr-grey-12 {
+  border-color: #404040;
+}
+
+.grey-13 {
+  color: #303030;
+}
+
+.bg-grey-13 {
+  background-color: #303030;
+}
+
+.bdr-grey-13 {
+  border-color: #303030;
+}
+
+.grey-14 {
+  color: #202020;
+}
+
+.bg-grey-14 {
+  background-color: #202020;
+}
+
+.bdr-grey-14 {
+  border-color: #202020;
+}
+
+.grey-15 {
+  color: #101010;
+}
+
+.bg-grey-15 {
+  background-color: #101010;
+}
+
+.bdr-grey-15 {
+  border-color: #101010;
+}
+
+.red-1 {
+  color: #ffccbc;
+}
+
+.bg-red-1 {
+  background-color: #ffccbc;
+}
+
+.bdr-red-1 {
+  border-color: #ffccbc;
+}
+
+.red-2 {
+  color: #ffac9c;
+}
+
+.bg-red-2 {
+  background-color: #ffac9c;
+}
+
+.bdr-red-2 {
+  border-color: #ffac9c;
+}
+
+.red-3 {
+  color: #ff8c7c;
+}
+
+.bg-red-3 {
+  background-color: #ff8c7c;
+}
+
+.bdr-red-3 {
+  border-color: #ff8c7c;
+}
+
+.red-4 {
+  color: #ff7c6c;
+}
+
+.bg-red-4 {
+  background-color: #ff7c6c;
+}
+
+.bdr-red-4 {
+  border-color: #ff7c6c;
+}
+
+.red-5 {
+  color: #ff6c5c;
+}
+
+.bg-red-5 {
+  background-color: #ff6c5c;
+}
+
+.bdr-red-5 {
+  border-color: #ff6c5c;
+}
+
+.red-6 {
+  color: #f75c4c;
+}
+
+.bg-red-6 {
+  background-color: #f75c4c;
+}
+
+.bdr-red-6 {
+  border-color: #f75c4c;
+}
+
+.red-7 {
+  color: #e74c3c;
+}
+
+.bg-red-7 {
+  background-color: #e74c3c;
+}
+
+.bdr-red-7 {
+  border-color: #e74c3c;
+}
+
+.red-8 {
+  color: #d73c2c;
+}
+
+.bg-red-8 {
+  background-color: #d73c2c;
+}
+
+.bdr-red-8 {
+  border-color: #d73c2c;
+}
+
+.red-9 {
+  color: #c72c1c;
+}
+
+.bg-red-9 {
+  background-color: #c72c1c;
+}
+
+.bdr-red-9 {
+  border-color: #c72c1c;
+}
+
+.red-10 {
+  color: #b61d0c;
+}
+
+.bg-red-10 {
+  background-color: #b61d0c;
+}
+
+.bdr-red-10 {
+  border-color: #b61d0c;
+}
+
+.red-11 {
+  color: #a70c00;
+}
+
+.bg-red-11 {
+  background-color: #a70c00;
+}
+
+.bdr-red-11 {
+  border-color: #a70c00;
+}
+
+.red-12 {
+  color: #870000;
+}
+
+.bg-red-12 {
+  background-color: #870000;
+}
+
+.bdr-red-12 {
+  border-color: #870000;
+}
+
+.orange-1 {
+  color: #f1892d;
+}
+
+.bg-orange-1 {
+  background-color: #f1892d;
+}
+
+.bdr-orange-1 {
+  border-color: #f1892d;
+}
+
+.orange-2 {
+  color: #e67e22;
+}
+
+.bg-orange-2 {
+  background-color: #e67e22;
+}
+
+.bdr-orange-2 {
+  border-color: #e67e22;
+}
+
+.orange-3 {
+  color: #d87400;
+}
+
+.bg-orange-3 {
+  background-color: #d87400;
+}
+
+.bdr-orange-3 {
+  border-color: #d87400;
+}
+
+.orange-4 {
+  color: #c86400;
+}
+
+.bg-orange-4 {
+  background-color: #c86400;
+}
+
+.bdr-orange-4 {
+  border-color: #c86400;
+}
+
+.orange-5 {
+  color: #b85400;
+}
+
+.bg-orange-5 {
+  background-color: #b85400;
+}
+
+.bdr-orange-5 {
+  border-color: #b85400;
+}
+
+.orange-6 {
+  color: #a84410;
+}
+
+.bg-orange-6 {
+  background-color: #a84410;
+}
+
+.bdr-orange-6 {
+  border-color: #a84410;
+}
+
+.yellow-1 {
+  color: #fde3a5;
+}
+
+.bg-yellow-1 {
+  background-color: #fde3a5;
+}
+
+.bdr-yellow-1 {
+  border-color: #fde3a5;
+}
+
+.yellow-2 {
+  color: #ffcf4b;
+}
+
+.bg-yellow-2 {
+  background-color: #ffcf4b;
+}
+
+.bdr-yellow-2 {
+  border-color: #ffcf4b;
+}
+
+.yellow-3 {
+  color: #f9bf3b;
+}
+
+.bg-yellow-3 {
+  background-color: #f9bf3b;
+}
+
+.bdr-yellow-3 {
+  border-color: #f9bf3b;
+}
+
+.yellow-4 {
+  color: #f9b32f;
+}
+
+.bg-yellow-4 {
+  background-color: #f9b32f;
+}
+
+.bdr-yellow-4 {
+  border-color: #f9b32f;
+}
+
+.yellow-5 {
+  color: #f5ab35;
+}
+
+.bg-yellow-5 {
+  background-color: #f5ab35;
+}
+
+.bdr-yellow-5 {
+  border-color: #f5ab35;
+}
+
+.yellow-6 {
+  color: #f39c12;
+}
+
+.bg-yellow-6 {
+  background-color: #f39c12;
+}
+
+.bdr-yellow-6 {
+  border-color: #f39c12;
+}
+
+.peach-1 {
+  color: #ffdcb5;
+}
+
+.bg-peach-1 {
+  background-color: #ffdcb5;
+}
+
+.bdr-peach-1 {
+  border-color: #ffdcb5;
+}
+
+.peach-2 {
+  color: #ffc29b;
+}
+
+.bg-peach-2 {
+  background-color: #ffc29b;
+}
+
+.bdr-peach-2 {
+  border-color: #ffc29b;
+}
+
+.peach-3 {
+  color: #ffb28b;
+}
+
+.bg-peach-3 {
+  background-color: #ffb28b;
+}
+
+.bdr-peach-3 {
+  border-color: #ffb28b;
+}
+
+.peach-4 {
+  color: #ffa27b;
+}
+
+.bg-peach-4 {
+  background-color: #ffa27b;
+}
+
+.bdr-peach-4 {
+  border-color: #ffa27b;
+}
+
+.peach-5 {
+  color: #ff926b;
+}
+
+.bg-peach-5 {
+  background-color: #ff926b;
+}
+
+.bdr-peach-5 {
+  border-color: #ff926b;
+}
+
+.peach-6 {
+  color: #f3825b;
+}
+
+.bg-peach-6 {
+  background-color: #f3825b;
+}
+
+.bdr-peach-6 {
+  border-color: #f3825b;
+}
+
+.peach-7 {
+  color: #e3724b;
+}
+
+.bg-peach-7 {
+  background-color: #e3724b;
+}
+
+.bdr-peach-7 {
+  border-color: #e3724b;
+}
+
+.peach-8 {
+  color: #d3623b;
+}
+
+.bg-peach-8 {
+  background-color: #d3623b;
+}
+
+.bdr-peach-8 {
+  border-color: #d3623b;
+}
+
+.peach-9 {
+  color: #c3522b;
+}
+
+.bg-peach-9 {
+  background-color: #c3522b;
+}
+
+.bdr-peach-9 {
+  border-color: #c3522b;
+}
+
+.peach-10 {
+  color: #b3421b;
+}
+
+.bg-peach-10 {
+  background-color: #b3421b;
+}
+
+.bdr-peach-10 {
+  border-color: #b3421b;
+}
+
+.peach-11 {
+  color: #a3320b;
+}
+
+.bg-peach-11 {
+  background-color: #a3320b;
+}
+
+.bdr-peach-11 {
+  border-color: #a3320b;
+}
+
+.peach-12 {
+  color: #932210;
+}
+
+.bg-peach-12 {
+  background-color: #932210;
+}
+
+.bdr-peach-12 {
+  border-color: #932210;
+}
+
+.brown-1 {
+  color: #f6c4a3;
+}
+
+.bg-brown-1 {
+  background-color: #f6c4a3;
+}
+
+.bdr-brown-1 {
+  border-color: #f6c4a3;
+}
+
+.brown-2 {
+  color: #eab897;
+}
+
+.bg-brown-2 {
+  background-color: #eab897;
+}
+
+.bdr-brown-2 {
+  border-color: #eab897;
+}
+
+.brown-3 {
+  color: #dfad8c;
+}
+
+.bg-brown-3 {
+  background-color: #dfad8c;
+}
+
+.bdr-brown-3 {
+  border-color: #dfad8c;
+}
+
+.brown-4 {
+  color: #d4a281;
+}
+
+.bg-brown-4 {
+  background-color: #d4a281;
+}
+
+.bdr-brown-4 {
+  border-color: #d4a281;
+}
+
+.brown-5 {
+  color: #ce9c7b;
+}
+
+.bg-brown-5 {
+  background-color: #ce9c7b;
+}
+
+.bdr-brown-5 {
+  border-color: #ce9c7b;
+}
+
+.brown-6 {
+  color: #be8c6b;
+}
+
+.bg-brown-6 {
+  background-color: #be8c6b;
+}
+
+.bdr-brown-6 {
+  border-color: #be8c6b;
+}
+
+.brown-7 {
+  color: #ae7c5b;
+}
+
+.bg-brown-7 {
+  background-color: #ae7c5b;
+}
+
+.bdr-brown-7 {
+  border-color: #ae7c5b;
+}
+
+.brown-8 {
+  color: #9e6c4b;
+}
+
+.bg-brown-8 {
+  background-color: #9e6c4b;
+}
+
+.bdr-brown-8 {
+  border-color: #9e6c4b;
+}
+
+.brown-9 {
+  color: #8e5c3b;
+}
+
+.bg-brown-9 {
+  background-color: #8e5c3b;
+}
+
+.bdr-brown-9 {
+  border-color: #8e5c3b;
+}
+
+.brown-10 {
+  color: #7e4c2b;
+}
+
+.bg-brown-10 {
+  background-color: #7e4c2b;
+}
+
+.bdr-brown-10 {
+  border-color: #7e4c2b;
+}
+
+.brown-11 {
+  color: #6e3c1b;
+}
+
+.bg-brown-11 {
+  background-color: #6e3c1b;
+}
+
+.bdr-brown-11 {
+  border-color: #6e3c1b;
+}
+
+.brown-12 {
+  color: #5e2c0b;
+}
+
+.bg-brown-12 {
+  background-color: #5e2c0b;
+}
+
+.bdr-brown-12 {
+  border-color: #5e2c0b;
+}
+
+.pink-1 {
+  color: #ffbcd8;
+}
+
+.bg-pink-1 {
+  background-color: #ffbcd8;
+}
+
+.bdr-pink-1 {
+  border-color: #ffbcd8;
+}
+
+.pink-2 {
+  color: #ff8cc8;
+}
+
+.bg-pink-2 {
+  background-color: #ff8cc8;
+}
+
+.bdr-pink-2 {
+  border-color: #ff8cc8;
+}
+
+.pink-3 {
+  color: #ff7cb8;
+}
+
+.bg-pink-3 {
+  background-color: #ff7cb8;
+}
+
+.bdr-pink-3 {
+  border-color: #ff7cb8;
+}
+
+.pink-4 {
+  color: #ff6ca8;
+}
+
+.bg-pink-4 {
+  background-color: #ff6ca8;
+}
+
+.bdr-pink-4 {
+  border-color: #ff6ca8;
+}
+
+.pink-5 {
+  color: #fa5c98;
+}
+
+.bg-pink-5 {
+  background-color: #fa5c98;
+}
+
+.bdr-pink-5 {
+  border-color: #fa5c98;
+}
+
+.pink-6 {
+  color: #ea4c88;
+}
+
+.bg-pink-6 {
+  background-color: #ea4c88;
+}
+
+.bdr-pink-6 {
+  border-color: #ea4c88;
+}
+
+.pink-7 {
+  color: #da3c78;
+}
+
+.bg-pink-7 {
+  background-color: #da3c78;
+}
+
+.bdr-pink-7 {
+  border-color: #da3c78;
+}
+
+.pink-8 {
+  color: #ca2c68;
+}
+
+.bg-pink-8 {
+  background-color: #ca2c68;
+}
+
+.bdr-pink-8 {
+  border-color: #ca2c68;
+}
+
+.pink-9 {
+  color: #ba1c58;
+}
+
+.bg-pink-9 {
+  background-color: #ba1c58;
+}
+
+.bdr-pink-9 {
+  border-color: #ba1c58;
+}
+
+.pink-10 {
+  color: #aa0c48;
+}
+
+.bg-pink-10 {
+  background-color: #aa0c48;
+}
+
+.bdr-pink-10 {
+  border-color: #aa0c48;
+}
+
+.pink-11 {
+  color: #9a0038;
+}
+
+.bg-pink-11 {
+  background-color: #9a0038;
+}
+
+.bdr-pink-11 {
+  border-color: #9a0038;
+}
+
+.pink-12 {
+  color: #8a0028;
+}
+
+.bg-pink-12 {
+  background-color: #8a0028;
+}
+
+.bdr-pink-12 {
+  border-color: #8a0028;
+}
+
+.purple-1 {
+  color: #dcc6e0;
+}
+
+.bg-purple-1 {
+  background-color: #dcc6e0;
+}
+
+.bdr-purple-1 {
+  border-color: #dcc6e0;
+}
+
+.purple-2 {
+  color: #cea0e4;
+}
+
+.bg-purple-2 {
+  background-color: #cea0e4;
+}
+
+.bdr-purple-2 {
+  border-color: #cea0e4;
+}
+
+.purple-3 {
+  color: #be90d4;
+}
+
+.bg-purple-3 {
+  background-color: #be90d4;
+}
+
+.bdr-purple-3 {
+  border-color: #be90d4;
+}
+
+.purple-4 {
+  color: #ab69c6;
+}
+
+.bg-purple-4 {
+  background-color: #ab69c6;
+}
+
+.bdr-purple-4 {
+  border-color: #ab69c6;
+}
+
+.purple-5 {
+  color: #9b59b6;
+}
+
+.bg-purple-5 {
+  background-color: #9b59b6;
+}
+
+.bdr-purple-5 {
+  border-color: #9b59b6;
+}
+
+.purple-6 {
+  color: #8e44ad;
+}
+
+.bg-purple-6 {
+  background-color: #8e44ad;
+}
+
+.bdr-purple-6 {
+  border-color: #8e44ad;
+}
+
+.purple-7 {
+  color: #7e349d;
+}
+
+.bg-purple-7 {
+  background-color: #7e349d;
+}
+
+.bdr-purple-7 {
+  border-color: #7e349d;
+}
+
+.purple-8 {
+  color: #6e248d;
+}
+
+.bg-purple-8 {
+  background-color: #6e248d;
+}
+
+.bdr-purple-8 {
+  border-color: #6e248d;
+}
+
+.purple-9 {
+  color: #5e147d;
+}
+
+.bg-purple-9 {
+  background-color: #5e147d;
+}
+
+.bdr-purple-9 {
+  border-color: #5e147d;
+}
+
+.purple-10 {
+  color: #4e046d;
+}
+
+.bg-purple-10 {
+  background-color: #4e046d;
+}
+
+.bdr-purple-10 {
+  border-color: #4e046d;
+}
+
+.purple-11 {
+  color: #3e005d;
+}
+
+.bg-purple-11 {
+  background-color: #3e005d;
+}
+
+.bdr-purple-11 {
+  border-color: #3e005d;
+}
+
+.purple-12 {
+  color: #1e003d;
+}
+
+.bg-purple-12 {
+  background-color: #1e003d;
+}
+
+.bdr-purple-12 {
+  border-color: #1e003d;
+}
+
+.blue-1 {
+  color: #39d5ff;
+}
+
+.bg-blue-1 {
+  background-color: #39d5ff;
+}
+
+.bdr-blue-1 {
+  border-color: #39d5ff;
+}
+
+.blue-2 {
+  color: #29c5ff;
+}
+
+.bg-blue-2 {
+  background-color: #29c5ff;
+}
+
+.bdr-blue-2 {
+  border-color: #29c5ff;
+}
+
+.blue-3 {
+  color: #19b5fe;
+}
+
+.bg-blue-3 {
+  background-color: #19b5fe;
+}
+
+.bdr-blue-3 {
+  border-color: #19b5fe;
+}
+
+.blue-4 {
+  color: #22a7f0;
+}
+
+.bg-blue-4 {
+  background-color: #22a7f0;
+}
+
+.bdr-blue-4 {
+  border-color: #22a7f0;
+}
+
+.blue-5 {
+  color: #1297e0;
+}
+
+.bg-blue-5 {
+  background-color: #1297e0;
+}
+
+.bdr-blue-5 {
+  border-color: #1297e0;
+}
+
+.blue-6 {
+  color: #0287d0;
+}
+
+.bg-blue-6 {
+  background-color: #0287d0;
+}
+
+.bdr-blue-6 {
+  border-color: #0287d0;
+}
+
+.blue-7 {
+  color: #0077c0;
+}
+
+.bg-blue-7 {
+  background-color: #0077c0;
+}
+
+.bdr-blue-7 {
+  border-color: #0077c0;
+}
+
+.blue-8 {
+  color: #0067b0;
+}
+
+.bg-blue-8 {
+  background-color: #0067b0;
+}
+
+.bdr-blue-8 {
+  border-color: #0067b0;
+}
+
+.blue-9 {
+  color: #0057a0;
+}
+
+.bg-blue-9 {
+  background-color: #0057a0;
+}
+
+.bdr-blue-9 {
+  border-color: #0057a0;
+}
+
+.blue-10 {
+  color: #004790;
+}
+
+.bg-blue-10 {
+  background-color: #004790;
+}
+
+.bdr-blue-10 {
+  border-color: #004790;
+}
+
+.blue-11 {
+  color: #003780;
+}
+
+.bg-blue-11 {
+  background-color: #003780;
+}
+
+.bdr-blue-11 {
+  border-color: #003780;
+}
+
+.blue-12 {
+  color: #102770;
+}
+
+.bg-blue-12 {
+  background-color: #102770;
+}
+
+.bdr-blue-12 {
+  border-color: #102770;
+}
+
+.turquoise-1 {
+  color: #5efaf7;
+}
+
+.bg-turquoise-1 {
+  background-color: #5efaf7;
+}
+
+.bdr-turquoise-1 {
+  border-color: #5efaf7;
+}
+
+.turquoise-2 {
+  color: #51f5ea;
+}
+
+.bg-turquoise-2 {
+  background-color: #51f5ea;
+}
+
+.bdr-turquoise-2 {
+  border-color: #51f5ea;
+}
+
+.turquoise-3 {
+  color: #47ebe0;
+}
+
+.bg-turquoise-3 {
+  background-color: #47ebe0;
+}
+
+.bdr-turquoise-3 {
+  border-color: #47ebe0;
+}
+
+.turquoise-4 {
+  color: #37dbd0;
+}
+
+.bg-turquoise-4 {
+  background-color: #37dbd0;
+}
+
+.bdr-turquoise-4 {
+  border-color: #37dbd0;
+}
+
+.turquoise-5 {
+  color: #27cbc0;
+}
+
+.bg-turquoise-5 {
+  background-color: #27cbc0;
+}
+
+.bdr-turquoise-5 {
+  border-color: #27cbc0;
+}
+
+.turquoise-6 {
+  color: #17bbb0;
+}
+
+.bg-turquoise-6 {
+  background-color: #17bbb0;
+}
+
+.bdr-turquoise-6 {
+  border-color: #17bbb0;
+}
+
+.turquoise-7 {
+  color: #07aba0;
+}
+
+.bg-turquoise-7 {
+  background-color: #07aba0;
+}
+
+.bdr-turquoise-7 {
+  border-color: #07aba0;
+}
+
+.turquoise-8 {
+  color: #009b90;
+}
+
+.bg-turquoise-8 {
+  background-color: #009b90;
+}
+
+.bdr-turquoise-8 {
+  border-color: #009b90;
+}
+
+.turquoise-9 {
+  color: #008b80;
+}
+
+.bg-turquoise-9 {
+  background-color: #008b80;
+}
+
+.bdr-turquoise-9 {
+  border-color: #008b80;
+}
+
+.turquoise-10 {
+  color: #007b70;
+}
+
+.bg-turquoise-10 {
+  background-color: #007b70;
+}
+
+.bdr-turquoise-10 {
+  border-color: #007b70;
+}
+
+.turquoise-11 {
+  color: #106b60;
+}
+
+.bg-turquoise-11 {
+  background-color: #106b60;
+}
+
+.bdr-turquoise-11 {
+  border-color: #106b60;
+}
+
+.turquoise-12 {
+  color: #005b50;
+}
+
+.bg-turquoise-12 {
+  background-color: #005b50;
+}
+
+.bdr-turquoise-12 {
+  border-color: #005b50;
+}
+
+.green-1 {
+  color: #8effc1;
+}
+
+.bg-green-1 {
+  background-color: #8effc1;
+}
+
+.bdr-green-1 {
+  border-color: #8effc1;
+}
+
+.green-2 {
+  color: #5efca1;
+}
+
+.bg-green-2 {
+  background-color: #5efca1;
+}
+
+.bdr-green-2 {
+  border-color: #5efca1;
+}
+
+.green-3 {
+  color: #4eec91;
+}
+
+.bg-green-3 {
+  background-color: #4eec91;
+}
+
+.bdr-green-3 {
+  border-color: #4eec91;
+}
+
+.green-4 {
+  color: #3edc81;
+}
+
+.bg-green-4 {
+  background-color: #3edc81;
+}
+
+.bdr-green-4 {
+  border-color: #3edc81;
+}
+
+.green-5 {
+  color: #2ecc71;
+}
+
+.bg-green-5 {
+  background-color: #2ecc71;
+}
+
+.bdr-green-5 {
+  border-color: #2ecc71;
+}
+
+.green-6 {
+  color: #1ebc61;
+}
+
+.bg-green-6 {
+  background-color: #1ebc61;
+}
+
+.bdr-green-6 {
+  border-color: #1ebc61;
+}
+
+.green-7 {
+  color: #0eac51;
+}
+
+.bg-green-7 {
+  background-color: #0eac51;
+}
+
+.bdr-green-7 {
+  border-color: #0eac51;
+}
+
+.green-8 {
+  color: #009c41;
+}
+
+.bg-green-8 {
+  background-color: #009c41;
+}
+
+.bdr-green-8 {
+  border-color: #009c41;
+}
+
+.green-9 {
+  color: #008c31;
+}
+
+.bg-green-9 {
+  background-color: #008c31;
+}
+
+.bdr-green-9 {
+  border-color: #008c31;
+}
+
+.green-10 {
+  color: #007c21;
+}
+
+.bg-green-10 {
+  background-color: #007c21;
+}
+
+.bdr-green-10 {
+  border-color: #007c21;
+}
+
+.green-11 {
+  color: #006c11;
+}
+
+.bg-green-11 {
+  background-color: #006c11;
+}
+
+.bdr-green-11 {
+  border-color: #006c11;
+}
+
+.green-12 {
+  color: #005c01;
+}
+
+.bg-green-12 {
+  background-color: #005c01;
+}
+
+.bdr-green-12 {
+  border-color: #005c01;
+}
+
+.bdr-rad-1 {
+  border-radius: 1px;
+}
+
+.bdr-rad-3 {
+  border-radius: 3px;
+}
+
+.bdr-rad-5 {
+  border-radius: 5px;
+}
+
+.bdr-rad-7 {
+  border-radius: 7px;
+}
+
+.bdr-rad-9 {
+  border-radius: 9px;
+}
+
+.bdr-rad-11 {
+  border-radius: 11px;
+}
+
+.bdr-rad-13 {
+  border-radius: 13px;
+}
+
+.bdr-rad-15 {
+  border-radius: 15px;
+}
+
+.bdr-rad-20 {
+  border-radius: 20px;
+}
+
+.bdr-rad-25 {
+  border-radius: 25px;
+}
+
+.bdr-rad-30 {
+  border-radius: 30px;
+}
+
+.bdr-rad-35 {
+  border-radius: 35px;
+}
+
+.bdr-rad-40 {
+  border-radius: 40px;
+}
+
+.bdr-rad-45 {
+  border-radius: 45px;
+}
+
+.bdr-rad-50 {
+  border-radius: 50px;
+}
+
+.bdr-rad-100 {
+  border-radius: 100px;
+}
+
+.bdr-rad-rnd {
+  border-radius: 999px;
+}
+
+.bdr-dsh {
+  border-style: dashed;
+}
+
+.bdr-dot {
+  border-style: dotted;
+}
+
+.bdr-dbl {
+  border-style: double;
+}
+
+.bdr-none {
+  border-style: none;
+}
+
+.bdr-sld {
+  border-style: solid;
+}
+/*# sourceMappingURL=utility-classes.css.map */
