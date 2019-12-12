@@ -1,0 +1,63 @@
+@import '../abstract/variables';
+
+// Unlike mixins, placeholders can be used multiple times without adding any duplicate code. This makes them a much friendlier option for outputting DRY CSS
+// Use like this inside your styling: @extend %absolute-center;
+
+// Universal selector border box reset
+%universal-selector-box-sizing-reset {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+// Responsive images reset
+%responsve-images {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+// Body selector default font stylings
+%default-font-styles {
+	font-weight: 400;
+	line-height: 150%;
+}
+
+// Clearfix - added to floated elements with no height
+%clearfix {
+	&::after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+}
+
+// Center-aligned background image @ full height
+%fullscreen-background-hero-image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+// Center an absolutely positioned element both horizontally and vertically
+%absolute-center {
+  position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+// Horizontally and vertically center your flexbox container
+%flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+// Simple responsive grid
+%simple-responsive-grid {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}

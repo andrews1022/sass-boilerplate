@@ -1,10 +1,12 @@
+@import '../abstract/variables';
+
 // ----- COLORS MAP -----
 // Update as need for your project
 $colors: (
-	primary: #fff,
-	secondary: #fff,
-	tertiary: #fff,
-	quaternary: #fff
+	primary: $color-primary,
+	secondary: $color-secondary,
+	tertiary: $color-tertiary,
+	quaternary: $color-quaternary
 );
 @function color($color-name) {
 	@return map-get($colors, $color-name);
@@ -28,7 +30,7 @@ $sizes: (
 	xx-lg: 7rem,		// extra-extra-large
 	hg: 8rem,				// huge
 	x-hg: 9rem,			// extra-huge
-	msv: 10rem			// massive
+	msv: 10rem,			// massive
 );
 @function size($size) {
 	@return map-get($sizes, $size);
@@ -37,25 +39,3 @@ $sizes: (
 // font-size: size(sml);
 // font-size: size(med) * 2.5
 // font-size: size(x-lg) + 2rem;
-
-
-// ----- SIZE MAP -----
-$sizing: (
-	x-tny: 50%,		// extra-tiny
-	tny: 55%,			// tiny
-	x-sml: 60%,		// extra-small
-	sml: 65%,			// small
-	med: 70%,			// medium
-	lg: 75%,			// large
-	x-lg: 80%,		// extra-large
-	xx-lg: 85%,		// extra-extra-large
-	hg: 90%,			// huge
-	x-hg: 95%,		// extra-huge
-	full: 100%		// massive
-);
-@function size($size) {
-	@return map-get($sizing, $size);
-}
-// Use as a value like so:
-// width: size(x-tny);
-// height: size(sml) * 2.5;

@@ -1,20 +1,25 @@
 // Abstract Folder Imports
 @import "abstract/functions";
 @import "abstract/mixins";
+@import "abstract/placeholders";
 @import "abstract/variables";
 
 // Base Folder Imports
 @import "base/animations";
-@import "base/base";
+@import "base/resets";
 @import "base/typography";
+@import "base/utility-classes";
 
 // Components Folder Imports
 @import "components/buttons";
+@import "components/contact-form";
 @import "components/navigation";
 
 // Layout Folder Imports
 @import "layout/footer";
+@import "layout/grid";
 @import "layout/header";
+@import "layout/main";
 
 // Pages Folder Imports
 @import "pages/home";

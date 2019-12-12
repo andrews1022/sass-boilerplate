@@ -1,9 +1,15 @@
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 62.5%;
+/* 
+----- USING ABOVE BREAKPOINTS WITH MEDIA QUERIES -----
+@media only (min-width: 36em) { 
+  // Styles go here
 }
-
+*/
+/* 
+----- USING ABOVE BREAKPOINTS WITH MEDIA QUERIES -----
+@media only (min-width: 36em) { 
+  // Styles go here
+}
+*/
 *,
 *::before,
 *::after {
@@ -13,15 +19,27 @@ html {
   padding: 0;
 }
 
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 body {
   font-weight: 400;
   line-height: 150%;
 }
 
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
+/* 
+----- USING ABOVE BREAKPOINTS WITH MEDIA QUERIES -----
+@media only (min-width: 36em) { 
+  // Styles go here
+}
+*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 a:link,
@@ -34,12 +52,57 @@ ul {
   list-style: none;
 }
 
-.test {
+/* 
+----- USING ABOVE BREAKPOINTS WITH MEDIA QUERIES -----
+@media only (min-width: 36em) { 
+  // Styles go here
+}
+*/
+.clr-pri {
   color: #fff;
-  background-color: #b61d0c;
-  display: inline-block;
-  margin: 3rem;
-  padding: 5rem;
-  border-radius: 100px;
+}
+
+.bg-clr-pri {
+  background-color: #fff;
+}
+
+.bdr-clr-pri {
+  border-color: #fff;
+}
+
+.clr-sec {
+  color: #fff;
+}
+
+.bg-clr-sec {
+  background-color: #fff;
+}
+
+.bdr-clr-sec {
+  border-color: #fff;
+}
+
+.clr-tert {
+  color: #fff;
+}
+
+.bg-clr-tert {
+  background-color: #fff;
+}
+
+.bdr-clr-tert {
+  border-color: #fff;
+}
+
+.clr-quat {
+  color: #fff;
+}
+
+.bg-clr-quat {
+  background-color: #fff;
+}
+
+.bdr-clr-quat {
+  border-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

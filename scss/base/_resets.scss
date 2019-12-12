@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+html {
+	box-sizing: border-box;
+	font-size: $font-size-default;
+}
+
+*,
+*::before,
+*::after {
+	@extend %universal-selector-box-sizing-reset;
+}
+
+body {
+	@extend %default-font-styles;
+}
+
+img {
+	@extend %responsve-images;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+ol,
+ul {
+	list-style: none;
+}
