@@ -1,26 +1,3 @@
 @import "../abstract/variables";
 
-// Utility classes are great for quick and easy styling. Below is a simple map and each loop creating a color, background-color, and border-color for your primary, secondary, tertiary, and quantenary colors. Just update the variables and these will be updated dynamically as well
-// Also check out Tailwind CSS, a very popular utility class first CSS framework: https://tailwindcss.com/, which is loaded with tons of great utility classes to help you cut down on writing CSS
-
-// ------------------------- COLORS -------------------------
-$colors: (
-	pri: $color-primary,
-	sec: $color-secondary,
-	tert: $color-tertiary,
-	quat: $color-quaternary
-);
-
-@each $name, $color in $colors {
-	.clr-#{$name} {
-		color: $color;
-	}
-
-	.bg-clr-#{$name} {
-		background-color: $color;
-	}
-
-	.bdr-clr-#{$name} {
-		border-color: $color;
-	}
-}
+// Utility classes are great for quick and easy styling. Check out Tailwind CSS, a very popular utility class first CSS framework: https://tailwindcss.com/, which is loaded with tons of great utility classes to help you cut down on writing CSS

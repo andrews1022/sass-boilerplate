@@ -8,15 +8,12 @@ $color-secondary: #fff;
 $color-tertiary: #fff;
 $color-quaternary: #fff;
 
-// RESET
-$font-size-default: 62.5%; // Changes root font size from 16px to 10px for easier calculations
-
-// USEFUL FOR UI
-$bumper-padding: 0 1.25rem;
+// UI
+$bumper-padding: 0 1rem;
 $simple-transition: all 250ms ease-in-out;
 $subtle-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
 
-// BREAKPOINTS
+// BREAKPOINTS (start building at 320px, then go up from there with these breakpoints)
 $bp-mobile-medium: only screen and (min-width: 22.5em);   // ~360px
 $bp-mobile-large: only screen and (min-width: 36em);      // ~576px
 $bp-tablet-portrait: only screen and (min-width: 48em);   // ~768px
@@ -29,7 +26,8 @@ $bp-desktop-medium: only screen and (min-width: 120em);   // ~1920px
 $bp-desktop-large: only screen and (min-width: 160em);    // ~2560px
 $bp-desktop-4k: only screen and (min-width: 240em);       // ~3840px
 /* 
------ USING ABOVE BREAKPOINTS WITH MEDIA QUERIES -----
+----- HOW TO USE ABOVE BREAKPOINTS WITH MEDIA QUERIES -----
+// Use interpolation:
 @media #{$bp-mobile-large} { 
   // Styles go here
 }
