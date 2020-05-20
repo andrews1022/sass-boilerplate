@@ -1,37 +1,4 @@
-@import '../abstract/variables';
-
-// Unlike mixins, placeholders can be used multiple times without adding any duplicate code. This makes them a much friendlier option for outputting DRY CSS
-// Use like this inside your styling: @extend %absolute-center;
-
-// Universal selector border box reset
-%universal-selector-box-sizing-reset {
-	box-sizing: inherit;
-	margin: 0;
-	padding: 0;
-}
-
-// Responsive images reset
-%responsve-images {
-	display: block;
-	height: auto;
-	max-width: 100%;
-}
-
-// Body selector default font stylings
-%default-font-styles {
-	font-size: 100%;
-	font-weight: 400;
-	line-height: 140%;
-}
-
-// Clearfix - added to floated elements with no height
-%clearfix {
-	&::after {
-		clear: both;
-		content: "";
-		display: table;
-	}
-}
+// Use like this: @extend %absolute-center;
 
 // Center-aligned background image @ full height
 %fullscreen-background-hero-image {
@@ -43,17 +10,42 @@
 
 // Center an absolutely positioned element both horizontally and vertically
 %absolute-center {
-  position: absolute;
+	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
 
-// Horizontally and vertically center your flexbox container
-%flex-center {
+// Start flex boxes
+%flex-align-start {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: flex-start;
+}
+
+// Center flex boxes
+%flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+// Center flex boxes
+%flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+// Align and justify center
+%flex-both-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Align center in column
+%flex-column-center {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 // Simple responsive grid

@@ -1,34 +1,26 @@
-// BASIC SHADES
+// Basic Shades
 $white: #fff;
 $black: #000;
 
-// IMPORTANT COLORS
+// Colors
 $color-primary: #fff;
 $color-secondary: #fff;
 $color-tertiary: #fff;
 $color-quaternary: #fff;
 
-// UI
+// General/UI
 $bumper-padding: 0 1rem;
-$simple-transition: all 250ms ease-in-out;
 $subtle-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+$transition-smooth: all 175ms ease-in-out;
 
 // BREAKPOINTS (start building at 320px, then go up from there with these breakpoints)
-$bp-mobile-medium: only screen and (min-width: 22.5em);   // ~360px
-$bp-mobile-large: only screen and (min-width: 36em);      // ~576px
-$bp-tablet-portrait: only screen and (min-width: 48em);   // ~768px
-$bp-tablet-landscape: only screen and (min-width: 64em);  // ~1024px
-$bp-laptop-small: only screen and (min-width: 75em);      // ~1200px
-$bp-laptop-medium: only screen and (min-width: 85.35em);  // ~1366px
-$bp-laptop-large: only screen and (min-width: 90em);      // ~1440px
-$bp-desktop-small: only screen and (min-width: 105em);    // ~1680px
-$bp-desktop-medium: only screen and (min-width: 120em);   // ~1920px
-$bp-desktop-large: only screen and (min-width: 160em);    // ~2560px
-$bp-desktop-4k: only screen and (min-width: 240em);       // ~3840px
-/* 
------ HOW TO USE ABOVE BREAKPOINTS WITH MEDIA QUERIES -----
-// Use interpolation:
-@media #{$bp-mobile-large} { 
-  // Styles go here
-}
-*/
+$desktop-large: only screen and (min-width: 125em);    // ~2000px
+$desktop-medium: only screen and (max-width: 120em);   // ~1920px
+$desktop-small: only screen and (max-width: 105em);    // ~1680px
+$laptop-large: only screen and (max-width: 90em);      // ~1440px
+$laptop-medium: only screen and (max-width: 85.35em);  // ~1366px
+$laptop-small: only screen and (max-width: 75em);      // ~1200px
+$tablet-landscape: only screen and (max-width: 64em);  // ~1024px
+$tablet-portrait: only screen and (max-width: 48em);   // ~768px
+$mobile-large: only screen and (max-width: 36em);      // ~576px
+$mobile-medium: only screen and (max-width: 22.5em);   // ~360px
