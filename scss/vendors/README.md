@@ -1,7 +1,9 @@
 ## Vendors Folder
+
 Place any stylesheets from 3rd parties here.
 
 Popular options include (in alphabetical order):
+
 - [Animate](https://daneden.github.io/animate.css/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Bulma](https://bulma.io/)

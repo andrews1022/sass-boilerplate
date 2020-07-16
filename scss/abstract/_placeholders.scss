@@ -1,56 +1,55 @@
-// Use like this: @extend %absolute-center;
+// Use like this: @extend %flex-align-center;
 
 // Center-aligned background image @ full height
 %fullscreen-background-hero-image {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 // Center an absolutely positioned element both horizontally and vertically
 %absolute-center {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 // Start flex boxes
 %flex-align-start {
-	display: flex;
-	align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
+}
+
+// Start flex boxes
+%flex-align-end {
+  display: flex;
+  align-items: flex-end;
 }
 
 // Center flex boxes
 %flex-align-center {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 // Center flex boxes
 %flex-justify-center {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 // Align and justify center
 %flex-both-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-// Align center in column
-%flex-column-center {
-	display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 // Simple responsive grid
 %simple-responsive-grid {
-	display: grid;
-	gap: 1rem;
-	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }

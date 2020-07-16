@@ -1,31 +1,37 @@
 // Customizable simple flex positioning
 @mixin custom-flex-position($justify-content: center, $align-items: center) {
-	display: flex;
-	justify-content: $justify-content;
-	align-items: $align-items;
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
 }
 
 // Customizable responsive grid
-@mixin custom-responsive-grid($gap: 0.75rem, $minxmax: (30rem, 1fr)) {
-	display: grid;
-	grid-gap: $gap;
-	grid-template-columns: repeat(auto-fit, minmax($minxmax));
+@mixin custom-responsive-grid(
+  $gap: 0.75rem,
+  $minxmax: (
+    30rem,
+    1fr,
+  )
+) {
+  display: grid;
+  grid-gap: $gap;
+  grid-template-columns: repeat(auto-fit, minmax($minxmax));
 }
 
 // Button sizing
 @mixin button-padding($pad-y, $pad-x) {
-	padding: $pad-y $pad-x;
+  padding: $pad-y $pad-x;
 }
 
 // Border Radius
 @mixin border-radius($rad) {
-	border-radius: $rad;
+  border-radius: $rad;
 }
 
 // Center-aligned background image customizable height
 @mixin responsive-background-image-custom-height($height: 100vh) {
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: $height;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: $height;
 }

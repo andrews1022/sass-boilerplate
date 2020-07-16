@@ -1,40 +1,25 @@
 @import '../abstract/variables';
 
-// ----- COLORS MAP -----
-// Update as need for your project
-$colors: (
-	primary: $color-primary,
-	secondary: $color-secondary,
-	tertiary: $color-tertiary,
-	quaternary: $color-quaternary
-);
-@function color($color-name) {
-	@return map-get($colors, $color-name);
-}
-// Call the function like this: 
-// color: color(pri); 
-// You can also use the lighten() and darken() Sass functions with the map like so: 
-// color: lighten(color(primary), 7.5%);
-
-
 // ----- SIZES MAP -----
 // Similar to color map, and without use of lots of variables
 $sizes: (
-	x-tny: 0.5rem,	// extra-tiny
-	tny: 1rem,			// tiny
-	x-sml: 2rem,		// extra-small
-	sml: 3rem,			// small
-	med: 4rem,			// medium
-	lg: 5rem,				// large
-	x-lg: 6rem,			// extra-large
-	xx-lg: 7rem,		// extra-extra-large
-	hg: 8rem,				// huge
-	x-hg: 9rem,			// extra-huge
-	msv: 10rem,			// massive
+  x-tny: 0.5rem,
+  tny: 1rem,
+  x-sml: 2rem,
+  sml: 3rem,
+  med: 4rem,
+  lg: 5rem,
+  x-lg: 6rem,
+  xx-lg: 7rem,
+  hg: 8rem,
+  x-hg: 9rem,
+  msv: 10rem,
 );
+
 @function size($size) {
-	@return map-get($sizes, $size);
+  @return map-get($sizes, $size);
 }
+
 // Use as a value like so:
 // font-size: size(sml);
 // font-size: size(med) * 2.5

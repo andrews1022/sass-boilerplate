@@ -1,2 +1,3 @@
-## Abstract Folder 
-Files for your functions, mixins, and variables should go here.
+## Abstract Folder
+
+Files for your Sass functions, mixins, and variables should go here
