@@ -1,14 +1,12 @@
 // Use like this: @extend %flex-align-center;
 
-// Center-aligned background image @ full height
-%fullscreen-background-hero-image {
-  background-position: center center;
+%centered-background-image {
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  // manually add height, or add 'height: 100vh' to have easy fullscreen hero image
 }
 
-// Center an absolutely positioned element both horizontally and vertically
 %absolute-center {
   position: absolute;
   left: 50%;
@@ -16,40 +14,64 @@
   transform: translate(-50%, -50%);
 }
 
-// Start flex boxes
 %flex-align-start {
   display: flex;
   align-items: flex-start;
 }
 
-// Start flex boxes
 %flex-align-end {
   display: flex;
   align-items: flex-end;
 }
 
-// Center flex boxes
 %flex-align-center {
   display: flex;
   align-items: center;
 }
 
-// Center flex boxes
 %flex-justify-center {
   display: flex;
   justify-content: center;
 }
 
-// Align and justify center
+%flex-align-start-justify-between {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+%flex-align-center-justify-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%flex-align-start-justify-center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 %flex-both-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-// Simple responsive grid
 %simple-responsive-grid {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+%section-padding-both-sides {
+  padding: 0 10%; // change values accordingly
+
+  @media #{$desktop-small} {
+    padding: 0 7%;
+  }
+
+  @media #{$laptop-small} {
+    padding: 0 5%;
+  }
 }

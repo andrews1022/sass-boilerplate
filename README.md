@@ -38,5 +38,4 @@ Included variables are:
 
 _(Run `npm install`)_
 
-- ESLint & Prettier
-- Jest
+- ESLint & Jest

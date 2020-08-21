@@ -8,7 +8,7 @@ $black: #000;
 // Colors
 // It's best to use more meaningful variable names, such as:
 $cinnabar: #e74c3c;
-$summer-sky: #3498db;
+$sky: #3498db;
 // Of course, change these out for the colors you'll be using in your project
 // A great tool for naming colors can be found here: https://www.color-blindness.com/color-name-hue/
 
@@ -16,25 +16,29 @@ $summer-sky: #3498db;
 $bumper-padding: 0 1rem;
 $flex-fifty-fifty: 1 1 50%;
 $margin-center: 0 auto;
-$subtle-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+$subtle-box-shadow: 0 0.5rem 1.25rem 0 rgba(0, 0, 0, 0.15);
 $transition-smooth: all 175ms ease-in-out;
+$transition-smooth-long: all 500ms ease-in-out;
 
 // BREAKPOINTS (start building at 320px, then go up from there with these breakpoints)
-$desktop-4k: 'only screen and (min-width: 3000px)';
-$desktop-large: 'only screen and (min-width: 2000px)';
-$desktop: 'only screen and (max-width: 1920px)';
+$desktop-4k: 'only screen and (min-width: 3840px)';
+$desktop-1440p: 'only screen and (max-width: 2560px)';
+$desktop-hd: 'only screen and (max-width: 1920px)';
 $desktop-medium: 'only screen and (max-width: 1680px)';
 $desktop-small: 'only screen and (max-width: 1440px)';
 $laptop: 'only screen and (max-width: 1366px)';
-$laptop-small: 'only screen and (max-width: 1200px)';
-$tablet: 'only screen and (max-width: 1024px)';
-$tablet-small: 'only screen and (max-width: 900px)';
-$mobile: 'only screen and (max-width: 768px)';
-$mobile-small: 'only screen and (max-width: 576px)';
-$mobile-extra-small: 'only screen and (max-width: 375px)';
+$laptop-small: 'only screen and (max-width: 1280px)';
+$tablet-landscape: 'only screen and (max-width: 1024px)';
+$tablet-medium: 'only screen and (max-width: 900px)';
+$tablet-portrait: 'only screen and (max-width: 768px)';
+$mobile-xlarge: 'only screen and (max-width: 640px)';
+$mobile-large: 'only screen and (max-width: 576px)';
+$mobile-medium: 'only screen and (max-width: 480px)';
+$mobile-small: 'only screen and (max-width: 415px)';
+$mobile-xsmall: 'only screen and (max-width: 375px)';
 $mobile-tiny: 'only screen and (max-width: 325px)';
 
 // Use with interpolation like this:
-@media #{$mobile} {
+@media #{$laptop} {
   // Styles go here
 }
