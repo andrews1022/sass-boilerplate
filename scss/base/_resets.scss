@@ -2,7 +2,19 @@
 
 html {
   box-sizing: border-box;
-  font-size: 100%;
+  font-size: 100%; // 16px
+
+  @media #{$desktop-small} {
+    font-size: 87.5%; // 14px
+  }
+
+  @media #{$tablet-landscape} {
+    font-size: 75%; // 12px
+  }
+
+  @media #{$mobile-xlarge} {
+    font-size: 62.5%; // 10px
+  }
 }
 
 body {

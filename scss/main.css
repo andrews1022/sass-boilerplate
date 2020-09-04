@@ -1,7 +1,24 @@
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 100%;
+}
+
+@media only screen and (max-width: 1440px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 62.5%;
+  }
 }
 
 body {
@@ -11,8 +28,7 @@ body {
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
