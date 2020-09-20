@@ -1,4 +1,34 @@
-@mixin flex($justify-content, $align-items) {
+// Use mixins inside a selector like this: @include size(2rem, 3rem);
+
+@mixin size($height, $width: $height) {
+  height: $height;
+  width: $width;
+}
+
+@mixin background-image($height, $bg-pos-x, $bg-pos-y, $bg-size, $bg-repeat: no-repeat) {
+  height: $height;
+  background-position: $bg-pos-x $bg-pos-y;
+  background-repeat: $bg-repeat;
+  background-size: $bg-size;
+}
+
+@mixin pseudo($content: '', $pos: absolute, $display: block) {
+  content: $content;
+  position: $pos;
+  display: $display;
+}
+
+@mixin font($color, $family, $size, $weight, $height, $spacing, $case) {
+  color: $color;
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+  letter-spacing: $spacing;
+  text-transform: $case;
+}
+
+@mixin flex($align-items, $justify-content) {
   display: flex;
   align-items: $align-items;
   justify-content: $justify-content;
@@ -14,24 +44,4 @@
   display: grid;
   grid-gap: $gap;
   grid-template-columns: repeat(auto-fit, minmax($minxmax));
-}
-
-@mixin button-padding($pad-y, $pad-x) {
-  padding: $pad-y $pad-x;
-}
-
-@mixin border-radius($rad) {
-  border-radius: $rad;
-}
-
-@mixin responsive-background-image-custom-height($height: 100vh) {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: $height;
-}
-
-@mixin size($height, $width: $height) {
-  height: $height;
-  width: $width;
 }

@@ -1,26 +1,29 @@
 // Fonts
 // Place font variables here
+// e.g.:
+// $font-lato: 'Lato', sans-serif;
+// and then use like: font-family: $font-lato;
 
-// Basic Shades
+// SHADES
 $white: #fff;
 $black: #000;
 
-// Colors
+// COLORS
 // It's best to use more meaningful variable names, such as:
 $cinnabar: #e74c3c;
 $sky: #3498db;
-// Of course, change these out for the colors you'll be using in your project
+// Of course, you will change these out for the colors you'll be using in your project
 // A great tool for naming colors can be found here: https://www.color-blindness.com/color-name-hue/
 
-// General/UI
-$bumper-padding: 0 1rem;
+// GENERAL/UI
+$bumper-padding: 0 1.125rem;
 $flex-fifty-fifty: 1 1 50%;
 $margin-center: 0 auto;
 $subtle-box-shadow: 0 0.5rem 1.25rem 0 rgba(0, 0, 0, 0.15);
 $transition-smooth: all 175ms ease-in-out;
 $transition-smooth-long: all 500ms ease-in-out;
 
-// BREAKPOINTS (start building at 320px, then go up from there with these breakpoints)
+// BREAKPOINTS
 $desktop-4k: 'only screen and (min-width: 3840px)';
 $desktop-1440p: 'only screen and (max-width: 2560px)';
 $desktop-hd: 'only screen and (max-width: 1920px)';
@@ -38,7 +41,7 @@ $mobile-small: 'only screen and (max-width: 415px)';
 $mobile-xsmall: 'only screen and (max-width: 375px)';
 $mobile-tiny: 'only screen and (max-width: 325px)';
 
-// Use with interpolation like this:
+// Use breakpoint variables with media queries by using interpolation like this:
 @media #{$laptop} {
   // Styles go here
 }

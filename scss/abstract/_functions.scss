@@ -1,26 +1,23 @@
 @import '../abstract/variables';
 
-// ----- SIZES MAP -----
-// Similar to color map, and without use of lots of variables
-$sizes: (
-  x-tny: 0.5rem,
-  tny: 1rem,
-  x-sml: 2rem,
-  sml: 3rem,
-  med: 4rem,
-  lg: 5rem,
-  x-lg: 6rem,
-  xx-lg: 7rem,
-  hg: 8rem,
-  x-hg: 9rem,
-  msv: 10rem,
+$colors: (
+  white: $white,
+  black: $black,
+  cinnabar: $cinnabar,
+  sky: $sky,
 );
 
-@function size($size) {
-  @return map-get($sizes, $size);
-}
+// Easily generate color utility classes
+@each $name, $color in $colors {
+  .text-#{$name} {
+    color: $color;
+  }
 
-// Use as a value like so:
-// font-size: size(sml);
-// font-size: size(med) * 2.5
-// font-size: size(x-lg) + 2rem;
+  .background-#{$name} {
+    background-color: $color;
+  }
+
+  .border-#{$name} {
+    border-color: $color;
+  }
+}
