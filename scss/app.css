@@ -1,51 +1,3 @@
-.text-white {
-  color: #fff;
-}
-
-.background-white {
-  background-color: #fff;
-}
-
-.border-white {
-  border-color: #fff;
-}
-
-.text-black {
-  color: #000;
-}
-
-.background-black {
-  background-color: #000;
-}
-
-.border-black {
-  border-color: #000;
-}
-
-.text-cinnabar {
-  color: #e74c3c;
-}
-
-.background-cinnabar {
-  background-color: #e74c3c;
-}
-
-.border-cinnabar {
-  border-color: #e74c3c;
-}
-
-.text-sky {
-  color: #3498db;
-}
-
-.background-sky {
-  background-color: #3498db;
-}
-
-.border-sky {
-  border-color: #3498db;
-}
-
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -63,7 +15,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   html {
     font-size: 62.5%;
   }
@@ -154,27 +106,27 @@ video {
   border-color: #000;
 }
 
-.text-cinnabar {
-  color: #e74c3c;
+.text-scarlet {
+  color: #ea2b00;
 }
 
-.background-cinnabar {
-  background-color: #e74c3c;
+.background-scarlet {
+  background-color: #ea2b00;
 }
 
-.border-cinnabar {
-  border-color: #e74c3c;
+.border-scarlet {
+  border-color: #ea2b00;
 }
 
-.text-sky {
-  color: #3498db;
+.text-deep-sky-blue {
+  color: #00aded;
 }
 
-.background-sky {
-  background-color: #3498db;
+.background-deep-sky-blue {
+  background-color: #00aded;
 }
 
-.border-sky {
-  border-color: #3498db;
+.border-deep-sky-blue {
+  border-color: #00aded;
 }
 /*# sourceMappingURL=app.css.map */

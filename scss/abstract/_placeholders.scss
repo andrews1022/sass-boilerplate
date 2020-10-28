@@ -1,78 +1,59 @@
 // Use placeholders inside a selector like this: @extend %absolute-center;
 
+%pseudo-element {
+	content: '';
+	position: absolute;
+}
+
 %absolute-center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 %centered-background-image {
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-%centered-background-image-cover {
-  @extend %centered-background-image;
-  background-size: cover;
-}
-
-%centered-background-image-contain {
-  @extend %centered-background-image;
-  background-size: contain;
-}
-
-%flex-align-start {
-  display: flex;
-  align-items: flex-start;
-}
-
-%flex-align-end {
-  display: flex;
-  align-items: flex-end;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 %flex-align-center {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 %flex-justify-center {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 %flex-align-justify-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 %flex-align-column-center {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 %simple-responsive-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
 %section-padding {
-  padding: 0 10%; // change the values to your liking
+	padding: 0 10%; // change the values to your liking
 
-  @media #{$desktop-small} {
-    padding: 0 7%;
-  }
+	@media #{$desktopSmall} {
+		padding: 0 7%;
+	}
 
-  @media #{$laptop-small} {
-    padding: 0 5%;
-  }
-}
-
-%pseudo-element {
-  content: '';
-  position: absolute;
+	@media #{$laptopSmall} {
+		padding: 0 5%;
+	}
 }

@@ -10,38 +10,39 @@ $black: #000;
 
 // COLORS
 // It's best to use more meaningful variable names, such as:
-$cinnabar: #e74c3c;
-$sky: #3498db;
+$scarlet: #ea2b00;
+$deepSkyBlue: #00aded;
 // Of course, you will change these out for the colors you'll be using in your project
 // A great tool for naming colors can be found here: https://www.color-blindness.com/color-name-hue/
 
 // GENERAL/UI
-$bumper-padding: 0 1.125rem;
-$flex-fifty-fifty: 1 1 50%;
-$margin-center: 0 auto;
-$subtle-box-shadow: 0 0.5rem 1.25rem 0 rgba(0, 0, 0, 0.15);
-$transition-smooth: all 175ms ease-in-out;
-$transition-smooth-long: all 500ms ease-in-out;
+$bumperPadding: 0 1.125rem;
+$flexFiftyFifty: 1 1 50%;
+$marginCenter: 0 auto;
+$subtleBoxShadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.15);
+$transitionSmoothShort: all 175ms ease-in-out;
+$transitionSmoothMedium: all 300ms ease-in-out;
+$transitionSmoothLong: all 500ms ease-in-out;
 
 // BREAKPOINTS
-$desktop-4k: 'only screen and (min-width: 3840px)';
-$desktop-1440p: 'only screen and (max-width: 2560px)';
-$desktop-hd: 'only screen and (max-width: 1920px)';
-$desktop-medium: 'only screen and (max-width: 1680px)';
-$desktop-small: 'only screen and (max-width: 1440px)';
+$desktop4k: 'only screen and (min-width: 3840px)';
+$desktop1440p: 'only screen and (max-width: 2560px)';
+$desktopHD: 'only screen and (max-width: 1920px)';
+$desktopMedium: 'only screen and (max-width: 1680px)';
+$desktopSmall: 'only screen and (max-width: 1440px)';
 $laptop: 'only screen and (max-width: 1366px)';
-$laptop-small: 'only screen and (max-width: 1280px)';
-$tablet-landscape: 'only screen and (max-width: 1024px)';
-$tablet-medium: 'only screen and (max-width: 900px)';
-$tablet-portrait: 'only screen and (max-width: 768px)';
-$mobile-xlarge: 'only screen and (max-width: 640px)';
-$mobile-large: 'only screen and (max-width: 576px)';
-$mobile-medium: 'only screen and (max-width: 480px)';
-$mobile-small: 'only screen and (max-width: 415px)';
-$mobile-xsmall: 'only screen and (max-width: 375px)';
-$mobile-tiny: 'only screen and (max-width: 325px)';
+$laptopSmall: 'only screen and (max-width: 1280px)';
+$tabletLandscape: 'only screen and (max-width: 1024px)';
+$tabletMedium: 'only screen and (max-width: 900px)';
+$tabletPortrait: 'only screen and (max-width: 768px)';
+$mobileXLarge: 'only screen and (max-width: 640px)';
+$mobileLarge: 'only screen and (max-width: 576px)';
+$mobileMedium: 'only screen and (max-width: 480px)';
+$mobileSmall: 'only screen and (max-width: 415px)';
+$mobileXSmall: 'only screen and (max-width: 375px)';
+$mobileTiny: 'only screen and (max-width: 325px)';
 
 // Use breakpoint variables with media queries by using interpolation like this:
 @media #{$laptop} {
-  // Styles go here
+	// Styles go here
 }

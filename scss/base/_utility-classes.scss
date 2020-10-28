@@ -3,22 +3,22 @@
 
 // As an example, generate some easy to use color based classes with this (update with your colors):
 $colors: (
-  white: $white,
-  black: $black,
-  cinnabar: $cinnabar,
-  sky: $sky,
+	white: $white,
+	black: $black,
+	scarlet: $scarlet,
+	deep-sky-blue: $deepSkyBlue
 );
 
 @each $name, $color in $colors {
-  .text-#{$name} {
-    color: $color;
-  }
+	.text-#{$name} {
+		color: $color;
+	}
 
-  .background-#{$name} {
-    background-color: $color;
-  }
+	.background-#{$name} {
+		background-color: $color;
+	}
 
-  .border-#{$name} {
-    border-color: $color;
-  }
+	.border-#{$name} {
+		border-color: $color;
+	}
 }

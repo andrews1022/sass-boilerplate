@@ -1,47 +1,37 @@
 // Use mixins inside a selector like this: @include size(2rem, 3rem);
 
 @mixin size($height, $width: $height) {
-  height: $height;
-  width: $width;
+	height: $height;
+	width: $width;
 }
 
 @mixin background-image($height, $bg-pos-x, $bg-pos-y, $bg-size, $bg-repeat: no-repeat) {
-  height: $height;
-  background-position: $bg-pos-x $bg-pos-y;
-  background-repeat: $bg-repeat;
-  background-size: $bg-size;
+	height: $height;
+	background-position: $bg-pos-x $bg-pos-y;
+	background-repeat: $bg-repeat;
+	background-size: $bg-size;
 }
 
 @mixin pseudo($content: '', $pos: absolute, $display: block) {
-  content: $content;
-  position: $pos;
-  display: $display;
-}
-
-@mixin font($color, $family, $size, $weight, $height, $spacing, $case) {
-  color: $color;
-  font-family: $family;
-  font-size: $size;
-  font-weight: $weight;
-  line-height: $height;
-  letter-spacing: $spacing;
-  text-transform: $case;
+	content: $content;
+	position: $pos;
+	display: $display;
 }
 
 @mixin flex($align-items, $justify-content) {
-  display: flex;
-  align-items: $align-items;
-  justify-content: $justify-content;
+	display: flex;
+	align-items: $align-items;
+	justify-content: $justify-content;
 }
 
 @mixin responsive-grid(
-  $gap: 0.75rem,
-  $minxmax: (
-    30rem,
-    1fr,
-  )
+	$gap: 0.75rem,
+	$minxmax: (
+		30rem,
+		1fr
+	)
 ) {
-  display: grid;
-  grid-gap: $gap;
-  grid-template-columns: repeat(auto-fit, minmax($minxmax));
+	display: grid;
+	grid-gap: $gap;
+	grid-template-columns: repeat(auto-fit, minmax($minxmax));
 }
