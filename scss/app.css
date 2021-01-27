@@ -15,12 +15,6 @@ html {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
 body {
   line-height: 1;
 }
@@ -36,7 +30,8 @@ body {
   padding: 0;
 }
 
-img {
+img,
+svg {
   border: 0;
   display: block;
   height: auto;

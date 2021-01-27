@@ -1,4 +1,4 @@
-// Fonts
+// FONTS
 // Place font variables here
 // e.g.:
 // $font-lato: 'Lato', sans-serif;
@@ -12,10 +12,10 @@ $black: #000;
 // It's best to use more meaningful variable names, such as:
 $scarlet: #ea2b00;
 $deepSkyBlue: #00aded;
-// Of course, you will change these out for the colors you'll be using in your project
+// You'll want to change these out for the colors you'll be using in your project
 // A great tool for naming colors can be found here: https://www.color-blindness.com/color-name-hue/
 
-// GENERAL/UI
+// GENERAL / UI
 $bumperPadding: 0 1.125rem;
 $flexFiftyFifty: 1 1 50%;
 $marginCenter: 0 auto;
@@ -23,6 +23,7 @@ $subtleBoxShadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.15);
 $transitionSmoothShort: all 175ms ease-in-out;
 $transitionSmoothMedium: all 300ms ease-in-out;
 $transitionSmoothLong: all 500ms ease-in-out;
+$transitionSmoothExtraLong: all 1000ms ease-in-out;
 
 // BREAKPOINTS
 $desktop4k: 'only screen and (min-width: 3840px)';

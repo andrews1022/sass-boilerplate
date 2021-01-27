@@ -1,52 +1,72 @@
 // Use placeholders inside a selector like this: @extend %absolute-center;
 
-%pseudo-element {
+%pseudoElement {
 	content: '';
 	position: absolute;
 }
 
-%absolute-center {
+%absoluteCenter {
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
 
-%centered-background-image {
+%absoluteTopLeft {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+%absoluteFullscreen {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+%centeredBackgroundImage {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-%flex-align-center {
+%flexAlignCenter {
 	display: flex;
 	align-items: center;
 }
 
-%flex-justify-center {
+%flexJustifyCenter {
 	display: flex;
 	justify-content: center;
 }
 
-%flex-align-justify-center {
+%flexAlignJustifyCenter {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-%flex-align-column-center {
+%flexAlignCenterJustifyBetween {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+%flexAlignCenterColumn {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
 
-%simple-responsive-grid {
+%simpleResponsiveGrid {
 	display: grid;
 	gap: 1rem;
-	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); // change the values to your liking
 }
 
-%section-padding {
+%sectionPadding {
 	padding: 0 10%; // change the values to your liking
 
 	@media #{$desktopSmall} {

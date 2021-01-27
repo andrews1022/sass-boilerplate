@@ -5,7 +5,7 @@
 	width: $width;
 }
 
-@mixin background-image($height, $bg-pos-x, $bg-pos-y, $bg-size, $bg-repeat: no-repeat) {
+@mixin backgroundImage($height, $bg-pos-x, $bg-pos-y, $bg-size, $bg-repeat: no-repeat) {
 	height: $height;
 	background-position: $bg-pos-x $bg-pos-y;
 	background-repeat: $bg-repeat;
@@ -24,7 +24,7 @@
 	justify-content: $justify-content;
 }
 
-@mixin responsive-grid(
+@mixin responsiveGrid(
 	$gap: 0.75rem,
 	$minxmax: (
 		30rem,
