@@ -1,6 +1,6 @@
 # A Modern Sass Site Boilerplate
 
-This is a Sass boilerplate designed to get you up and running as quickly as possible. It is organized using the 7-1 folder structure popularized by [Hugo Giraudel](https://github.com/HugoGiraudel/sass-boilerplate). This boilerplate is meant as a general starting point for building your Sass based site. Feel free to remove any content you don't want need and update the things you do!
+This is a Sass boilerplate designed to get you up and running as quickly as possible. It is organized using the 7-1 folder structure popularized by [Hugo Giraudel](https://github.com/HugoGiraudel/sass-boilerplate). This boilerplate is meant as a general starting point for building your Sass-based site. Feel free to remove any content you don't want and update the things you do!
 
 ## Included
 
